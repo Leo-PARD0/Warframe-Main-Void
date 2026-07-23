@@ -19,6 +19,7 @@ Implementadas:
 - Tags, notas pessoais e status de progresso
 - Importação e exportação de roadmaps em JSON
 - Idioma dos dados da API e fallback para inglês
+- **Download offline de roadmaps com cache de itens**
 
 Em desenvolvimento:
 
@@ -78,11 +79,31 @@ Para criar a versão de produção:
 npm run build
 ```
 
-Para verificar o código:
+## Deploy no GitHub Pages
+
+Este projeto está configurado para deploy automático no GitHub Pages. Siga os passos abaixo:
+
+### Configuração inicial
+
+1. No repositório do GitHub, vá em **Settings > Pages**
+2. Em "Build and deployment", selecione a fonte:
+   - **Branch**: `gh-pages` (ou `main` com diretório `/root`)
+   - **Folder**: `/docs` (se usando a branch `main`)
+
+### Deploy manual
 
 ```bash
-npm run lint
+# Criar a branch gh-pages e fazer push
+npm run build
+git checkout -b gh-pages
+git add docs/
+git commit -m "Deploy to GitHub Pages"
+git push origin gh-pages
 ```
+
+### Base path
+
+O projeto está configurado com o base path `/Warframe-Main-Void/`. Se você mover o repositório para outro nome, atualize a propriedade `base` no `vite.config.js`.
 
 ## Fonte dos dados
 

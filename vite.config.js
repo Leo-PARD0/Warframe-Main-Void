@@ -9,4 +9,16 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
-});
+  base: '/Warframe-Main-Void/',
+  build: {
+    outDir: 'docs',
+    assetsDir: '',
+    rollupOptions: {
+      output: {
+        entryFileNames: 'assets/[name].js',
+        chunkFileNames: 'assets/[name].chunk.js',
+        assetFileNames: 'assets/[name].[hash][extname]',
+      },
+    },
+  },
+})
