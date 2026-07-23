@@ -1,0 +1,4 @@
+import { useCallback, useEffect, useState } from 'react';
+import { useApiLanguage } from '@/lib/ApiLanguageContext';
+import { WarframeRepository } from '@/services/warframe';
+export function useWarframeItems() { const { language } = useApiLanguage(); const [state, setState] = useState({ items: [], loading: true, error: null }); const query = useCallback(async () => { setState((previous) => ({ ...previous, loading: true, error: null })); try { const items = await WarframeRepository.queryCatalog(language); setState({ items, loading: false, error: null }); return items; } catch { setState((previous) => ({ ...previous, loading: false, error: 'Não foi possível carregar os dados do Warframe.' })); return []; } }, [language]); useEffect(() => { query(); }, [query]); return { ...state, language, refresh: query }; }

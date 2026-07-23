@@ -1,0 +1,6 @@
+const IMAGE_BASE = 'https://cdn.warframestat.us/img';
+const WEAPONS = ['Primary', 'Secondary', 'Melee'];
+const category = (raw, source) => { const value = raw.category || source; if (value === 'Warframes') return 'Warframe'; if (value === 'Mods') return 'Mod'; if (WEAPONS.includes(value)) return 'Weapon'; if (value === 'Relics') return 'Relic'; return value; };
+const maxStats = (raw) => raw.levelStats?.at(-1)?.stats?.filter(Boolean) || [];
+export function mapItem(raw, source) { const displayCategory = category(raw, source); return { id: raw.uniqueName, name: raw.name, category: raw.category || source, displayCategory, type: raw.type || null, rarity: raw.rarity || null, productCategory: raw.productCategory || null, imageName: raw.imageName || null, imageUrl: raw.imageName ? `${IMAGE_BASE}/${raw.imageName}` : null, description: displayCategory === 'Mod' ? null : raw.description || raw.wikiaDescription || null, attributes: displayCategory === 'Mod' ? maxStats(raw) : [], levelStats: raw.levelStats || [], vaulted: displayCategory === 'Relic' ? raw.vaulted === true || raw.isVaulted === true || raw.vaulted === 'true' : null }; }
+export const WarframeMapper = { mapItem };

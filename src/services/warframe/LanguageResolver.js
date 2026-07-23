@@ -1,0 +1,3 @@
+const ENGLISH = 'en';
+const hasContent = (data) => Array.isArray(data) ? data.length > 0 : Boolean(data && typeof data === 'object' && Object.keys(data).length > 0);
+export async function resolveLanguage(language, operation, emptyValue = []) { try { const data = await operation(language); if (hasContent(data) || language === ENGLISH) return data; } catch { if (language === ENGLISH) return emptyValue; } try { const fallback = await operation(ENGLISH); return hasContent(fallback) ? fallback : emptyValue; } catch { return emptyValue; } }
