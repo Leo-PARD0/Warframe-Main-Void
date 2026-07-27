@@ -1,0 +1,112 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Sentient/CalibanPrime",
+    "warframeName": "Caliban Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.85,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Fusion Strike causes a massive explosion that strips armor and shields, and each enemy struck detonates on stream convergence.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Caliban Prime has a powerful area-of-effect attack with Fusion Strike, which deals significant damage to multiple enemies simultaneously. The ability also summons Conculysts who can wield mini Fusion Strikes, further increasing the potential for high damage output."
+      },
+      {
+        "category": "survivability",
+        "score": 0.65,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Caliban Prime has a decent shield and health pool, but no obvious survivability abilities.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Caliban Prime has good defensive stats, it lacks any specific survivability abilities like shields or energy regeneration that could help it stay in the fight longer."
+      },
+      {
+        "category": "support",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Caliban Prime's passive provides resistance to damage types for allies within Affinity range.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Lethal Progeny summons units that can provide support through melee and ranged attacks.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Caliban Prime has a supportive role by providing resistance to damage types for allies and summoning units that can assist in combat. The Lethal Progeny ability allows it to control the battlefield with its various unit types."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Sentient Wrath sends out a radial wave of destruction that can help control the battlefield by knocking enemies into the air.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Razor Gyre creates a spinning vortex that can trap and damage enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Caliban Prime has some crowd control abilities with Sentient Wrath and Razor Gyre, but these are not as strong or versatile as those found in other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Caliban Prime does not have any stealth abilities or mechanisms to avoid detection by enemies."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Lethal Progeny involves cycling through different unit types and summoning them, which requires some strategic thinking.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Fusion Strike is a complex ability that involves converging three streams of energy, requiring precise timing.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Caliban Prime has a moderate level of complexity due to its support role and the need to manage its various abilities strategically. However, it does not have as high a complexity score as some other Warframes with more intricate mechanics or resource management requirements."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Caliban Prime is primarily a supportive Warframe with strong damage output through Fusion Strike and Lethal Progeny. It has decent survivability but lacks any stealth abilities. The ability to cycle through different unit types adds some complexity, making it a versatile but not overly complex choice for players."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

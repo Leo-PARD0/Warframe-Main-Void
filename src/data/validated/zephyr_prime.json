@@ -1,0 +1,111 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Tengu/ZephyrPrime",
+    "warframeName": "Zephyr Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Tornado deals the elemental Damage Type they absorb the most.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Shoot engulfed enemies to inflict extra damage.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Zephyr Prime has a Tornado ability that can deal significant damage by absorbing and redirecting enemy projectiles, as well as dealing extra damage when shooting engulfed enemies. However, it lacks direct offensive abilities like melee or ranged attacks."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Zephyr moves faster and falls slower while airborne.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Gain |CRIT|% Critical Hit chance with weapons while airborne.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Zephyr Prime has enhanced mobility and critical hit chances while in the air, which can improve survivability. However, it lacks any defensive abilities or health regeneration."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Zephyr Prime does not have any support abilities that help allies or provide utility to the team."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Airburst can pull enemies toward the burst.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Tornado seeks out and engulfes enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Zephyr Prime has abilities that can control enemy movement, such as Airburst pulling them towards the user and Tornado engulfing them. However, these abilities are not as strong or versatile as those of some other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Zephyr Prime does not have any stealth-related abilities that allow it to move silently or avoid detection."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Hold while airborne to hover Zephyr with reduced movement.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Tap to dash forward, or aim down to dive bomb enemies below.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Zephyr Prime has a relatively simple control scheme that requires holding and tapping buttons, but it lacks complex combos or resource management. The ability to hover and move in the air adds some complexity, but overall it is not very intricate."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Zephyr Prime is a mobile Warframe with decent survivability and crowd control abilities, but limited offensive capabilities and no support or stealth features. Its complexity is moderate due to its simple control scheme and lack of advanced mechanics."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: support, stealth"
+  ]
+}

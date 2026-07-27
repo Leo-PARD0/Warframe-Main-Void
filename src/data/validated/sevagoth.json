@@ -1,0 +1,112 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Wraith/Wraith",
+    "warframeName": "Sevagoth",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Sevagoth's Shadow form is ready to be released with a collection of melee-focused abilities.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Sevagoth has several abilities that deal damage, including Reap, Sow, Gloom, and Exalted Shadow. The Exalted Shadow ability specifically mentions melee-focused abilities, indicating high potential for dealing damage in combat."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Sevagoth's Shadow form is ready to be released with a collection of melee-focused abilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Survivors are damaged by Death’s Harvest over time.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Sevagoth has some survivability elements like the Death Well that can provide healing and souls, his primary focus seems to be on dealing damage rather than surviving. The Survivors being damaged over time could potentially reduce his survivability in prolonged engagements."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Allies within the wave steal health with each attack.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Sevagoth's Gloom ability provides support to allies by stealing their health, which is a form of support. However, this support seems limited compared to other Warframes that have more direct healing or utility abilities."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Gloom summons a radial pulse wave that ensnares and slows enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Survivors are damaged by Death’s Harvest over time.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Sevagoth has crowd control elements like Gloom's radial pulse wave, which ensnares and slows enemies. However, the damage dealt to survivors could potentially disrupt his ability to use this crowd control effectively."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Sevagoth does not have any abilities or traits that suggest stealth. His primary focus seems to be on dealing damage and supporting allies rather than evading enemies."
+      },
+      {
+        "category": "complexity",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Reap, Sow, Gloom, and Exalted Shadow are all distinct abilities with specific mechanics.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "The Death Well mechanic adds an additional layer of complexity by requiring the collection of souls to use Sevagoth's Shadow form.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Sevagoth has a variety of abilities with different mechanics, which adds some complexity. The Death Well mechanic, in particular, requires players to manage resources (souls) effectively, which increases the overall complexity of the Warframe."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Sevagoth is primarily focused on dealing damage and supporting allies through various abilities. While he has some survivability elements and crowd control options, his primary role seems to be that of a frontline attacker with support capabilities. The Death Well mechanic adds an additional layer of complexity by requiring players to manage resources effectively."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

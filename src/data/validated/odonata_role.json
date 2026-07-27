@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "primaryRole": "Controller",
+    "secondaryRoles": [
+      "DPS",
+      "Crowd Control"
+    ],
+    "confidence": 0.8,
+    "description": "Odonata é um Warframe versátil que combina controle de multidão e dano, com a capacidade de criar escudos energéticos para aumentar sua sobrevivência.",
+    "reasoning": "A habilidade de Repel (Estimulante) é uma poderosa forma de controle de multidão, enquanto Seeking Fire (Procurando Fogo) oferece dano significativo. O escudo energético adiciona um elemento de suporte, aumentando a sobrevivência do Warframe."
+  },
+  "errors": [],
+  "warnings": [
+    "Secondary role \"Crowd Control\" is not in standard role list"
+  ]
+}

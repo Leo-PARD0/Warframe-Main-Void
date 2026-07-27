@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte e cura, fornecendo buffs e proteção aos aliados.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "O Support é o único arquétipo que reflete a identidade predominante do Warframe Nokko. Suas habilidades de Brightbonnet e Reroot fornecem buffs e cura, enquanto Stinkbrain tem um efeito de crowd control limitado. A Survivability é importante, mas não dominante o suficiente para alterar seu principal arquétipo."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Guardian",
+      "description": "Defensor forte que combate inimigos em grande escala com alta resistência e habilidades de apoio.",
+      "confidence": 0.85,
+      "basedOn": [
+        "survivability",
+        "support"
+      ],
+      "reasoning": "Survivability e Support representam claramente a identidade predominante do Warframe. Damage existe, mas não é suficientemente relevante para alterar seu arquétipo principal. Crowd Control também existe, mas não é dominante o suficiente para classificar como um Controller."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

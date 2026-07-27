@@ -1,0 +1,100 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Pacifist/Pacifist",
+    "warframeName": "Baruuk",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Serene Storm delivers powerful radial strikes with his fists and feet",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Baruuk's primary damage output comes from Serene Storm, which deals radial damage. This is a moderate level of damage as it relies on sustained use to deal significant damage over time."
+      },
+      {
+        "category": "survivability",
+        "score": 0.7,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Baruuk's Restraint erodes with each dodge and enemy interaction",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Baruuk has decent survivability due to his Restraint mechanic, which increases damage resistance over time. However, this also means he needs to be careful not to lose too much restraint during combat."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Lull slows enemies and Desolate Hands destroys enemy guns",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Baruuk's support capabilities are limited compared to other Warframes. Lull provides a short-term debuff, while Desolate Hands is more of a direct damage output ability."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Lull slows enemies and Serene Storm can knock back enemies",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Baruuk has some crowd control abilities through Lull and Serene Storm, but they are not as strong or versatile as those of other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Baruuk has no stealth-related abilities or mechanics, making it a non-stealthy Warframe."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Elude requires careful timing to dodge projectiles",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Serene Storm needs sustained use for maximum damage",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Baruuk's complexity is moderate due to the need for precise dodging and sustained use of Serene Storm. However, it is not as complex as Warframes with more intricate combos or resource management."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Baruuk is a balanced Warframe with decent damage output and survivability but limited support and crowd control capabilities. Its complexity is moderate due to the need for precise dodging and sustained use of its primary ability, Serene Storm."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

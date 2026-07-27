@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Harlequin/Harlequin",
+    "warframeName": "Mirage",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Eclipse increases Mirage's weapon damage.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Prism detonates and blinds nearby foes.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mirage has two abilities that directly contribute to damage output: increasing weapon damage with Eclipse and blinding enemies with Prism."
+      },
+      {
+        "category": "survivability",
+        "score": 0.25,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Sliding lasts longer.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Acrobatic maneuvers are faster.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mirage's passive ability provides some survivability by increasing the duration and speed of acrobatic maneuvers, but it does not have any direct defensive abilities like shields or armor."
+      },
+      {
+        "category": "support",
+        "score": 0.45,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Hall Of Mirrors creates doppelgangers to confuse and distract enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Sleight Of Hand booby traps objects with radial blind effects.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mirage's abilities provide support by creating distractions and blinding enemies, which can help allies or create openings for Mirage's own attacks."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Sleight Of Hand booby traps objects with radial blind effects.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Prism detonates and blinds nearby foes.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mirage's abilities can be used to control the battlefield by blinding enemies, making it easier for Mirage or allies to move around or attack."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.7,
+        "evidences": [],
+        "reasoning": "Mirage does not have any abilities that directly contribute to stealth. Its passive ability only affects movement speed and duration, without providing any concealment or evasion."
+      },
+      {
+        "category": "complexity",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Eclipse has a tap and hold function.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Prism detonates on activation.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mirage's abilities have multiple functions that require careful timing and execution, adding to the complexity of the Warframe."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Mirage is a versatile Warframe with strong support capabilities through blinding effects. It has moderate damage output from its weapon and Prism ability. However, it lacks direct survivability or stealth abilities, making it somewhat less effective in those areas compared to other Warframes."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

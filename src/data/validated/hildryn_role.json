@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Tank",
+      "description": "Especialista em absorver danos e manter a equipe segura, com alta resistência e capacidades de apoio.",
+      "confidence": 0.95,
+      "basedOn": [
+        "survivability",
+        "support"
+      ],
+      "reasoning": "Survivability e Support representam claramente a identidade predominante do Warframe. Hildryn é projetada para absorver danos significativos e fornecer apoio aos aliados, tornando-a um Tank eficaz."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

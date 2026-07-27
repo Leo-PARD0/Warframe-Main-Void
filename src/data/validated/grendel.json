@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Devourer/Devourer",
+    "warframeName": "Grendel",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.25,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Grendel's Regurgitate ability turns consumed enemies into toxic projectiles that slow and damage nearby enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Grendel does not have direct offensive abilities like melee or ranged attacks, his Regurgitate ability can deal significant damage to multiple targets over time. However, it relies on consuming enemies first, which limits its utility in combat scenarios."
+      },
+      {
+        "category": "survivability",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Grendel's Nourish ability regenerates health as he absorbs nourishment from consumed enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Consumed enemies provide energy sources that can be beneficial.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Grendel has strong survivability through his Nourish ability, which provides both health regeneration and additional energy. Consuming enemies also grants armor bonus, enhancing his overall durability in combat."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Grendel's Nourish ability extends buffs to squad mates.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Consumed enemies provide energy sources for the squad.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Grendel can support his squad by providing buffs and additional energy, this support is limited to a short duration due to the need to consume enemies first. The effectiveness of this support also depends on the availability of consumable enemies in combat scenarios."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Grendel's Pulverize ability knocks over anyone in his path.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Regurgitate slows nearby enemies and dissolves their armor.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Grendel has some crowd control capabilities through his Pulverize and Regurgitate abilities, but these effects are limited to knocking over or slowing enemies rather than providing more substantial control options like disabling or immobilizing them."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Grendel does not have any stealth-related abilities or mechanics. His combat capabilities are based on direct engagement and consumption of enemies rather than evading or sneaking around them."
+      },
+      {
+        "category": "complexity",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Grendel's abilities require managing the timing of consuming enemies for optimal use.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Consuming enemies is a prerequisite for using some abilities, adding an element of strategy to combat.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Grendel does not have extremely complex mechanics or combos like some other Warframes, his abilities do require some strategic thinking and management of resources (enemies) to be effective in combat. The need to consume enemies first adds a layer of complexity to the gameplay experience."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Grendel is a support-focused Warframe with strong survivability through Nourish, but limited offensive capabilities and crowd control options. His abilities require managing enemy consumption for optimal use, adding some complexity to combat scenarios. While not as complex as some other Warframes, Grendel's design emphasizes strategic resource management over intricate mechanics."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

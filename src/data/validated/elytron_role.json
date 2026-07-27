@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Nuker",
+      "description": "Especialista em causar danos massivos e destruição em larga escala.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage"
+      ],
+      "reasoning": "Damage é a característica dominante do Warframe, com habilidades focadas em causar alto dano em áreas amplas. A falta de outras categorias significativas impede que ele seja classificado como outro arquétipo."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

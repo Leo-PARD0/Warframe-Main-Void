@@ -1,0 +1,112 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Rhino/RhinoPrime",
+    "warframeName": "Rhino Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Roar grants all nearby Warframes increased damage for a short duration.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Rhino Prime has a passive ability that increases the damage of nearby Warframes, which can be considered moderate in terms of direct damage output."
+      },
+      {
+        "category": "survivability",
+        "score": 0.85,
+        "confidence": 1,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Iron Skin hardens his skin, insulating himself from all damage and gaining Overguard.",
+            "confidence": 1,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Rhino Prime has a strong survivability boost with Iron Skin, which provides full immunity to damage and additional protection through Overguard."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Roar grants all nearby Warframes increased damage for a short duration.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Rhino Prime's support is limited to increasing the damage of nearby Warframes, which is a moderate level of support."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.25,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Roar grants all nearby Warframes increased damage for a short duration.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Rhino Stomp disrupts time and stumbles enemies around him in stasis.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Rhino Prime has limited crowd control abilities with Roar increasing damage and Rhino Stomp disrupting time, which is considered moderate."
+      },
+      {
+        "category": "stealth",
+        "score": 0.15,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Rhino Prime does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.25,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Roar grants all nearby Warframes increased damage for a short duration.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Iron Skin hardens his skin, insulating himself from all damage and gaining Overguard.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Rhino Stomp disrupts time and stumbles enemies around him in stasis.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Rhino Prime has a few simple abilities with limited complexity, making it moderately complex to play effectively."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Rhino Prime is a tanky Warframe with strong survivability but limited offensive capabilities. It provides moderate support and crowd control through its passive and active abilities."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Berserker/Berserker",
+    "warframeName": "Valkyr",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Valkyr bares her deadly claws, unleashing devastating attacks that also heal her.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Her Melee Damage Vulnerability is increased by Paralysis.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Valkyr has a strong damage output with her Hysteria ability and can heal herself while doing so. The Paralysis ability further enhances her damage potential by increasing enemy vulnerability to melee attacks."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Valkyr accumulates Rage when hitting or killing enemies with melee weapons, increasing her Melee Damage up to |PERCENT|%. Taking fatal damage when the Rage meter is above |CONSUME|% consumes the meter, preventing death and granting |DURATION|s of invulnerability.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Valkyr has some survivability through her Rage meter, it requires specific conditions (melee attacks and fatal damage) to activate. The cooldown on Hysteria also limits her ability to use this survival mechanic frequently."
+      },
+      {
+        "category": "support",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Warcry bolsters Armor and Attack Speed for allies while in <AFFINITY_SHARE>Affinity Range.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Valkyr can provide some support to her allies with Warcry, but the effect is limited to a specific range and does not have a significant impact on the battlefield."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Paralysis slows its victims while increasing their Melee Damage Vulnerability.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Rip Line pulls enemies in as she unleashes a coordinated Melee attack.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Valkyr has limited crowd control options with Paralysis and Rip Line. While these abilities can disrupt enemy movements, they are not strong enough to be considered effective crowd control."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Valkyr does not have any stealth-related abilities or mechanics in her arsenal."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Rip Line pulls herself to whatever it hits.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Warcry bolsters Armor and Attack Speed for allies while in <AFFINITY_SHARE>Affinity Range.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Paralysis slows its victims while increasing their Melee Damage Vulnerability.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Hysteria bares her deadly claws, unleashing devastating attacks that also heal her.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Valkyr has a relatively simple set of abilities with clear functions. However, the combination of different abilities and their effects can create some complexity in execution, especially when coordinating attacks or managing Rage meter."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Valkyr is a melee-focused Warframe with strong damage output through her Hysteria ability and limited survivability through her Rage meter. She provides some support to allies but has no stealth capabilities. The combination of abilities can create some complexity in execution, making Valkyr a versatile but not particularly complex Warframe."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

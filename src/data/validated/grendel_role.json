@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Guardian",
+      "description": "Defensor forte que regenera saúde e energia, suportando sua equipe e controlando a multidão com habilidades de cura e dano.",
+      "confidence": 0.85,
+      "basedOn": [
+        "survivability",
+        "support"
+      ],
+      "reasoning": "Survivability é dominante através da regeneração de saúde e energia, enquanto Support é relevante com buffs para a equipe. Crowd Control existe, mas não é suficientemente importante para alterar o arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Assassin",
+      "description": "Especialista em eliminar rapidamente alvos prioritários utilizando alto dano e furtividade.",
+      "confidence": 0.92,
+      "basedOn": [
+        "damage",
+        "stealth"
+      ],
+      "reasoning": "Damage e Stealth representam claramente a identidade predominante do Warframe. Crowd Control existe, mas não é suficientemente relevante para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

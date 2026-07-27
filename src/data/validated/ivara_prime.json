@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Ranger/IvaraPrime",
+    "warframeName": "Ivara Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Artemis Bow summons a mighty bow and unleashes a volley of devastating arrows.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ivara Prime has a powerful ranged weapon that can deal significant damage to multiple enemies at once."
+      },
+      {
+        "category": "survivability",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Prowl makes Ivara invisible and allows her to steal loot or take out prey with deadly headshots.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Quiver has a Cloak ability that creates a stationary bubble cloaking Ivara and allies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ivara Prime has abilities that enhance her survivability, such as invisibility and the ability to cloak herself and allies."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Navigator allows Ivara to control projectiles launched by her and guide them to targets.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Quiver has a Sleep ability that temporarily puts nearby enemies into deep slumber.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ivara Prime can provide support through abilities like controlling projectiles and putting enemies to sleep."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.5,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Prowl makes Ivara invisible, which can be used as a form of crowd control.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Quiver has a Sleep ability that temporarily puts nearby enemies into deep slumber.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ivara Prime has abilities that can be used for crowd control, such as invisibility and putting enemies to sleep."
+      },
+      {
+        "category": "stealth",
+        "score": 0.9,
+        "confidence": 0.95,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Prowl makes Ivara invisible and allows her to steal loot or take out prey with deadly headshots.",
+            "confidence": 0.95,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Quiver has a Cloak ability that creates a stationary bubble cloaking Ivara and allies.",
+            "confidence": 0.95,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ivara Prime has strong stealth abilities, including invisibility and the ability to cloak herself and allies."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Prowl requires careful timing to use effectively.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Artemis Bow is a powerful weapon but does not require complex execution.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ivara Prime has some complex abilities like Prowl that require careful timing, but her primary weapon (Artemis Bow) is relatively simple to execute."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Ivara Prime is a versatile and powerful Warframe with strong damage output, survivability, and stealth capabilities. Her complexity lies in the execution of abilities like Prowl, which requires careful timing. However, her primary weapon (Artemis Bow) is relatively simple to execute."
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Odalisk/ProteaPrime",
+    "warframeName": "Protea Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Blaze Artillery increases power with each enemy hit",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Protea Prime's Blaze Artillery ability scales its damage based on the number of enemies it hits, making it a potent damage dealer."
+      },
+      {
+        "category": "survivability",
+        "score": 0.65,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Dispensary provides health and energy pickups",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Temporal Anchor can save Protea from death",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Protea Prime has survivability tools like the Dispensary for resource regeneration and the Temporal Anchor to recover from damage."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Grenade Fan creates a shrapnel vortex",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Blaze Artillery can be used as an artillery unit",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Protea Prime has limited support capabilities with the Grenade Fan and Blaze Artillery, which can provide area control and damage output."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.45,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Grenade Fan stuns enemies",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Blaze Artillery can knock back enemies",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Protea Prime has basic crowd control options with the Grenade Fan and Blaze Artillery, but they are not as strong or versatile as some other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.35,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Protea Prime has no stealth abilities, making it a non-stealthy Warframe."
+      },
+      {
+        "category": "complexity",
+        "score": 0.85,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Grenade Fan and Blaze Artillery require precise timing",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Dispensary and Temporal Anchor have complex mechanics",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Protea Prime's abilities are relatively simple in execution but require careful management of resources and timing to be effective."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Protea Prime is a versatile Warframe with strong damage output, moderate survivability, and limited support. Its complexity lies in managing its resources and executing its abilities effectively."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

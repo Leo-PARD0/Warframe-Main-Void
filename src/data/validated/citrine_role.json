@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte, fornecendo regeneração de vida e status effects aos aliados.",
+      "confidence": 0.85,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "A Citrine é principalmente um suporte com habilidades que regeneram a vida dos aliados e aumentam os status effects. Suas habilidades de dano e controle de grupo são secundárias em comparação."
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "Reasoning may be just listing scores without explaining the archetype choice"
+  ]
+}

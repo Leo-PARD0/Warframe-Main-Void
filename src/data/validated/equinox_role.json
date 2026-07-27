@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte ao time, oferecendo regeneração de escudo e vida, redução de dano e aumento da força das aliadas.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "Equinox é uma Warframe dominante em suporte, com habilidades que aumentam a resistência dos aliados, regeneram escudo e vida, e reduzem o dano aos inimigos. Suas habilidades de Metamorphosis e Mend & Maim são essenciais para o suporte do time."
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "Reasoning may be just listing scores without explaining the archetype choice"
+  ]
+}

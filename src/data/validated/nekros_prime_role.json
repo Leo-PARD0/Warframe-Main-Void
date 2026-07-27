@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Nuker",
+      "description": "Especialista em causar alto dano em massa, com habilidades que podem eliminar alvos e criar áreas de controle.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage"
+      ],
+      "reasoning": "Damage é a característica mais dominante do Warframe, especialmente com Soul Punch que causa dano em massa. A habilidade de criar Shadows of the Dead também contribui para o alto dano e controle da área."
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "Reasoning may be just listing scores without explaining the archetype choice"
+  ]
+}

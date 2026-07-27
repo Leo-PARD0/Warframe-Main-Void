@@ -1,0 +1,94 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Necro/NekrosPrime",
+    "warframeName": "Nekros Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Soul Punch is a powerful attack that deals damage to all enemies in its path and marks them for harvest.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nekros Prime has a strong offensive capability with Soul Punch, which can deal significant damage to multiple targets at once."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Nekros Prime has decent health and shield values, but lacks any defensive abilities or survivability features like armor regeneration.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Nekros Prime has good health and shield, it does not have any built-in survivability mechanisms to protect itself from enemy attacks."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Desecrate forces fallen enemies around you to drop additional loot, but this is more of a resource management ability rather than direct support.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nekros Prime has limited support capabilities, primarily focused on increasing the amount of loot dropped by fallen enemies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Terrify causes nearby enemies to run away in terror, which can be useful for creating space or disorienting foes.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nekros Prime has a basic crowd control ability with Terrify, but it is limited and does not provide significant disruption to enemy formations."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Nekros Prime does not have any stealth-related abilities or features, making it difficult for the Warframe to operate covertly."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "All of Nekros Prime's abilities are straightforward and do not require complex execution or resource management.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nekros Prime has a relatively simple skill set with no combos, resource management, or positioning requirements, making it less complex to play than some other Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Nekros Prime is primarily an offensive Warframe with strong damage capabilities but limited survivability and support. Its abilities are straightforward and do not require complex execution, resulting in a relatively low complexity score."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

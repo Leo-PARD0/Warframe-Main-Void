@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Loki/Loki",
+    "warframeName": "Loki",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Loki's Radial Disarm ability disrupts enemy projectiles and forces them to use melee combat.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Loki does not have a direct damage output ability, his Radial Disarm can indirectly increase the effectiveness of other abilities by forcing enemies into melee range, where they are more vulnerable."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Loki's Invisibility ability allows him to avoid enemy attacks.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "His Decoy ability draws fire away from himself and can be used as a defensive measure.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Loki has basic survivability tools like invisibility and decoys that help him stay alive in combat."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Loki's Switch Teleport ability can confuse enemies, potentially setting up allies for a better position.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "His Radial Disarm ability can disrupt enemy formations and support allies in melee combat.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Loki does not have strong support abilities, his teleportation and disarming skills can indirectly support allies by creating openings or disrupting enemy strategies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Loki's Decoy ability draws fire away from himself.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "His Switch Teleport ability confuses enemies and can be used to set up allies for a better position.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Loki has crowd control abilities like decoys and teleportation that can help manage enemy positioning and create openings in combat."
+      },
+      {
+        "category": "stealth",
+        "score": 0.85,
+        "confidence": 1,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Loki's Invisibility ability allows him to become invisible to enemies.",
+            "confidence": 1,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "His Decoy ability draws fire away from himself.",
+            "confidence": 1,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Loki has strong stealth capabilities with both invisibility and decoy abilities that make him difficult for enemies to target directly."
+      },
+      {
+        "category": "complexity",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Loki's abilities are relatively straightforward and do not require complex execution or resource management.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "His passive ability does not add significant complexity to his playstyle.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Loki has some useful abilities, they are generally simple and do not require a high level of skill or strategy to use effectively."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Loki is a stealth-focused Warframe with strong survivability and crowd control capabilities. His abilities are relatively straightforward and do not require complex execution or resource management. While he has some useful support options, his primary role is more focused on avoiding damage and drawing fire away from himself."
+  },
+  "errors": [],
+  "warnings": []
+}

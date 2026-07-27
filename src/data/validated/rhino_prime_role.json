@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Tank",
+      "description": "Especialista em combate corpo a corpo com alta resistência e defesa.",
+      "confidence": 0.95,
+      "basedOn": [
+        "survivability"
+      ],
+      "reasoning": "Survivability é claramente a característica predominante do Warframe, com Iron Skin fornecendo imunidade total a danos. O Damage e Crowd Control são limitados, enquanto Stealth não existe."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

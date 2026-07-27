@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte ao time, oferecendo buffs, absorvendo dano e cura aos aliados.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "A Role de Support é determinada pela pontuação alta em Survivability (0.70) e por uma pontuação muito alta em Support (0.90). As habilidades de Penance, Covenant e Thurible são centrais para o suporte ao time, oferecendo buffs, absorvendo dano e cura aos aliados. A baixa pontuação em Damage (0.30) e Crowd Control (0.20) confirma que a Role principal é Support."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

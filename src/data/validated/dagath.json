@@ -1,0 +1,141 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Dagath/Dagath",
+    "warframeName": "Dagath",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Wyrd Scythes and Rakhali's Cavalry both deal significant damage to enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Grave Spirit doubles critical damage on Doomed enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Dagath has several abilities that cause substantial damage to enemies, making it a high-damage Warframe. The ability to double critical damage on Doomed enemies further enhances its offensive capabilities."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Grave Spirit allows Dagath to escape fatal blows by assuming a spectral form.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Dagath has high health and shield values.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Dagath can survive critical hits with Grave Spirit, its survivability is not as robust compared to other Warframes. Its health and shield are decent but do not provide exceptional protection against damage."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Dagath's abilities primarily focus on dealing damage rather than supporting allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "No evidence of support abilities or healing.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Dagath does not have any abilities designed to support teammates or heal itself, making it a low-support Warframe."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Wyrd Scythes slow enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Rakhali's Cavalry strips defenses of Doomed enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Grave Spirit allows Dagath to escape fatal blows.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Dagath has some crowd control abilities through slowing enemies and escaping critical hits, but these are not as strong or versatile as those found in other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "No evidence of stealth-related abilities.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Dagath's abilities do not involve sneaking up on enemies.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Dagath does not have any stealth capabilities or abilities that allow it to move silently or avoid detection."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "No complex combos or resource management required.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Abilities are straightforward and do not involve intricate sequences.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Dagath's abilities are relatively simple to execute, requiring minimal coordination and no complex resource management, making it a low-complexity Warframe."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Dagath is primarily designed as a high-damage offensive Warframe with some crowd control capabilities. It lacks support, stealth, and significant survivability features, making it more focused on dealing damage efficiently rather than providing comprehensive battlefield assistance."
+  },
+  "errors": [],
+  "warnings": []
+}

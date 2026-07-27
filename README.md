@@ -1,8 +1,8 @@
-# Warframe Vault
+# Warframe Main Void
 
 ## Descrição
 
-Warframe Vault é uma plataforma de planejamento e organização de progressão para jogadores de Warframe. Ela transforma dados públicos em ferramentas para planejar farms, organizar objetivos e acompanhar a evolução pessoal.
+Warframe Main Void é uma plataforma de planejamento e organização de progressão para jogadores de Warframe. Ela transforma dados públicos em ferramentas para planejar farms, organizar objetivos e acompanhar a evolução pessoal.
 
 O projeto não substitui a Wiki oficial nem o Warframe Market. O catálogo é apenas um dos módulos do Vault: o foco é reunir planejamento, roadmaps e conhecimento de forma prática.
 

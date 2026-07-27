@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Dragon/Dragon",
+    "warframeName": "Chroma",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Chroma's Effigy ability creates a massive sentry that strengthens nearby allies and engulfs enemies in elemental attacks.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "The Elemental Ward ability can create offensive area-of-effect damage.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Chroma has limited direct damage output through its abilities. The Effigy ability provides support to allies, while the Elemental Ward can deal area-of-effect damage. However, Chroma lacks a strong single-target attack."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Chroma's Wings allow for an additional jump and bullet jump.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The Elemental Ward ability provides defensive energy to allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Chroma has some survivability through its wings, the lack of direct self-defense abilities limits its overall survivability compared to other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Chroma's Effigy ability strengthens nearby allies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "The Elemental Ward ability imbues squad members with defensive energy.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Chroma excels in support roles by enhancing the effectiveness of its allies through its abilities. The Effigy and Elemental Ward provide significant benefits to the team."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "The Elemental Ward ability can create offensive area-of-effect damage.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Chroma's Wings allow for an additional jump and bullet jump.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Chroma has some crowd control potential through its area-of-effect abilities, it lacks more direct crowd control options compared to other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Chroma does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Chroma's Effigy ability requires precise timing and positioning.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "The Elemental Ward ability can be complex to manage depending on the chosen element.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Chroma has some complex abilities that require careful management, its overall complexity is relatively low compared to other Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Chroma is primarily a support Warframe with limited direct damage output. It excels in enhancing allies through the Effigy and Elemental Ward abilities, making it a valuable asset for team compositions. However, Chroma lacks crowd control options and stealth mechanics, limiting its versatility compared to other roles."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

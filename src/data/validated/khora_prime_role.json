@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Controller",
+      "description": "Especialista em controlar a batalha, immobilizando inimigos e criando condições favoráveis para os aliados.",
+      "confidence": 0.95,
+      "basedOn": [
+        "crowdControl",
+        "survivability"
+      ],
+      "reasoning": "Crowd Control e Survivability são as categorias semânticas que mais influenciam a identidade de Khora Prime. Ela possui habilidades eficazes para immobilizar inimigos e criar condições favoráveis, o que caracteriza seu papel como um Controller. A Survival é relevante porque ela permite que Khora Prime sobreviva em batalhas intensas."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em aumentar a eficácia dos aliados através de buffs e efeitos de status.",
+      "confidence": 0.95,
+      "basedOn": [
+        "damage",
+        "survivability"
+      ],
+      "reasoning": "O Hydroid Prime tem uma habilidade de suporte dominante (Plunder) que aumenta o dano e a vulnerabilidade aos status dos inimigos, além de ter alta resistência à morte. As habilidades de crowd control são limitadas e não contribuem significativamente para a Role principal."
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "Reasoning may be just listing scores without explaining the archetype choice"
+  ]
+}

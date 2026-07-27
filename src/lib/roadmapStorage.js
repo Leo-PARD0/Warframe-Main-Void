@@ -21,6 +21,7 @@ export function createRoadmap({ name = 'Novo Roadmap', description = '' } = {}) 
     zoom: 1,
     panX: 0,
     panY: 0,
+    activeFarmNodeId: null,
   };
 }
 
@@ -46,6 +47,14 @@ export function saveConnections(roadmapId, edges) {
 
 export function createConnection({ from, to, type = 'dependency' }) {
   return { id: 'e_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6), from, to, type };
+}
+
+// ── Completed Components (for composite items) ────────────────────────────────
+export function loadCompletedComponents(roadmapId) {
+  return load(`completed_components_${roadmapId}`, {});
+}
+export function saveCompletedComponents(roadmapId, components) {
+  save(`completed_components_${roadmapId}`, components);
 }
 
 // ── Item notes (manual info) ───────────────────────────────────────────────────

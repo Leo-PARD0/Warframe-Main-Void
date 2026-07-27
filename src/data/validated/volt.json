@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Volt/Volt",
+    "warframeName": "Volt",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Grounded movement generates an electrical charge building up |DAMAGE| Damage per meter that is unleashed with the next attack.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Discharge: The shockwave paralyzes and damages nearby enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Volt's primary damage comes from his grounded movement and Discharge. However, these abilities are not as powerful or versatile compared to Warframes like Mag or Nova."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Electric Shield blocks enemy fire and adds Electricity Damage to projectiles.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Discharge creates a shockwave that can stun enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Volt has some survivability tools, they are not as robust or varied as those of Warframes like Hildryn or Baruuk."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Speed gives movement speed and reload speed buffs to allies.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Electric Shield provides mobile cover for Volt and his allies.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Volt's support abilities are limited compared to Warframes like Equinox or Valkyr, which offer more diverse and powerful support options."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Discharge stuns enemies on the edge of the shockwave.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Speed can create space for Volt to move around enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Volt has some crowd control capabilities, but they are not as strong or versatile as those of Warframes like Nidus or Octavia."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Volt does not have any stealth abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Speed and Electric Shield require some timing and positioning.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Discharge has a cooldown that needs to be managed.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Volt's abilities are not extremely complex, they do require some skill to execute effectively."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Volt is a Warframe with moderate damage output and survivability, but limited support and crowd control. His complexity is relatively low compared to other Warframes."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

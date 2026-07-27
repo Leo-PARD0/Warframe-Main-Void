@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Controller",
+      "description": "Especialista em controlar e deslocar inimigos, com habilidades que interrompem suas ações e movimentos.",
+      "confidence": 0.85,
+      "basedOn": [
+        "crowdControl"
+      ],
+      "reasoning": "Crowd Control é o único arquétipo RPG que se destaca em Limbo Prime, com Stasis sendo sua habilidade principal de controle. O Banish e Rift Surge também contribuem para essa característica, embora não sejam tão dominantes quanto Stasis."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

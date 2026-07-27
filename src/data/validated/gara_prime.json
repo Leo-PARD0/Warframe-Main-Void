@@ -1,0 +1,99 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Glass/GaraPrime",
+    "warframeName": "Gara Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Gara Prime has a passive ability that creates a radial blind, which can be used to set up for damage.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gara Prime's abilities are primarily focused on crowd control and support rather than direct damage output."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Gara Prime has a shield that provides some survivability, but it is not as robust as other Warframes.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Gara Prime has a shield, its survivability is limited compared to other Warframes with more defensive capabilities."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Gara Prime's abilities provide support through crowd control and fortifying allies against damage.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gara Prime excels in supporting his team with crowd control and defensive boosts to allies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Gara Prime's passive ability creates a radial blind, which is a form of crowd control.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gara Prime has a passive that can be used to set up for damage or support his team by blinding enemies."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Gara Prime does not have any abilities related to stealth.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gara Prime's abilities are focused on crowd control and support rather than stealth."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Gara Prime has a passive ability that creates a radial blind, which requires timing and positioning.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Gara Prime's abilities are relatively simple to use, the passive ability requires some skill to effectively utilize."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Gara Prime is primarily a support Warframe with crowd control capabilities. It has moderate survivability and decent support for allies. The passive ability provides a form of crowd control that can be useful in various situations, but its complexity is relatively low compared to other Warframes."
+  },
+  "errors": [],
+  "warnings": []
+}

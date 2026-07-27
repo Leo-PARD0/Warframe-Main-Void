@@ -1,0 +1,106 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Garuda/Garuda",
+    "warframeName": "Garuda",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Garuda's damage temporarily increases with each enemy she kills, to a maximum of |DAMAGE|%. Slashes with her talons if no melee weapon is equipped.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Garuda has the potential for significant damage through her passive and active abilities, but the exact damage output is not specified. The ability to increase damage based on kills suggests some strategic depth in managing enemy encounters."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Garuda has a moderate shield and armor, but her health pool is relatively low (270).",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Garuda's survivability is average due to her limited health pool and lack of defensive abilities beyond her shield."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Garuda can siphon health from enemies for herself and allies with Blood Altar, but this is a one-time effect.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Garuda's support capabilities are limited to a single use of Blood Altar, which provides temporary health regeneration for her allies. This does not offer significant ongoing support."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Seeking Talons can send Garuda's talons careening toward each target in area, potentially stunning or incapacitating enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Dread Mirror can capture damage and use it as an explosive projectile.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Garuda has some crowd control options with Seeking Talons and Dread Mirror, but these are limited to specific situations and do not provide sustained control."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Garuda does not have any stealth-related abilities or mechanics in the provided context."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "The exact damage output and energy management are not specified.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "There is no mention of complex combos or resource management.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Garuda's abilities are straightforward and do not require significant strategic depth or complex execution, making her relatively simple to play."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Garuda has moderate damage potential through her passive and active abilities, but her survivability is average due to limited health. Her support capabilities are limited to a single use of Blood Altar, and she lacks any stealth mechanics. Complexity is low as her abilities do not require significant strategic depth or complex execution."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

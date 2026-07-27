@@ -1,0 +1,130 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Revenant/Revenant",
+    "warframeName": "Revenant",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Reave dashes through enemies as a wall of sentient energy, leeching shields and health from any encountered.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Dance Macabre erupts with a multitude of Eidolon energy beams and sweep a circle of death around Revenant.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Revenant has two abilities that deal significant damage. 'Reave' deals direct damage to enemies it passes through, while 'Dance Macabre' creates a damaging area effect. Both abilities are powerful offensive tools."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Shield depletion smashes enemies within |RADIUS|m with a |DAMAGE| Damage knockdown shockwave.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Mesmer Skin redirects damage and stuns all those who dare attack.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Revenant has moderate survivability due to its shield regeneration from enemy attacks. However, it lacks direct defensive abilities like armor or shields that can absorb incoming damage."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Enthrall converts a target into a zealous thrall.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Thralls turn on their allies and enthrall through damage.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Revenant has limited support capabilities. While it can create thralls that attack enemies and turn on allies, this is more of an offensive tool rather than direct support."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Mesmer Skin stuns all those who dare attack.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Dance Macabre can be held to boost Status Effects and Damage.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Revenant has some crowd control abilities through its 'Mesmer Skin' which stuns enemies and 'Dance Macabre' which creates a damaging area effect. However, these are not as strong or versatile as those of other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Revenant has no stealth abilities. It is a front-line combatant that relies on direct damage and crowd control rather than evading enemies."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Enthrall converts a target into a zealous thrall.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Mesmer Skin redirects damage and stuns all those who dare attack.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Reave dashes through enemies as a wall of sentient energy, leeching shields and health from any encountered.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Revenant has a relatively simple skill set with three active abilities. While it can create thralls and use crowd control, the overall complexity is not high compared to other Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Revenant is an offensive-focused Warframe with moderate survivability and limited support capabilities. It relies on direct damage and crowd control rather than stealth or complex mechanics."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

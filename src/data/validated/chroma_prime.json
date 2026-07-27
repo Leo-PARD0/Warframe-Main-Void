@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Dragon/ChromaPrime",
+    "warframeName": "Chroma Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Chroma Prime has no direct damage abilities.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "His Effigy ability can create sentries that engage enemies and deal damage.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Chroma Prime lacks direct offensive capabilities but can indirectly cause damage through his Effigy ability."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "He has no shield or armor abilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "His Elemental Ward provides defensive energy to allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Chroma Prime does not have strong survivability features but can support his team with defensive buffs."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Vex Armor increases squad Weapon Damage.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Effigy strengthens nearby allies and engulfs enemies in elemental attacks.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Chroma Prime is primarily a support Warframe with abilities that enhance his team's effectiveness."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "No direct crowd control abilities.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Effigy can create sentries to engage enemies but does not have specific crowd control mechanics.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Chroma Prime lacks dedicated crowd control capabilities but can indirectly affect enemy engagement through his Effigy ability."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "No stealth abilities.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "His Spectral Scream and Elemental Ward do not provide any stealth benefits.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Chroma Prime has no stealth capabilities or mechanics that allow him to operate covertly."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.4,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "No complex combos or resource management.",
+            "confidence": 0.4,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "His abilities are straightforward and do not require significant execution skill.",
+            "confidence": 0.4,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Chroma Prime has simple abilities that do not demand high levels of complexity in gameplay."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Chroma Prime is primarily a support Warframe with limited offensive capabilities. His abilities focus on enhancing his team's effectiveness through defensive buffs and engaging enemies, rather than direct damage or crowd control. The lack of stealth mechanics further reduces its complexity."
+  },
+  "errors": [],
+  "warnings": []
+}

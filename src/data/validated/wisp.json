@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Wisp/Wisp",
+    "warframeName": "Wisp",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Sol Gate causes enemies to be increasingly more vulnerable to it over time.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wisp's damage output is moderate due to its reliance on the Sol Gate ability, which scales with repeated use against the same targets."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Flowing between dimensions makes Wisp invisible while in the air.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Wisp can teleport to a Reservoir for healing and increased range.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wisp has decent survivability due to its ability to become invisible and teleport, but it lacks direct defensive abilities like shields or armor."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Reservoirs provide support by granting movement speed, health, and healing.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Wisp can confuse enemies with Wil-O-Wisp to create openings for allies.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wisp's support capabilities are moderate, providing utility through Reservoirs and the ability to disrupt enemy formations."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Wil-O-Wisp can confuse and distract enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Sol Gate can overwhelm nearby enemies with a damaging beam.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wisp's crowd control is limited to confusing and distracting enemies, which may create openings for allies but does not directly incapacitate them."
+      },
+      {
+        "category": "stealth",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Flowing between dimensions makes Wisp invisible while in the air.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Wisp can teleport to a Reservoir for healing and increased range.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wisp's stealth is strong due to its ability to become invisible and teleport, making it difficult for enemies to target or track."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "No specific complex abilities are mentioned.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "All abilities seem straightforward and do not require significant coordination or timing.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wisp's complexity is low as its abilities are relatively simple and do not involve intricate combos or resource management."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Wisp has a balanced role with moderate damage, decent survivability, and good support. Its stealth is strong but its crowd control is limited. Complexity is low, making it an accessible Warframe for players of various skill levels."
+  },
+  "errors": [],
+  "warnings": []
+}

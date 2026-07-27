@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte aos aliados, oferecendo cura e defesa.",
+      "confidence": 0.85,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "O arquétipo Support é dominado pela categoria de support, que reflete a função principal do Warframe em restaurar os escudos dos aliados e causar dano aos inimigos. A habilidade Polarize é central para essa função, enquanto as outras habilidades contribuem para o suporte geral."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

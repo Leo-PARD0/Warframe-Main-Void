@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Paladin/Paladin",
+    "warframeName": "Oberon",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Smite deals massive damage and removes all of its defenses, including Overguard.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Reckoning lifts enemies into the air and then hurls them down with conviction, removing their Armor.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oberon has two abilities that deal significant damage to enemies. Smite is particularly powerful as it not only damages but also removes defenses, making it a high-damage ability. Reckoning also deals substantial damage while providing Oberon and his allies with additional armor upon hitting enemies."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Renewal generates a protective aura that grants bonus Armor to Oberon and his allies.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Oberon grants Righteous Negation to himself and his allies in Affinity Range when he collects Health Orbs.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oberon has survivability through Renewal, which provides armor bonuses and healing. However, the survivability is limited compared to other Warframes due to the lack of direct defensive abilities like shields or energy regeneration."
+      },
+      {
+        "category": "support",
+        "score": 0.7,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Renewal grants bonus Armor to Oberon and his allies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Hallowed Ground inflicts Radiation Damage to all enemies within the radius and protects against Status Effects for Oberon and his allies.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oberon supports his allies through Renewal, which provides armor bonuses and healing. Hallowed Ground also offers protection and damage over time, making Oberon a useful support Warframe in team compositions."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Reckoning lifts enemies into the air and then hurls them down with conviction.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Hallowed Ground inflicts Radiation Damage to all enemies within the radius.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oberon has limited crowd control abilities. Reckoning can be used to disorient enemies, but it doesn't provide a strong hold or immobilization effect. Hallowed Ground deals damage over time but doesn't directly control enemy movement."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Oberon has no stealth abilities or mechanisms to avoid detection or engage in covert operations."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Renewal requires managing the aura and healing over time.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Hallowed Ground involves setting up a radius for damage and protection.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oberon has some complexity in managing his abilities, particularly Renewal which requires maintaining an aura and healing over time. Hallowed Ground also requires positioning to maximize its effects. However, these complexities are relatively low compared to other Warframes with more intricate mechanics."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Oberon is a versatile Warframe with strong damage capabilities through Smite and Reckoning, decent survivability from Renewal, and supportive abilities through Hallowed Ground. His crowd control options are limited, and he has no stealth mechanisms. Oberon's complexity is moderate, requiring some management of his aura and positioning for optimal performance."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Glass/Glass",
+    "warframeName": "Gara",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Gara's abilities include damaging attacks like Shattered Lash and Mass Vitrify.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "The Spectrorage ability can trap enemies and force them to attack visions of their true selves.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gara has several abilities that deal damage or control enemies, making it a versatile combatant. However, the specific damage output is not detailed in the provided context."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Gara's armor can be fortified by allies through Splinter Storm.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The Mass Vitrify ability creates a protective barrier that draws strength from enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gara has some survivability features like fortifying his armor and creating a shield-like barrier, but the exact effectiveness is not specified."
+      },
+      {
+        "category": "support",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Splinter Storm can fortify allies against damage.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Spectrorage can trap enemies and force them to attack visions of their true selves.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gara has some support abilities that help his allies, but the extent of this support is limited compared to other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Spectrorage can trap enemies and force them to attack visions of their true selves.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Mass Vitrify creates a protective barrier that draws strength from enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gara has abilities that can control the battlefield by trapping enemies or creating barriers, but these are not as strong as some other Warframes' crowd control capabilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.3,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Gara's passive ability creates a radial blind when casting abilities.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "No specific stealth-related abilities are mentioned.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Gara has a passive that can create a blind effect, there is no evidence of any stealth-related abilities or mechanics in the provided context."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Gara's abilities include multiple stages like Spectrorage and Mass Vitrify.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "The specific timing and execution of these abilities are not detailed.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gara has a moderate level of complexity with multiple abilities that require coordination, but the exact mechanics and timing are not specified in the provided context."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Gara is a versatile combatant with some survivability and support capabilities. However, there is limited information about specific damage output, crowd control effectiveness, or stealth-related abilities. The complexity of Gara's abilities is moderate, requiring coordination but not extensive frame-perfect execution."
+  },
+  "errors": [],
+  "warnings": []
+}

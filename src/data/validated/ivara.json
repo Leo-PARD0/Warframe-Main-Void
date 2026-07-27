@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Ranger/Ranger",
+    "warframeName": "Ivara",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Artemis Bow summons a mighty bow and unleashes a volley of devastating arrows.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ivara's Artemis Bow is a powerful ranged weapon that deals significant damage with its arrow volleys."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Prowl makes Ivara invisible and allows her to steal loot or take out prey with deadly headshots.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Quiver has a Cloak ability that creates a stationary bubble cloaking Ivara and allies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ivara's survivability is moderate due to her stealth abilities, but lacks direct defensive mechanisms like shields or armor."
+      },
+      {
+        "category": "support",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Navigator allows control of projectiles launched by Ivara and guides them to targets.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Quiver has a Sleep ability that temporarily puts nearby enemies into deep slumber.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ivara's support capabilities are limited to controlling projectiles and putting enemies to sleep, which is not as robust as some other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Prowl makes Ivara invisible, reducing enemy visibility.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Artemis Bow can be used to take out prey with deadly headshots.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ivara's crowd control is moderate due to her stealth abilities and the potential to take out enemies quickly, but lacks direct crowd control mechanisms like knockbacks or stuns."
+      },
+      {
+        "category": "stealth",
+        "score": 0.9,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Prowl makes Ivara invisible.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Quiver has a Cloak ability that creates a stationary bubble cloaking Ivara and allies.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Artemis Bow can be used to take out prey with deadly headshots.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ivara's stealth capabilities are strong, allowing her to remain hidden and deal significant damage from afar."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Prowl is a simple ability that makes Ivara invisible.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Artemis Bow has a straightforward mechanism for summoning and using arrows.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ivara's complexity is low due to her relatively simple abilities, with most of her power coming from her stealth capabilities rather than complex mechanics."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Ivara is a highly effective damage dealer with strong stealth capabilities. Her survivability and support are moderate, while crowd control is limited. The Warframe has a low complexity score due to its straightforward abilities."
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "data": {
+    "primaryRole": "Support",
+    "secondaryRoles": [
+      "Healer",
+      "Buffer"
+    ],
+    "confidence": 0.8,
+    "description": "O Helminth é um suporte forte com habilidades de cura, regeneração de escudo e invocação de aliados.",
+    "reasoning": "Suas habilidades focam em suporte, oferecendo cura direta (Voracious Metastasis), regeneração de escudo (Rebuild Shields) e invocação de aliados (Master's Summons). Embora não seja um dano direto (Damage: 0.2), suas habilidades de suporte são extremamente úteis em combate."
+  },
+  "errors": [],
+  "warnings": []
+}

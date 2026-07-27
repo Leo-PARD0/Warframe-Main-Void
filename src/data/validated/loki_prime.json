@@ -1,0 +1,147 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Loki/LokiPrime",
+    "warframeName": "Loki Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Loki Prime has no direct damage abilities.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "His Radial Disarm ability disrupts enemy weapons but does not deal damage.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Loki Prime lacks any direct damage capabilities. His primary role is to support and control the battlefield rather than dealing damage."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Loki Prime has decent survivability with high health and shield.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "His Decoy ability can draw enemy fire away from himself.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Loki Prime has good survivability due to his high health and shield, as well as the ability to draw enemy fire using his decoy. However, he lacks any direct defensive abilities."
+      },
+      {
+        "category": "support",
+        "score": 0.85,
+        "confidence": 1,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Loki Prime's Decoy ability can distract enemies.",
+            "confidence": 1,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "His Switch Teleport ability can confuse and disorient the enemy.",
+            "confidence": 1,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "His Radial Disarm ability disrupts enemy weapons.",
+            "confidence": 1,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Loki Prime excels as a support Warframe due to his abilities that can distract, disorient, and disrupt the enemy. These abilities make him invaluable for controlling the battlefield."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.65,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Loki Prime's Decoy ability draws enemy fire.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "His Switch Teleport ability confuses and disorients the enemy.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "His Radial Disarm ability disrupts enemy weapons.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Loki Prime has several abilities that can control the battlefield by drawing enemy fire, confusing them, and disrupting their weapons. These abilities make him a strong crowd control Warframe."
+      },
+      {
+        "category": "stealth",
+        "score": 0.55,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Loki Prime's Invisibility ability makes him invisible to enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "His Decoy ability can draw enemy fire away from himself.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Loki Prime has a decent stealth component with his Invisibility ability and the ability to draw enemy fire using his decoy. However, he lacks any direct stealth abilities like movement speed or evasion."
+      },
+      {
+        "category": "complexity",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Loki Prime has no complex abilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "His abilities are straightforward and easy to use.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Loki Prime's abilities are relatively simple and do not require a lot of skill or strategy to execute. His Decoy ability is a one-button press, his Invisibility ability is another button press, and his Switch Teleport and Radial Disarm abilities are also straightforward."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Loki Prime is primarily a support Warframe with decent survivability and strong crowd control capabilities. He lacks direct damage or stealth abilities, making him more of a utility-focused Warframe rather than a frontline or mobility-based one."
+  },
+  "errors": [],
+  "warnings": []
+}

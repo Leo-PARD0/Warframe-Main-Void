@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/MonkeyKing/WukongPrime",
+    "warframeName": "Wukong Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Wukong Prime can deal significant damage through his Celestial Twin and Defy abilities.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "His Primal Fury ability allows him to unleash a powerful attack after capturing damage.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wukong Prime has multiple ways to deal substantial damage, making it highly effective in combat."
+      },
+      {
+        "category": "survivability",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Defy provides invulnerability and stored damage for a single strike.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Cloud Walker can heal Wukong and his twin while dazing enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wukong Prime has survivability options to stay in the fight longer, but they are limited compared to other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Celestial Twin can provide cover fire and melee support.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Cloud Walker can heal allies while dazing enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wukong Prime has some support capabilities, but they are not as robust or versatile as other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.5,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Cloud Walker can daze enemies.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Defy can capture damage and deal it back in a single strike.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wukong Prime has some crowd control options, but they are limited compared to other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.3,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "No stealth abilities or mechanisms are mentioned.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wukong Prime does not have any stealth capabilities, making it less effective in covert operations."
+      },
+      {
+        "category": "complexity",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Defy requires precise timing and energy management.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Cloud Walker involves positioning and energy usage.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wukong Prime has some complex mechanics that require careful execution, but they are not as intricate as other Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Wukong Prime is a highly effective damage dealer with limited survivability options. It has some support capabilities and crowd control, but lacks stealth abilities. The complexity of its mechanics requires precise timing and energy management."
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Controller",
+      "description": "Especialista em controlar o fluxo do combate, usando habilidades que immobilizam e dão vantagem para ataques subsequentes.",
+      "confidence": 0.85,
+      "basedOn": [
+        "crowdControl"
+      ],
+      "reasoning": "Crowd Control é a característica predominante de Yareli Prime, com Riptide e Sea Snares sendo suas principais habilidades. Essas habilidades permitem controlar o fluxo do combate, immobilizando inimigos e aumentando o dano em sequência. Suas outras habilidades focam mais no ataque direto (Aquablades) ou na defesa (Merulina), mas não são suficientes para alterar seu arquétipo principal como Controller."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

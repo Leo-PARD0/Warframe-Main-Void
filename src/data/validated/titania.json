@@ -1,0 +1,130 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Fairy/Fairy",
+    "warframeName": "Titania",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Titania's Razorwing ability allows her to shrink down and take flight, while razorflies attack nearby enemies and amplify the damage they take.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "The Lantern ability creates a swarm of razorflies that transform an enemy into an irresistible floating beacon, attracting witless comrades before exploding on command.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Titania has abilities that deal damage through her razorflies, which can be considered moderate in terms of damage output. The Razorwing ability amplifies the damage taken by enemies, adding to its effectiveness."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Titania generates Health for herself and nearby allies every time she casts an Ability.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The Tribute ability has a buff called Thorns that reduces incoming damage.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Titania's survivability is moderate due to her health regeneration abilities and the Thorns buff, which provides some protection against incoming damage."
+      },
+      {
+        "category": "support",
+        "score": 0.55,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Titania generates Health for herself and nearby allies every time she casts an Ability.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "The Tribute ability has a buff called Dust that degrades enemy accuracy.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "The Tribute ability can also provide immunity to Status Effects when cast on Titania.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Titania's support capabilities are strong, as she provides health regeneration for herself and her allies, and can debuff enemies with the Dust buff. Additionally, she can provide status effect immunity to herself through the Tribute ability."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Titania's Spellbind ability allows her to fumble enemy weapons and make them immune to Status Effects.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "The Tribute ability has a buff called Entangle that slows enemies within range.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Titania's crowd control abilities are moderate, as she can immobilize enemies with the Spellbind ability and slow them down with the Entangle buff from the Tribute ability."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Titania does not have any abilities that provide stealth or allow her to move silently."
+      },
+      {
+        "category": "complexity",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Titania has four distinct abilities with different effects.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "The Tribute ability allows for cycling through and extracting buffs from enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Titania's complexity is moderate due to her diverse set of abilities and the ability to cycle through buffs using the Tribute ability."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Titania is a versatile Warframe with strong support capabilities, moderate damage output, and decent crowd control. Her survivability is also notable due to health regeneration. However, she lacks stealth abilities and has a relatively low complexity compared to some other Warframes."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

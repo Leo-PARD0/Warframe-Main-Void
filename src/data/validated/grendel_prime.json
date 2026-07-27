@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Devourer/GrendelPrime",
+    "warframeName": "Grendel Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Grendel Prime can turn consumed enemies into toxic projectiles with Regurgitate, which deals damage and slows nearby enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Grendel Prime does not have a direct attack skill, its ability to transform consumed enemies into damaging projectiles provides significant offensive capabilities."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Grendel Prime can regenerate health by absorbing nourishment from enemies in his gut with Nourish.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Heals over time as he rolls during Pulverize.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Grendel Prime has some survivability mechanisms through regeneration and healing abilities, but these are not as robust as those of more specialized tanks."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Nourish provides buffs to squad mates by granting energy sources and reducing damage from enemies.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Regurgitate can slow nearby enemies, potentially aiding in crowd control.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Grendel Prime has limited support capabilities, primarily through health regeneration and debuffing enemies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Regurgitate can slow nearby enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Pulverize can knock over anyone in its path.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Grendel Prime has some crowd control abilities through slowing and knocking over enemies, but these are not as effective or versatile as those of more specialized support roles."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "No stealth-related abilities or mechanisms are mentioned for Grendel Prime.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Consuming enemies does not provide any stealth benefits.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Grendel Prime lacks any stealth capabilities, making it unsuitable for roles that rely on surprise and evasion."
+      },
+      {
+        "category": "complexity",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "No complex combos or resource management are required to use Grendel Prime's abilities.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "The skill set is relatively straightforward with no intricate mechanics.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Grendel Prime has a simple and linear ability set, requiring minimal strategic thinking or resource management."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Grendel Prime is primarily an offensive role that relies on consuming enemies to deal damage. It has some survivability and support capabilities but lacks stealth and complex mechanics. The skill set is straightforward, making it suitable for players who prefer a more linear approach to combat."
+  },
+  "errors": [],
+  "warnings": []
+}

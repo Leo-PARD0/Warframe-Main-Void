@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Battlemage",
+      "description": "Especialista em combate corpo a corpo com alta dano e habilidades de suporte.",
+      "confidence": 0.95,
+      "basedOn": [
+        "damage",
+        "survivability"
+      ],
+      "reasoning": "Damage e Survivability representam claramente a identidade predominante do Warframe. Suas habilidades focadas em dano rápido (Peacemaker) e suporte de escudo (Shatter Shield) caracterizam essa Role. Crowd Control existe, mas não é suficientemente relevante para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

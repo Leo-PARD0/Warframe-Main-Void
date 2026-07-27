@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Battlemage",
+      "description": "Especialista em combate corpo a corpo com alta dano, suporte e controle de campo.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage",
+        "support",
+        "crowdControl"
+      ],
+      "reasoning": "Damage é dominante através da Scarab Swarm que causa dano corrosivo escalar com a saúde de Inaros. Support é relevante com o Scarab Swarm que soma um Kavat e ajuda a controlar inimigos. Crowd Control existe, mas não é suficientemente relevante para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

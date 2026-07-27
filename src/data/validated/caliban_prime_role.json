@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte e controle de battlefield, oferecendo resistência a dano, summoning de unidades e alta dano em áreas.",
+      "confidence": 0.95,
+      "basedOn": [
+        "damage",
+        "support"
+      ],
+      "reasoning": "Damage e Support representam claramente a identidade predominante do Warframe. A habilidade Fusion Strike causa alto dano em áreas, enquanto Lethal Progeny permite o summoning de unidades que podem oferecer suporte adicional. Survivability é moderada, mas não dominante, e Crowd Control também não é suficientemente relevante para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

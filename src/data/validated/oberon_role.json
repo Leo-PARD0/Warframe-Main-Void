@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Guardian",
+      "description": "Protetor e suporte em equipe, oferecendo defesa, cura e buffs aos aliados.",
+      "confidence": 0.85,
+      "basedOn": [
+        "survivability",
+        "support"
+      ],
+      "reasoning": "Survivability e Support representam claramente a identidade predominante do Warframe. Damage existe, mas não é suficientemente relevante para alterar seu arquétipo principal. Crowd Control também existe, mas não é dominante o suficiente para determinar uma Role diferente."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

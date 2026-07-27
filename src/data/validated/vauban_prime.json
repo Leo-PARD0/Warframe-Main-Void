@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Trapper/TrapperPrime",
+    "warframeName": "Vauban Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Vauban Prime has access to a variety of damaging abilities including Tesla Nervos, Minelayer, Photon Strike, and Bastille.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "The ability to capture enemies in stasis with Bastille provides an additional layer of damage through the stripping of their armor.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Vauban Prime has multiple high-damage options and can enhance its effectiveness by capturing enemies in stasis."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Vauban Prime's shield is equal to its health, providing moderate survivability.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The ability to capture enemies in stasis with Bastille can be used defensively to protect allies and remove threats.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Vauban Prime has decent survivability due to its balanced health and shield, it lacks specific defensive abilities that could significantly improve this score."
+      },
+      {
+        "category": "support",
+        "score": 0.85,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Vauban Prime can immobilize enemies with Minelayer.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "The ability to capture enemies in stasis with Bastille provides a strong support role by removing threats and enhancing allies' effectiveness.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Vauban Prime excels as a support character due to its ability to control the battlefield and enhance allies through stasis."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.7,
+        "confidence": 0.85,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Minelayer can immobilize enemies.",
+            "confidence": 0.85,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Bastille can capture enemies in stasis, effectively removing them from combat.",
+            "confidence": 0.85,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Vauban Prime has effective crowd control options through its ability to immobilize and stasis enemies."
+      },
+      {
+        "category": "stealth",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Vauban Prime does not have any stealth-related abilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "The Minelayer requires line of sight to deploy mines.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Vauban Prime lacks any stealth capabilities, making it less effective in covert operations."
+      },
+      {
+        "category": "complexity",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Vauban Prime has a relatively straightforward set of abilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "The Minelayer requires precise aiming to deploy mines effectively.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Vauban Prime is not extremely complex, it does require some skill to use its abilities effectively."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Vauban Prime excels as a support character due to its crowd control and ability to capture enemies in stasis. It has decent survivability and damage output but lacks stealth capabilities and complexity."
+  },
+  "errors": [],
+  "warnings": []
+}

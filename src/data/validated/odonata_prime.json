@@ -1,0 +1,117 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack",
+    "warframeName": "Odonata Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Fires a large volley of homing missiles.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Emits a massive pulse of energy, stunning nearby enemies and sending them flying.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Odonata Prime possui habilidades que causam dano em área (Seeking Fire) e controla inimigos (Repel), o que contribui para seu potencial de dano. No entanto, as informações sobre os custos de energia e cooldowns são insuficientes para uma avaliação mais precisa."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Forms a protective energy shell around the Warframe.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Emits a massive pulse of energy, stunning nearby enemies and sending them flying.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Odonata Prime possui habilidades defensivas (Energy Shell) que podem ajudar na sobrevivência. No entanto, as informações sobre os custos de energia e cooldowns são insuficientes para uma avaliação mais precisa."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Odonata Prime não possui habilidades que beneficiem diretamente aliados (Support). Suas habilidades são focadas em ataque e defesa individual."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.7,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Emits a massive pulse of energy, stunning nearby enemies and sending them flying.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Drops flare beacons confusing incoming guided missiles.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Odonata Prime possui habilidades que controlam inimigos (Repel e Disarray), o que contribui para seu potencial de Crowd Control. No entanto, as informações sobre os custos de energia e cooldowns são insuficientes para uma avaliação mais precisa."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.3,
+        "evidences": [],
+        "reasoning": "Odonata Prime não possui habilidades que envolvam invisibilidade ou redução de ruído (Stealth). Suas habilidades são focadas em ataque e defesa diretas."
+      },
+      {
+        "category": "complexity",
+        "score": 0.5,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Forms a protective energy shell around the Warframe.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Emits a massive pulse of energy, stunning nearby enemies and sending them flying.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Drops flare beacons confusing incoming guided missiles.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Odonata Prime possui habilidades simples e diretas, o que pode facilitar seu uso. No entanto, as informações sobre os custos de energia e cooldowns são insuficientes para uma avaliação mais precisa."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Odonata Prime é um Warframe com foco em ataque e defesa individual, possuindo habilidades que causam dano em área e controlam inimigos. Suas habilidades de Crowd Control são notáveis, mas suas capacidades de Stealth e Support são limitadas. A complexidade do uso deste Warframe é moderada."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: support, stealth"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Infestation/InfestationPrime",
+    "warframeName": "Nidus Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Rupture the ground with a damaging fungal growth that steals energy from each enemy it strikes.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Gluttonous maggots swarm nearby enemies, feasting until they are hit with Virulence and burst with Infestation.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nidus Prime has two abilities that deal damage over time through fungal growth and swarming maggots. These abilities can cause significant damage to multiple enemies simultaneously."
+      },
+      {
+        "category": "survivability",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "If Nidus is killed with at least |STACKS| stacks of Mutation, those |STACKS| stacks are consumed; this grants |DURATION|s of invulnerability and restores Health to |HEAL|%.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nidus Prime has a passive ability that provides temporary invulnerability upon death, which can be useful for survival. However, the duration and health restored are not specified, making it difficult to assess its effectiveness."
+      },
+      {
+        "category": "support",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Bind to a target with parasitic link. When cast on an ally, both the host and Nidus have their Ability Strength and Weapon Damage increased.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Linked enemies take some of the damage inflicted on Nidus.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nidus Prime can provide support by increasing the ability strength and weapon damage of allies while also sharing damage taken with linked enemies. This makes it a versatile support role."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Spawn an Infested pod that erupts with tendrils, latches onto nearby enemies and pulls them in.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nidus Prime has a limited crowd control ability through the Larva ability, which pulls enemies towards it. However, this effect is not very strong or reliable."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.3,
+        "evidences": [],
+        "reasoning": "Nidus Prime does not have any stealth abilities or mechanisms to avoid detection by enemies."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Rupture the ground with a damaging fungal growth that steals energy from each enemy it strikes.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Gluttonous maggots swarm nearby enemies, feasting until they are hit with Virulence and burst with Infestation.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nidus Prime has two abilities that require careful timing and positioning to maximize their effectiveness. The ability to mutate and the swarming maggots both depend on hitting multiple enemies, which adds a layer of complexity to gameplay."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Nidus Prime is a versatile Warframe with strong damage capabilities through fungal growth and swarming maggots. It also provides support by increasing the abilities of allies while sharing damage taken. However, its survivability and crowd control are limited, and it lacks any stealth mechanisms. The complexity of gameplay comes from the need to coordinate these abilities effectively."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

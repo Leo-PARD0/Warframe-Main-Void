@@ -1,0 +1,87 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra",
+    "warframeName": "Excalibur Umbra",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Excalibur Umbra Passive: Attacks |SPEED|% faster and deals |DAMAGE|% more damage while wielding swords.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The passive ability significantly boosts both speed and damage, making it a powerful offensive tool."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Excalibur Umbra Passive: Attacks |SPEED|% faster and deals |DAMAGE|% more damage while wielding swords.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While the passive increases offensive capabilities, it does not provide substantial survivability benefits."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.7,
+        "evidences": [],
+        "reasoning": "The abilities do not provide direct support to allies or enemies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Radial Howl: Let out ferocious howl that stuns nearby enemies and causes Sentients to shed any built up resistances.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The Radial Howl ability provides a crowd control effect by stunning nearby enemies."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "There are no abilities or passive effects that provide stealth capabilities."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Excalibur Umbra Passive: Attacks |SPEED|% faster and deals |DAMAGE|% more damage while wielding swords.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The passive ability adds complexity by requiring the player to manage speed and damage simultaneously."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Excalibur Umbra is a powerful offensive Warframe with significant damage output, but limited survivability. It has a basic crowd control ability and no stealth or support capabilities. The passive ability adds some complexity by requiring players to balance speed and damage."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: support, stealth"
+  ]
+}

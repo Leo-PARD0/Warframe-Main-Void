@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte e controle de battlefield, oferecendo defesa, cura e habilidades de área.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support",
+        "survivability"
+      ],
+      "reasoning": "Support e Survivability representam claramente a identidade predominante do Warframe. O Voidrig excelle em controlar o battlefield, oferecer defesa e suporte aos aliados, mas tem limitações em termos de dano direto e furtividade."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

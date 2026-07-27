@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte e restauração de vida e escudo para aliados.",
+      "confidence": 0.85,
+      "basedOn": [
+        "support",
+        "survivability"
+      ],
+      "reasoning": "Mag tem uma forte presença na categoria Support, com habilidades que fornecem buffs aos aliados e restauram escudos. A Survivability também é relevante devido à sua capacidade de absorver danos e refleti-los em ataques mortais. O Crowd Control existe, mas não é suficientemente forte para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

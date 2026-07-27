@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Battlemage",
+      "description": "Especialista em combate corpo a corpo com alta dano, suporte e controle de grupo.",
+      "confidence": 0.95,
+      "basedOn": [
+        "damage",
+        "crowdControl",
+        "support"
+      ],
+      "reasoning": "Damage, Crowd Control e Support representam claramente a identidade predominante do Warframe. Survivability existe, mas não é suficientemente relevante para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

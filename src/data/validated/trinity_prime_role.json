@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte aos aliados, fornecendo cura, regeneração de energia e redução de dano recebido.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "O perfil semântico destaca claramente que Trinity Prime é um Warframe focado em suporte aos aliados, com habilidades que curam, regeneram energia e reduzem o dano recebido. Suas principais funções são direcionadas para melhorar a eficácia dos companheiros de equipe."
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "Reasoning may be just listing scores without explaining the archetype choice"
+  ]
+}

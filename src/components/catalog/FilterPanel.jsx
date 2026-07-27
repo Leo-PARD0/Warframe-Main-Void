@@ -1,4 +1,4 @@
-import { Tag as TagIcon, X } from 'lucide-react';
+import { Tag as TagIcon, X, ArrowUpDown, ChevronUp, ChevronDown } from 'lucide-react';
 
 const CATEGORY_OPTIONS = [
   { value: 'all', label: 'Todos' },
@@ -6,6 +6,8 @@ const CATEGORY_OPTIONS = [
   { value: 'Weapon', label: 'Armas' },
   { value: 'Mod', label: 'Mods' },
   { value: 'Relic', label: 'Relíquias' },
+  { value: 'Arcane', label: 'Arcanes' },
+  { value: 'AmpComponent', label: 'Componentes de Amp' },
 ];
 
 export default function FilterPanel({
@@ -20,6 +22,15 @@ export default function FilterPanel({
   tags,
   selectedTagIds,
   setSelectedTagIds,
+  // Novos props para ordenação e filtro por role
+  sortBy,
+  setSortBy,
+  sortOrder,
+  toggleSortOrder,
+  roleFilter,
+  setRoleFilter,
+  availableRoles,
+  SORT_OPTIONS,
 }) {
   const toggleTag = (id) => {
     setSelectedTagIds((prev) =>
@@ -32,10 +43,13 @@ export default function FilterPanel({
     setTypeFilter('all');
     setRelicStateFilter?.('all');
     setSelectedTagIds([]);
+    setRoleFilter('all');
   };
 
   const hasFilters =
-    categoryFilter !== 'all' || typeFilter !== 'all' || relicStateFilter !== 'all' || selectedTagIds.length > 0;
+    categoryFilter !== 'all' || typeFilter !== 'all' || relicStateFilter !== 'all' || selectedTagIds.length > 0 || roleFilter !== 'all';
+
+  const sortOrderIcon = sortOrder === 'asc' ? <ChevronUp className="h-3 w-3" /> : <ChevronDown className="h-3 w-3" />;
 
   return (
     <div className="flex flex-col gap-6">
@@ -53,6 +67,34 @@ export default function FilterPanel({
           </button>
         )}
       </div>
+
+      {/* Sort By Section */}
+      <section>
+        <h3 className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground mb-3 flex items-center gap-1.5">
+          <ArrowUpDown className="h-3 w-3" /> Ordenar por
+        </h3>
+        <div className="flex items-center gap-2">
+          <select
+            value={sortBy}
+            onChange={(e) => setSortBy(e.target.value)}
+            className="flex-1 h-9 rounded-lg bg-card border border-border/70 px-2.5 text-sm text-foreground focus:outline-none focus:ring-1 focus:ring-ring"
+          >
+            {SORT_OPTIONS.map((opt) => (
+              <option key={opt.value} value={opt.value}>
+                {opt.label}
+              </option>
+            ))}
+          </select>
+          <button
+            onClick={toggleSortOrder}
+            className="h-9 w-9 rounded-lg bg-card border border-border/70 flex items-center justify-center hover:bg-accent transition-colors"
+            aria-label={sortOrder === 'asc' ? 'Ordem crescente' : 'Ordem decrescente'}
+            title={sortOrder === 'asc' ? 'Crescente (A-Z / Menor para Maior)' : 'Decrescente (Z-A / Maior para Menor)'}
+          >
+            {sortOrderIcon}
+          </button>
+        </div>
+      </section>
 
       <section>
         <h3 className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground mb-3">
@@ -96,6 +138,27 @@ export default function FilterPanel({
           ))}
         </select>
       </section>
+
+      {/* Role Filter Section */}
+      {availableRoles.length > 0 && (
+        <section>
+          <h3 className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground mb-3 flex items-center gap-1.5">
+            <TagIcon className="h-3 w-3" /> Role
+          </h3>
+          <select
+            value={roleFilter}
+            onChange={(e) => setRoleFilter(e.target.value)}
+            className="w-full h-9 rounded-lg bg-card border border-border/70 px-2.5 text-sm text-foreground focus:outline-none focus:ring-1 focus:ring-ring"
+          >
+            <option value="all">Todas as Roles</option>
+            {availableRoles.map((role) => (
+              <option key={role} value={role}>
+                {role}
+              </option>
+            ))}
+          </select>
+        </section>
+      )}
 
       <section>
         <h3 className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground mb-3 flex items-center gap-1.5">

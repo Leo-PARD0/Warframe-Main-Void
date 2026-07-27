@@ -1,0 +1,111 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+    "warframeName": "Styanax Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Final Stand deals damage to nearby enemies wherever they land.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Direct hits to enemies deal greater damage.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Styanax Prime's abilities involve throwing javelins and summoning a shield, which are both damaging actions. The Final Stand ability specifically mentions dealing damage to nearby enemies and increasing damage on direct hits, indicating significant offensive capabilities."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Rally Point regenerates the squad's energy over time.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Styanax and his allies also regenerate shields for every kill assist they contribute.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Styanax Prime has abilities that provide some support to his team, such as Rally Point which regenerates energy and shields, these effects are not as strong or immediate as those provided by other Warframes. The survivability score reflects this moderate support role."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Rally Point draws enemy attention to Styanax.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Styanax and his allies also regenerate shields for every kill assist they contribute.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Styanax Prime's abilities include drawing enemy fire away from allies (Rally Point) and providing shield regeneration through kill assists, which are key support functions. The score reflects a balanced support role with some offensive capabilities."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Tharros Strike repels enemies and reduces their shields and armor.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Final Stand throws a barrage of Axios Javelins that can pull enemies into the area.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Styanax Prime's abilities include crowd control through Tharros Strike and drawing enemy fire with Final Stand, but these effects are not as strong or versatile as those provided by other Warframes. The score reflects a moderate crowd control role."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Styanax Prime does not have any abilities that provide stealth or allow for sneaking around enemies. His abilities are primarily offensive and support-oriented, making his stealth score low."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Styanax Prime's abilities are relatively straightforward and do not require complex execution or resource management. The complexity score reflects this simple playstyle."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Styanax Prime is a Warframe with moderate offensive capabilities, some support for his team, and limited crowd control. It has no stealth abilities and does not require complex gameplay to execute its abilities effectively."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth, complexity"
+  ]
+}

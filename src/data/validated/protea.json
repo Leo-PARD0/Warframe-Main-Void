@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Odalisk/Odalisk",
+    "warframeName": "Protea",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Blaze Artillery increases power with each enemy hit",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Protea's Blaze Artillery ability scales its damage based on the number of enemies it hits, making it a powerful and flexible offensive tool."
+      },
+      {
+        "category": "survivability",
+        "score": 0.65,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Dispensary provides health and energy pickups",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Temporal Anchor can save Protea by rewinding time",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Protea has some survivability options with the Dispensary for resource management and the Temporal Anchor for self-preservation, but these are not as robust as other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Grenade Fan creates a shrapnel vortex",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Blaze Artillery can be used to support allies",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Protea's abilities are primarily offensive and do not provide significant support for teammates."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Grenade Fan stuns enemies",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Blaze Artillery can knock back enemies",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Protea's abilities have some crowd control effects, but they are limited and not as effective as other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Protea does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Grenade Fan requires aiming",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Blaze Artillery involves timing and positioning",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Protea's abilities require some level of skill to execute effectively, particularly in terms of aiming and timing."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Protea is a versatile Warframe with strong offensive capabilities but limited support and crowd control. Her survivability options are adequate but not exceptional. The complexity of her abilities lies in their execution rather than their raw power."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

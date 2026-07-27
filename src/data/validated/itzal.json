@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack",
+    "warframeName": "Itzal",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Itzal has access to a Cosmic Crush that forms a miniature black hole, which can cause massive damage to enemies and structures.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The Cosmic Crush ability allows for significant area-of-effect damage, making Itzal a potent damage dealer."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Itzal has a cloaking field through Penumbra, providing some protection from enemy attacks.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "However, it lacks any direct survivability abilities like shields or energy regeneration.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Itzal can hide to avoid damage, it does not have built-in mechanisms to sustain itself in combat."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Itzal has a Fighter Escort ability that deploys drones to fight alongside the Warframe.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "However, these drones are limited in their effectiveness and can be easily destroyed by enemy forces.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The support provided by the drones is minimal and unreliable, making Itzal less effective as a supportive role."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Itzal can use Penumbra to hide from enemies, providing some crowd control.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "However, it lacks any direct crowd control abilities like stuns or knockbacks.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Itzal can avoid enemy attacks by hiding, it does not have the ability to control the battlefield effectively."
+      },
+      {
+        "category": "stealth",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Itzal has a cloaking field through Penumbra, providing excellent stealth capabilities.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "The Arch Line can also be used to pull enemies close, making it easier to stay hidden.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Penumbra provides strong stealth protection, allowing Itzal to operate undetected and ambush enemies."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Itzal has a relatively simple set of abilities with straightforward mechanics.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "There are no complex combos or resource management required.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The basic abilities of Itzal are easy to use and do not require significant skill or strategy to execute."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Itzal is primarily designed as a stealthy damage dealer with limited survivability, support, and crowd control capabilities. Its simplicity in mechanics makes it an accessible choice for players looking to focus on mobility and evasion."
+  },
+  "errors": [],
+  "warnings": []
+}

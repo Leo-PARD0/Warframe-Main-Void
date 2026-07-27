@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Runner/Runner",
+    "warframeName": "Gauss",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.85,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Gauss has multiple abilities that deal significant damage, including Mach Rush, Thermal Sunder, and Redline.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Redline in particular is a powerful ability that can explode enemies in a large area.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gauss' abilities are designed to deal substantial damage, with options for both direct attacks and area-of-effect explosions. The Redline ability stands out as an extremely potent offensive tool."
+      },
+      {
+        "category": "survivability",
+        "score": 0.75,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Gauss has Kinetic Plating that converts some damage into energy, providing a form of self-healing.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "His shield and armor also provide decent protection against incoming attacks.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Gauss has some survivability features like Kinetic Plating, his overall survivability is not as robust compared to other Warframes. He relies heavily on his battery for damage output, which can be risky if depleted."
+      },
+      {
+        "category": "support",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Gauss has limited support abilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "His Kinetic Plating ability can provide some utility by converting damage into energy.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gauss' primary role is offensive, with limited support capabilities. His Kinetic Plating is the most significant support feature he has."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.5,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Gauss can inflict Cold and Heat statuses on enemies.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "His Thermal Sunder ability can slow down enemies.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gauss has some crowd control options, but they are limited compared to other Warframes. His abilities primarily focus on dealing damage rather than controlling the battlefield."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.4,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Gauss does not have any stealth-related abilities.",
+            "confidence": 0.4,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "His abilities do not provide cover or allow him to move silently.",
+            "confidence": 0.4,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gauss has no stealth capabilities, making him a poor choice for roles that require sneaking around or avoiding enemies."
+      },
+      {
+        "category": "complexity",
+        "score": 0.65,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Gauss requires careful management of his battery to use his abilities.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "His Redline ability is complex and can be risky if not used properly.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gauss' complexity lies in managing his battery for optimal damage output. The Redline ability adds an extra layer of complexity due to its potential risks and rewards."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Gauss is a high-damage Warframe with limited survivability, support, and crowd control options. His complexity stems from the need to manage his battery carefully for effective use of his abilities. While he excels in dealing damage, his lack of stealth and support capabilities make him less versatile compared to other Warframes."
+  },
+  "errors": [],
+  "warnings": []
+}

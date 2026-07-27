@@ -1,0 +1,87 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Cowgirl/MesaPrime",
+    "warframeName": "Mesa Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Peacemaker shoots down her foes in rapid succession",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mesa Prime's Peacemaker ability allows for rapid and continuous damage output, making it a strong damage dealer."
+      },
+      {
+        "category": "survivability",
+        "score": 0.65,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Shatter Shield reflects back incoming bullet damage",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Shatter Shield provides some survivability by reflecting damage, it is not as robust as other Warframes with more dedicated survival abilities."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Shooting Gallery gives an ally Extra Damage while jamming the guns of nearby enemies",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mesa Prime's Shooting Gallery ability provides support by enhancing the damage output of her allies, but it is limited to a single target at a time."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.45,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Mesa Prime does not have any abilities specifically designed for crowd control, making this category the weakest among her abilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.3,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Mesa Prime has no stealth-related abilities or attributes, which limits her effectiveness in stealth-based roles."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Ballistic Battery stores damage caused by guns",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Mesa Prime's Ballistic Battery ability adds some complexity to managing energy and damage, it is relatively straightforward compared to other Warframes with more intricate abilities."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Mesa Prime excels as a damage dealer due to her Peacemaker ability. She provides limited support through Shooting Gallery but lacks crowd control and stealth capabilities. Her Complexity score reflects the moderate level of energy management required for her abilities."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: crowdControl, stealth"
+  ]
+}

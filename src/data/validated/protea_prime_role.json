@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte e regeneração de recursos para aliados, com capacidades limitadas de dano.",
+      "confidence": 0.85,
+      "basedOn": [
+        "support",
+        "survivability"
+      ],
+      "reasoning": "Support e Survivability representam claramente a identidade predominante do Warframe. Damage existe, mas não é suficientemente relevante para alterar seu arquétipo principal. Crowd Control e Stealth são muito limitados."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

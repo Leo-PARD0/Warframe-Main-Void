@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte ao time, regenerando saúde e aplicando buffs para aumentar a eficácia dos aliados.",
+      "confidence": 0.92,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "O arquétipo Support é dominado pela categoria de Support (buffs e regeneração de saúde). Atributos como Survivability, Crowd Control e Damage são secundários em comparação. Titania Prime não possui habilidades que sejam principalmente focadas em Stealth ou Damage."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

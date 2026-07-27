@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Magician/Magician",
+    "warframeName": "Limbo",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Cataclysm is a violent blast of Void energy that tears open a pocket of rift plane",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Rift Surge transfers the damage to nearby enemies outside the Rift",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Limbo's abilities primarily deal damage through Cataclysm and Rift Surge, which are powerful but not as consistently high-damage as some other Warframes."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Entering Limbo leaves behind a small Rift portal that slowly recharges Energy",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Enemies killed in the Rift give Energy back",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Limbo has some survivability through the Rift portal and energy regeneration, it lacks direct defensive abilities like shields or armor."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Stasis freezes enemies",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Rift Surge transfers damage to nearby enemies",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Limbo's support capabilities are limited to freezing enemies and transferring damage, which is useful but not as versatile or impactful as some other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Banish pushes enemies and allies out of Limbo",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Stasis arrests enemy projectiles",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Limbo has crowd control abilities through Banish and Stasis, but they are not as strong or versatile as some other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "No stealth-related abilities",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Limbo does not have any stealth capabilities, which limits its ability to surprise enemies or avoid detection."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Entering and exiting Limbo requires dodging",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Rift Surge involves transferring damage to nearby enemies",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Limbo's complexity is moderate due to the need for dodging to enter/exist Limbo and managing Rift energy."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Limbo is a Warframe with decent damage output through Cataclysm and Rift Surge, but limited survivability, support, and crowd control. It has no stealth capabilities and its complexity is moderate due to the need for dodging and managing Rift energy."
+  },
+  "errors": [],
+  "warnings": []
+}

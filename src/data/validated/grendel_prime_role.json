@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Nuker",
+      "description": "Especialista em eliminar alvos prioritários com alta dano e eficiência.",
+      "confidence": 0.95,
+      "basedOn": [
+        "damage"
+      ],
+      "reasoning": "Damage é a característica dominante do Warframe, sendo responsável por seu principal mecanismo de ataque. As habilidades de Nourish e Regurgitate permitem que ele cause dano adicional aos inimigos, mas não alteram sua identidade como um Nuker."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/AntiMatter/NovaPrime",
+    "warframeName": "Nova Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Nova Prime has a powerful ability called 'Antimatter Drop' that deals Blast Damage with a guaranteed Status Effect.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "The 'Molecular Prime' ability can prime enemies with volatile antimatter, which could be used to create additional damage or control effects.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Nova Prime does not have an obvious high-damage output ability like some other Warframes, it has the potential for significant damage through its 'Antimatter Drop' and 'Molecular Prime' abilities. The exact damage output is unclear due to undefined costs and cooldowns, but it appears to be a moderate damage contributor."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Nova Prime has health and shield regeneration abilities through the 'Null Star' passive.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The 'Molecular Prime' ability can slow down enemy movement, potentially giving Nova Prime more time to react.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nova Prime has some survivability elements with health and shield regeneration, but its primary focus seems to be on damage output rather than direct self-preservation. The exact survivability is unclear due to undefined costs and cooldowns, but it appears to be a moderate survivability contributor."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Nova Prime has the 'Null Star' passive that can drop health and energy orbs for allies.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "The 'Molecular Prime' ability can prime enemies with volatile antimatter, which could be used to create additional support effects.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nova Prime has some support elements through its passive and 'Molecular Prime' ability, but it does not have a primary role as a healer or tank. The exact support is unclear due to undefined costs and cooldowns, but it appears to be a moderate support contributor."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Nova Prime has the 'Molecular Prime' ability that can speed up or slow down enemy movement.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "The 'Wormhole' ability allows for instantaneous travel, which could be used to disrupt enemy formations.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nova Prime has some crowd control elements through its 'Molecular Prime' and 'Wormhole' abilities, but it does not have a primary role as a tank or healer. The exact crowd control is unclear due to undefined costs and cooldowns, but it appears to be a moderate crowd control contributor."
+      },
+      {
+        "category": "stealth",
+        "score": 0.15,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Nova Prime does not have any abilities or traits that suggest stealth capabilities. Its primary focus seems to be on damage output and support rather than evading enemies."
+      },
+      {
+        "category": "complexity",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Nova Prime has a relatively simple interface with four main abilities.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "The exact mechanics of the 'Null Star' passive and 'Molecular Prime' ability are unclear due to undefined costs and cooldowns.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nova Prime appears to be a moderately complex Warframe, given its four main abilities and the need for some level of strategic thinking. However, the exact complexity is unclear due to undefined costs and cooldowns, but it appears to be a moderate complexity contributor."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Nova Prime seems to be a versatile Warframe with moderate damage output, survivability, support, and crowd control capabilities. Its primary focus appears to be on disrupting enemy formations and dealing significant damage through its 'Antimatter Drop' and 'Molecular Prime' abilities. The exact balance of these elements is unclear due to undefined costs and cooldowns, but it appears to be a well-rounded Warframe with some unique features."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

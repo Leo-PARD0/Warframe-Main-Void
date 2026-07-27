@@ -10,6 +10,7 @@ import CanvasEdges from '@/components/roadmap/CanvasEdges';
 import CanvasToolbar from '@/components/roadmap/CanvasToolbar';
 import AssetPickerModal from '@/components/roadmap/AssetPickerModal';
 import { useWarframeItems } from '@/hooks/useWarframeItems';
+import { useSemanticProfiles } from '@/hooks/useSemanticProfiles';
 
 const ZOOM_MIN = 0.2;
 const ZOOM_MAX = 2.5;
@@ -32,12 +33,14 @@ export default function RoadmapEditor() {
   const {
     roadmaps, updateRoadmap, toggleFavorite,
     getRoadmapData, addNode, moveNode, deleteNode, toggleNodeCompletion, addEdge, deleteEdge,
+    updateCompletedComponents,
   } = useRoadmaps();
 
   const rm = roadmaps.find((r) => r.id === id);
 
-  const [nodes, setNodes] = useState(() => getRoadmapData(id).nodes);
-  const [edges, setEdges] = useState(() => getRoadmapData(id).edges);
+  const roadmapData = getRoadmapData(id);
+  const [nodes, setNodes] = useState(() => roadmapData.nodes);
+  const [edges, setEdges] = useState(() => roadmapData.edges);
   const [zoom, setZoom] = useState(() => rm?.zoom ?? 1);
   const [pan, setPan] = useState(() => ({ x: rm?.panX ?? 60, y: rm?.panY ?? 60 }));
 
@@ -46,6 +49,10 @@ export default function RoadmapEditor() {
   const [showAssetPicker, setShowAssetPicker] = useState(false);
   const [showBgPicker, setShowBgPicker] = useState(false);
   const [selectedNodeId, setSelectedNodeId] = useState(null);
+  const [completedComponents, setCompletedComponents] = useState(() => roadmapData.completedComponents || {}); // nodeId -> Set of component IDs
+  
+  // Derive activeFarmNodeId from roadmap in context (single source of truth)
+  const activeFarmNodeId = rm?.activeFarmNodeId || null;
 
   // Ref for last inserted node id (for auto-connect)
   const lastNodeId = useRef(null);
@@ -58,7 +65,14 @@ export default function RoadmapEditor() {
   const spaceDown = useRef(false);
 
   const { items } = useWarframeItems();
+  const { getRole } = useSemanticProfiles();
   const itemMap = useMemo(() => Object.fromEntries(items.map((it) => [it.id, it])), [items]);
+  
+  // Helper to get role for an item (only for Warframes)
+  const getItemRole = useCallback((item) => {
+    if (item?.displayCategory !== 'Warframe') return null;
+    return getRole(item.name);
+  }, [getRole]);
 
   // Auto-save canvas meta
   useEffect(() => {
@@ -402,24 +416,48 @@ export default function RoadmapEditor() {
           />
 
           {/* Nodes */}
-          {nodes.map((node) => (
-            <CanvasNode
-              key={node.id}
-              node={node}
-              item={itemMap[node.itemId]}
-              selected={selectedNodeId === node.id}
-              isConnectTool={isConnectTool}
-              canMarkComplete={mode === 'view'}
-              onMouseDown={handleNodeMouseDown}
-              onDelete={handleDeleteNode}
-              onToggleComplete={handleToggleNodeCompletion}
-              onConnectStart={handleConnectStart}
-              onConnectEnd={handleConnectEnd}
-              zoom={zoom}
-              pan={pan}
-              onClick={handleNodeClick}
-            />
-          ))}
+          {nodes.map((node) => {
+            const item = itemMap[node.itemId];
+            const role = item?.displayCategory === 'Warframe' ? getItemRole(item) : null;
+            return (
+              <CanvasNode
+                key={node.id}
+                node={node}
+                item={item}
+                selected={selectedNodeId === node.id}
+                isConnectTool={isConnectTool}
+                canMarkComplete={mode === 'view'}
+                onMouseDown={handleNodeMouseDown}
+                onDelete={handleDeleteNode}
+                onToggleComplete={handleToggleNodeCompletion}
+                onConnectStart={handleConnectStart}
+                onConnectEnd={handleConnectEnd}
+                zoom={zoom}
+                pan={pan}
+                onClick={handleNodeClick}
+                completedComponents={completedComponents[node.id] || []}
+                onComponentToggle={(componentId, checked) => {
+                  setCompletedComponents(prev => {
+                    const nodeComponents = new Set(prev[node.id] || []);
+                    if (checked) {
+                      nodeComponents.add(componentId);
+                    } else {
+                      nodeComponents.delete(componentId);
+                    }
+                    const next = { ...prev, [node.id]: nodeComponents };
+                    // Persist to storage
+                    updateCompletedComponents(id, node.id, nodeComponents);
+                    return next;
+                  });
+                }}
+                role={role}
+                isActiveFarm={activeFarmNodeId === node.id}
+                onSetActiveFarm={(nodeId) => {
+                  updateRoadmap(id, { activeFarmNodeId: activeFarmNodeId === nodeId ? null : nodeId });
+                }}
+              />
+            );
+          })}
         </div>
       </div>
 

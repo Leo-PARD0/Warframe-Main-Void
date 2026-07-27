@@ -1,0 +1,105 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Yareli/Yareli",
+    "warframeName": "Yareli",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Tear through foes with a trio of orbiting aquatic blades.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Drag enemies into a crushing maelstrom and then blow them away in a watery burst.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Yareli has two abilities that deal damage directly to enemies: Aquablades and Riptide. However, her Sea Snares ability primarily immobilizes enemies rather than dealing direct damage."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Merulina protects Yareli by absorbing a large portion of incoming damage.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Yareli has a passive ability that increases her critical chance and an active ability (Merulina) that provides some survivability through damage absorption. However, these are not particularly strong survivability features."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Yareli does not have any abilities that provide direct support to her allies or the team."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.5,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Form five water globules that seek out enemies and expand on contact, simultaneously damaging and immobilizing their victims.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Drag enemies into a crushing maelstrom and then blow them away in a watery burst.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Yareli has two abilities that can control the battlefield by immobilizing or trapping enemies. Sea Snares immobilizes enemies, while Riptide traps them in a vortex before blasting them away."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Yareli does not have any abilities that provide stealth or allow her to move silently."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Form five water globules that seek out enemies and expand on contact, simultaneously damaging and immobilizing their victims.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Drag enemies into a crushing maelstrom and then blow them away in a watery burst.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Yareli has two abilities with complex mechanics (Sea Snares and Riptide), but her overall gameplay is relatively straightforward compared to other Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Yareli is a balanced Warframe with moderate damage, decent survivability through Merulina, and strong crowd control capabilities. Her abilities are somewhat complex in their execution, particularly Sea Snares and Riptide, but her overall gameplay is not overly intricate."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: support, stealth"
+  ]
+}

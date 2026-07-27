@@ -4,6 +4,7 @@ import {
   loadNodes, saveNodes, createNode,
   loadConnections, saveConnections, createConnection,
   loadItemNotes, saveItemNotes,
+  loadCompletedComponents, saveCompletedComponents,
 } from '@/lib/roadmapStorage';
 import { WarframeRepository } from '@/services/warframe';
 import { useApiLanguage } from '@/lib/ApiLanguageContext';
@@ -35,7 +36,16 @@ export function useRoadmaps() {
 
   const deleteRoadmap = useCallback((id) => persist(loadRoadmaps().filter((roadmap) => roadmap.id !== id)), [persist]);
   const toggleFavorite = useCallback((id) => updateRoadmap(id, { favorite: !loadRoadmaps().find((roadmap) => roadmap.id === id)?.favorite }), [updateRoadmap]);
-  const getRoadmapData = useCallback((id) => ({ nodes: loadNodes(id), edges: loadConnections(id) }), []);
+  const getRoadmapData = useCallback((id) => {
+    const roadmaps = loadRoadmaps();
+    const roadmap = roadmaps.find(r => r.id === id);
+    return { 
+      nodes: loadNodes(id), 
+      edges: loadConnections(id),
+      completedComponents: loadCompletedComponents(id),
+      activeFarmNodeId: roadmap?.activeFarmNodeId || null
+    };
+  }, []);
 
   const addNode = useCallback((roadmapId, item, x, y) => {
     const node = createNode({ itemId: item.id, x, y });
@@ -48,6 +58,12 @@ export function useRoadmaps() {
   const deleteNode = useCallback((roadmapId, nodeId) => {
     saveNodes(roadmapId, loadNodes(roadmapId).filter((node) => node.id !== nodeId));
     saveConnections(roadmapId, loadConnections(roadmapId).filter((edge) => edge.from !== nodeId && edge.to !== nodeId));
+    // Also clean up completed components for this node
+    const completedComponents = loadCompletedComponents(roadmapId);
+    if (completedComponents[nodeId]) {
+      delete completedComponents[nodeId];
+      saveCompletedComponents(roadmapId, completedComponents);
+    }
     updateRoadmap(roadmapId, {});
   }, [updateRoadmap]);
   const toggleNodeCompletion = useCallback((roadmapId, nodeId) => {
@@ -65,6 +81,13 @@ export function useRoadmaps() {
   }, [updateRoadmap]);
   const deleteEdge = useCallback((roadmapId, edgeId) => { saveConnections(roadmapId, loadConnections(roadmapId).filter((edge) => edge.id !== edgeId)); updateRoadmap(roadmapId, {}); }, [updateRoadmap]);
   const updateItemNote = useCallback((itemId, patch) => setItemNotes((previous) => { const next = { ...previous, [itemId]: { ...(previous[itemId] || {}), ...patch } }; saveItemNotes(next); return next; }), []);
+  
+  const updateCompletedComponents = useCallback((roadmapId, itemId, componentIds) => {
+    const completedComponents = loadCompletedComponents(roadmapId);
+    const updated = { ...completedComponents, [itemId]: componentIds };
+    saveCompletedComponents(roadmapId, updated);
+    updateRoadmap(roadmapId, {});
+  }, [updateRoadmap]);
 
   const exportRoadmap = useCallback((roadmapId) => {
     const roadmap = loadRoadmaps().find((entry) => entry.id === roadmapId);
@@ -137,5 +160,5 @@ export function useRoadmaps() {
     return roadmap;
   }, [persist]);
 
-  return { roadmaps, itemNotes, addRoadmap, updateRoadmap, deleteRoadmap, toggleFavorite, getRoadmapData, addNode, moveNode, deleteNode, toggleNodeCompletion, addEdge, deleteEdge, updateItemNote, exportRoadmap, exportRoadmapOffline, importRoadmap };
+  return { roadmaps, itemNotes, addRoadmap, updateRoadmap, deleteRoadmap, toggleFavorite, getRoadmapData, addNode, moveNode, deleteNode, toggleNodeCompletion, addEdge, deleteEdge, updateItemNote, updateCompletedComponents, exportRoadmap, exportRoadmapOffline, importRoadmap };
 }

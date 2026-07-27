@@ -1,0 +1,123 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Ember/Ember",
+    "warframeName": "Ember",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Fireball ignites enemies on contact.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Immolation burns stronger over time and consumes energy.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Fire Blast knocks back enemies and strips their armor.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Inferno crashes down with a fire that can spread through their ranks.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ember has several abilities that deal direct damage or create environments that cause significant harm to enemies. However, these abilities do not have specific damage values or energy costs, making it difficult to assign a precise score."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Immolation provides flame armor that burns over time.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Fire Blast strips enemies' armor, potentially reducing their effectiveness in combat.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ember has abilities that provide some survivability through flame armor and the ability to strip enemies of their armor, but these effects are not as strong or consistent as those provided by other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Ember does not have any abilities that provide direct support to allies or control the battlefield in a significant way."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Fire Blast knocks back enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Inferno creates an environment where fire can spread through enemy ranks.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ember has abilities that can control the battlefield by knocking back enemies and creating environments that harm multiple enemies at once, but these effects are not as strong or consistent as those provided by other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.15,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Ember does not have any abilities that provide stealth or allow her to move silently through enemy lines."
+      },
+      {
+        "category": "complexity",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Fireball and Immolation do not have specific damage values.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Fire Blast and Inferno do not have specific energy costs or cooldowns.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ember's abilities lack specific numerical values for damage, energy cost, and cooldown, making it difficult to assess the complexity of her playstyle. However, her ability to create environments that harm multiple enemies at once could be considered somewhat complex."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Ember is a Warframe with several abilities that deal direct damage or create harmful environments for enemies. She has some survivability through flame armor and the ability to strip enemies of their armor, but her support and crowd control abilities are limited. Ember's complexity is moderate due to the lack of specific numerical values for her abilities."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: support, stealth"
+  ]
+}

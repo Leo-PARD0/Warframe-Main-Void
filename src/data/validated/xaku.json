@@ -1,0 +1,130 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/BrokenFrame/BrokenFrame",
+    "warframeName": "Xaku",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "The Lost: Deny's Void beam deals damage based on the number of weapons grabbed.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Accuse manifests a Void fissure that corrupts enemies into allies, potentially dealing significant area-of-effect damage.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Xaku has abilities that deal both direct and area-of-effect damage. The Lost: Deny's ability scales with the number of weapons grabbed, making it a potent damage source. Accuse also deals significant damage through its Void fissure effect."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Xaku has no explicit survivability abilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The Vast Untime temporarily sheds Xaku's outer pieces, potentially leaving him vulnerable during the transition.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Xaku does not have any direct survivability abilities, his transformation into The Vast Untime could leave him open to attacks during the transition period."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Accuse can corrupt enemies into allies, potentially providing support.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Grasp Of Lohk steals weapons from nearby enemies, which could be used for support.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Xaku has limited support capabilities. Accuse can turn enemies into allies, while Grasp Of Lohk can steal weapons to use as support, but these abilities are not as robust or versatile as some other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Accuse's Void fissure can control enemies by corrupting them into allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Grasp Of Lohk can steal weapons to use as support, potentially disrupting enemy formations.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Xaku has some crowd control capabilities through Accuse and Grasp Of Lohk. However, these abilities are not as strong or versatile as those of other Warframes with dedicated crowd control roles."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Xaku does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "The Lost has multiple forms and abilities to cycle through.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Grasp Of Lohk requires managing stolen weapons.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Xata's Whisper provides a unique damage type but does not offer additional complexity.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Xaku has a moderately complex ability set with The Lost providing multiple forms and Grasp Of Lohk requiring management of stolen weapons. However, his overall complexity is lower compared to Warframes with more intricate mechanics or abilities."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Xaku is a versatile Warframe with strong damage capabilities through its various abilities, particularly The Lost and Grasp Of Lohk. His survivability and support options are limited, but he offers some crowd control through Accuse. Complexity-wise, Xaku has a moderate level of complexity due to his ability cycling and weapon management."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

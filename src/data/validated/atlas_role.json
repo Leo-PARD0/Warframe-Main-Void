@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Bruiser",
+      "description": "Especialista em combate corpo-a-corpo com alta resistência e dano, utilizando habilidades que aumentam seu próprio ataque e curam aliados.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage",
+        "survivability"
+      ],
+      "reasoning": "Damage e Survivability representam claramente a identidade predominante do Warframe. Atlas tem habilidades que aumentam seu próprio dano (Landslide, Petrify) e oferecem suporte através de cura (Rumblers). O Crowd Control existe, mas não é suficientemente relevante para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Controller",
+      "description": "Especialista em controlar o battlefield através de immobilização e trampolim de inimigos.",
+      "confidence": 0.85,
+      "basedOn": [
+        "crowdControl"
+      ],
+      "reasoning": "Crowd Control é a característica predominante do Warframe, com duas habilidades que controlam o battlefield (Sea Snares e Riptide). A Survivability é relevante devido à Merulina, mas não é suficientemente forte para alterar seu arquétipo principal. Damage e Stealth são menores em comparação."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

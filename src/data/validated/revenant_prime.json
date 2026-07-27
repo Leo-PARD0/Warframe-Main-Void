@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Revenant/RevenantPrime",
+    "warframeName": "Revenant Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.85,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Reave deals shield and health leeching damage to enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Danse Macabre creates multiple beams that can target select defenses and redirect incoming damage back into the beams.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Revenant Prime has strong offensive capabilities with abilities that deal significant damage and have unique mechanics like shield leeching and beam redirection."
+      },
+      {
+        "category": "survivability",
+        "score": 0.75,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Shield depletion smashes enemies within a radius.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Reave dashes through enemies as a wall of sentient energy, leeching shields and health from any encountered.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Revenant Prime has good survivability with shield depletion and health leeching abilities, it lacks direct self-healing or defensive mechanisms."
+      },
+      {
+        "category": "support",
+        "score": 0.65,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Enthrall converts a target into a zealous thrall that turns on allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Mesmer Skin redirects damage and stuns enemies, allowing for Enthralled targets.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Revenant Prime has some support capabilities through its Enthrall ability, but it is not as strong or versatile as other support roles."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.75,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Mesmer Skin stuns enemies, allowing for Enthralled targets.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Danse Macabre creates a circle of death that can be used to control the battlefield.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Revenant Prime has effective crowd control abilities through its Mesmer Skin and Danse Macabre abilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.35,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Revenant Prime does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Enthrall requires strategic placement to maximize its effect.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Danse Macabre has a complex mechanic of holding fire for status effects and damage boost.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Revenant Prime has some complexity in terms of ability usage, particularly with Enthrall and Danse Macabre."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Revenant Prime is a versatile role that excels in both offensive and support capabilities. It has strong damage output through shield leeching and beam redirection, effective crowd control, and some support mechanics. However, it lacks stealth and has moderate complexity in ability usage."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

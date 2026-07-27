@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Sentient/Sentient",
+    "warframeName": "Caliban",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.85,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Fusion Strike causes a massive explosion that strips armor and shields, and each enemy struck detonates on stream convergence.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Caliban's Fusion Strike is a powerful area-of-effect attack that deals significant damage to multiple enemies simultaneously. It also has the potential for chain reactions with summoned units, further increasing its destructive power."
+      },
+      {
+        "category": "survivability",
+        "score": 0.75,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Caliban's passive provides resistance to damage types taken by allies within Affinity range.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Razor Gyre and Sentient Wrath can be used defensively to avoid direct attacks.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Caliban has decent survivability through its passive and defensive abilities, it lacks specific offensive capabilities that could help it survive longer in combat."
+      },
+      {
+        "category": "support",
+        "score": 0.65,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Lethal Progeny summons units to provide support.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Conculysts focus on melee damage and Ortholysts specialize in ranged attacks.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Caliban can support its allies through the summoning of various units, but this support is limited compared to other Warframes with more specialized abilities."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.55,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Sentient Wrath sends enemies into the air, making them vulnerable to further attacks.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Razor Gyre creates a spinning vortex that can trap and disorient enemies.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Caliban has some crowd control abilities, but they are limited in their effectiveness compared to other Warframes with more dedicated crowd control options."
+      },
+      {
+        "category": "stealth",
+        "score": 0.35,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Caliban does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Lethal Progeny involves cycling through different unit types and summoning them.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Fusion Strike requires precise timing and coordination with summoned units.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Caliban's abilities are moderately complex due to the need for strategic unit management and precise execution of multi-part attacks."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Caliban is a versatile Warframe with strong offensive capabilities, decent survivability through passive support, and some crowd control. However, it lacks specific offensive support and stealth mechanics, making its complexity moderate compared to other Warframes."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

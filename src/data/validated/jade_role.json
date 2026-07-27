@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte aos aliados, oferecendo cura, defesa e aumento de habilidades inimigas.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "Jade é dominada pela sua capacidade de suporte aos aliados, com habilidades que curam, aumentam a defesa e reduzem a eficácia do dano dos inimigos. Suas habilidades têm foco em auxiliar os outros, tornando-a o arquétipo principal de Support."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

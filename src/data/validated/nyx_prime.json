@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Jade/NyxPrime",
+    "warframeName": "Nyx Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Psychic Bolts transfer a portion of the damage to Nyx",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Absorb converts absorbed damage into a radial blast",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nyx Prime has abilities that deal significant direct damage and can convert incoming damage into additional offensive capabilities."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Mind Control increases Radiation Status Chance",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Absorb provides a brief invulnerable state",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nyx Prime has some survivability options but they are limited and depend on enemy behavior."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Mind Control compels enemies to fight for the Tenno cause",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Psychic Bolts transfer damage to Nyx",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nyx Prime can support her allies by compelling them to attack and absorb some of their damage."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Mind Control disorients enemies",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Chaos forces confused foes to turn on each other",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nyx Prime has strong crowd control abilities that can disrupt enemy formations and cause internal conflict."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "No stealth-related abilities or traits",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nyx Prime does not have any stealth capabilities or traits."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Mind Control and Chaos require enemy behavior to be effective",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Psychic Bolts and Absorb involve managing resources",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nyx Prime's abilities are moderately complex due to their reliance on enemy actions and resource management."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Nyx Prime is a versatile Warframe with strong damage, crowd control, and support capabilities. Her survivability options are limited but effective when combined with her offensive abilities. She lacks stealth but excels in disrupting enemy formations and absorbing damage to enhance her own offense."
+  },
+  "errors": [],
+  "warnings": []
+}

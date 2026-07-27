@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte e controle de campo, oferecendo buffs e distrações aos aliados.",
+      "confidence": 0.85,
+      "basedOn": [
+        "support",
+        "stealth"
+      ],
+      "reasoning": "Wisp tem habilidades fortes de apoio (Reservoirs) e furtividade (Wil-O-Wisp), que são os principais pontos de sua identidade. O Damage é moderado e o Crowd Control limitado não altera seu papel principal como suporte."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

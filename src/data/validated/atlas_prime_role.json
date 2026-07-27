@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Bruiser",
+      "description": "Especialista em combate corpo-a-corpo com alta resistência e dano, utilizando habilidades poderosas para controlar a batalha.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage",
+        "survivability"
+      ],
+      "reasoning": "Damage e Survivability representam claramente a identidade predominante do Warframe. Atlas Prime possui habilidades de dano significativo (Landslide, Tectonics) e alta resistência (Survivability), o que caracteriza seu papel como Bruiser. Crowd Control existe, mas não é suficientemente relevante para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

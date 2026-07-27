@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte e apoio aos aliados, fornecendo defesa, cura e habilidades de dano.",
+      "confidence": 0.85,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "O foco principal do Warframe Uriel é o suporte aos seus demônios através de várias habilidades passivas que aumentam a eficácia dos demônios em combate e fornecem dano adicional. A habilidade Brimstone também contribui significativamente para o dano, embora não seja tão dominante quanto o suporte. As habilidades de Crowd Control são menos relevantes nesse contexto."
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "Reasoning may be just listing scores without explaining the archetype choice"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte ao time, oferecendo cura, eficiência e defesa.",
+      "confidence": 0.85,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "A habilidade de Light's Sanctuary é claramente a característica predominante do Warframe, fornecendo heal e revivimento aos aliados. O suporte é o arquétipo RPG que melhor se alinha com essa função."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

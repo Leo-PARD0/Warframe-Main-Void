@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Battlemage",
+      "description": "Especialista em combate corpo a corpo e distante, utilizando magia para aumentar sua força e defesa.",
+      "confidence": 0.95,
+      "basedOn": [
+        "damage",
+        "survivability"
+      ],
+      "reasoning": "Damage e Survivability representam claramente a identidade predominante do Warframe. Wukong excelle em causar alto dano através de Primal Fury e Defy, enquanto sua Survivability é fortalecida pela habilidade Defy. Suas habilidades de apoio são limitadas, tornando-o mais focado em combate direto."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

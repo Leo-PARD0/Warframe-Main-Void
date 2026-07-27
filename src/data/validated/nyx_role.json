@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Controller",
+      "description": "Especialista em controlar e disorientear inimigos para criar oportunidades de ataque.",
+      "confidence": 0.95,
+      "basedOn": [
+        "crowdControl"
+      ],
+      "reasoning": "Crowd Control é a característica predominante do Warframe, com um score significativamente mais alto que as demais categorias. Suas habilidades de Mind Control e Chaos são altamente eficazes em controlar e disorientear inimigos, enquanto sua habilidade de Absorb ajuda a manter seu próprio equilíbrio durante esses momentos de controle."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

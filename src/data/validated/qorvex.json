@@ -1,0 +1,111 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame",
+    "warframeName": "Qorvex",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Crucible Blast releases a beam that deals Radiation Damage with a guaranteed Status Effect.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Enemies affected by Radiation Status explode in a chain reaction.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Qorvex's abilities primarily deal radiation damage and have limited direct offensive capabilities. The Crucible Blast has moderate damage potential but relies on the enemy being affected by its own status effect to cause additional damage."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Disometric Guard prevents Status Effects and increases its effectiveness with each kill or assist.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Qorvex has a decent shield value of 200.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Qorvex can prevent some status effects, its survivability is not strong due to its lack of direct defensive abilities like shields or armor. The Disometric Guard's effectiveness depends on the enemy being affected by radiation, which limits its utility in many situations."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Chyrinka Pillar slows enemies and pulses Radiation Damage.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Containment Wall slams together to damage enemies caught between them and inflicts Radiation Status.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Qorvex's abilities are primarily focused on dealing damage and preventing status effects rather than supporting allies directly. The support provided is limited and depends on the enemy being affected by radiation."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Chyrinka Pillar slows enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Containment Wall slams together to damage enemies caught between them.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Qorvex's abilities can slow down enemies and cause them to take damage when caught in walls, providing some crowd control potential. However, this is limited compared to more specialized crowd control abilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Qorvex does not have any stealth-related abilities or mechanics. Its abilities are focused on dealing damage and preventing status effects rather than evading enemies."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Qorvex's abilities are relatively straightforward and do not require complex execution or resource management. The lack of unique mechanics or interactivity limits its complexity."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Qorvex is a support-focused Warframe with limited offensive capabilities. Its abilities primarily deal radiation damage, prevent status effects, and provide some crowd control through walls and pillars. While it has decent survivability due to its shield, it lacks the complexity and versatility of more specialized roles."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth, complexity"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte ao time, fornecendo informações sobre inimigos e controlando o campo de batalha.",
+      "confidence": 0.85,
+      "basedOn": [
+        "support",
+        "crowdControl"
+      ],
+      "reasoning": "O Banshee Prime tem uma forte presença em suporte (Sonar) e controle de campo (Silence), com habilidades secundárias que oferecem informações sobre inimigos. Embora tenha um pouco de dano, isso não é suficiente para alterar seu arquétipo principal como Support."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

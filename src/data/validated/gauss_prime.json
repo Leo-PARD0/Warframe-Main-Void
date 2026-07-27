@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Runner/GaussPrime",
+    "warframeName": "Gauss Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.85,
+        "confidence": 0.95,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Gauss Prime has a variety of abilities that deal damage, including Mach Rush, Thermal Sunder, and Redline.",
+            "confidence": 0.95,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "His Kinetic Plating ability can convert kinetic damage into energy, providing additional offensive capabilities.",
+            "confidence": 0.95,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gauss Prime is highly effective in dealing damage through his various abilities. His battery system allows him to charge up for powerful attacks, making him a formidable combatant."
+      },
+      {
+        "category": "survivability",
+        "score": 0.75,
+        "confidence": 0.85,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Gauss Prime has Kinetic Plating, which provides damage resistance and protection from being staggered or knocked down.",
+            "confidence": 0.85,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "His shield recharges faster while moving, providing additional survivability in combat.",
+            "confidence": 0.85,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Gauss Prime is not the most survivable Warframe due to his reliance on battery management, he does have some built-in protections that help him endure longer in battles."
+      },
+      {
+        "category": "support",
+        "score": 0.35,
+        "confidence": 0.75,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Gauss Prime has limited support abilities compared to other Warframes.",
+            "confidence": 0.75,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "His Kinetic Plating can provide some utility by converting damage into energy.",
+            "confidence": 0.75,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gauss Prime's primary focus is on dealing damage and self-preservation rather than providing direct support to allies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.45,
+        "confidence": 0.85,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Gauss Prime has Thermal Sunder, which can inflict Cold Status on nearby enemies.",
+            "confidence": 0.85,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "His Mach Rush ability can knock down enemies and create a shockwave.",
+            "confidence": 0.85,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Gauss Prime does have some crowd control abilities, they are limited compared to other Warframes. His primary focus is on dealing damage rather than controlling the battlefield."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.65,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Gauss Prime has no stealth-related abilities.",
+            "confidence": 0.65,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "His abilities are primarily focused on combat and self-preservation.",
+            "confidence": 0.65,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gauss Prime does not have any stealth capabilities, making him less effective in covert operations or situations requiring stealth."
+      },
+      {
+        "category": "complexity",
+        "score": 0.65,
+        "confidence": 0.95,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Gauss Prime has a complex battery system that requires careful management.",
+            "confidence": 0.95,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "His abilities are multi-step processes that require precise timing and execution.",
+            "confidence": 0.95,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gauss Prime's reliance on battery management and the need for precise timing to execute his abilities make him one of the more complex Warframes to play effectively."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Gauss Prime is a highly effective damage dealer with a focus on self-preservation. He has limited support and crowd control capabilities, but excels in combat through his battery system and multi-step abilities. His complexity lies in managing his battery and executing precise timing for optimal performance."
+  },
+  "errors": [],
+  "warnings": []
+}

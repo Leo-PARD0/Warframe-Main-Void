@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Battlemage",
+      "description": "Especialista em combate corpo a corpo com alta dano e habilidades de suporte.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage",
+        "support"
+      ],
+      "reasoning": "Damage e Support representam claramente a identidade predominante do Warframe. O Battlemage é conhecido por suas habilidades de dano corpo a corpo e suporte, o que se alinha perfeitamente com as funções de Nidus Prime."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

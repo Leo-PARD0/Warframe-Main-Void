@@ -1,0 +1,111 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Bard/OctaviaPrime",
+    "warframeName": "Octavia Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Amp doubles the damage and range of nearby Mallets",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Octavia's Amp ability significantly enhances her damage output by amplifying it and extending its reach."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Metronome grants buffs to those who consistently perform actions in time to Octavia's music",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Metronome provides some survivability benefits through buffs, it primarily focuses on enhancing damage output rather than direct protection."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Replenish |ENERGY| energy over |DURATION|s for Octavia and allies within |RANGE|m when abilities are activated",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Octavia's passive ability provides a significant support role by replenishing energy for herself and her allies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Resonator charms foes to follow it",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Metronome grants buffs to those who consistently perform actions in time to Octavia's music",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Octavia has limited crowd control options, primarily through the Resonator ability which draws enemies towards her."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Metronome grants cloaking with the Nocturne buff",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Octavia's stealth capabilities are limited to a single ability that provides temporary cloaking."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Metronome requires timed actions for buffs",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Amp draws power from sound level",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Octavia's abilities require some timing and interaction with the environment to maximize their effects."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Octavia Prime is a versatile Warframe with strong support capabilities, moderate damage output, and limited crowd control. Her complexity lies in the need for timed actions and environmental interactions to fully utilize her abilities."
+  },
+  "errors": [],
+  "warnings": []
+}

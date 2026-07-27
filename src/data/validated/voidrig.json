@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/EntratiMech/NechroTech",
+    "warframeName": "Voidrig",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Gravemines launch a pattern of charged mines that detonate in a violent blast when touched, damaging enemies in a three-meter radius.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voidrig has a limited damage output compared to other Warframes due to its reliance on area-of-effect abilities and environmental hazards. The Gravemines provide moderate damage but are not as powerful as direct attacks or high-impact abilities."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Storm Shroud greatly enhances survivability in close combat.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Guard Mode provides increased structural integrity for a time.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voidrig has decent survivability through its ability to enhance its own defenses and fortify itself with Guard Mode. However, it lacks direct offensive capabilities, making it more of a support role than a frontline fighter."
+      },
+      {
+        "category": "support",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Necraweb creates a wide mire that slows enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Storm Shroud enhances survivability in close combat.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Gravemines damage enemies when detonated.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voidrig excels as a support Warframe due to its ability to slow down enemies, enhance its own survivability, and deal moderate damage. These abilities make it useful for controlling the battlefield and providing assistance to allies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Necraweb creates a wide mire that slows enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Guard Mode provides increased structural integrity for a time.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voidrig has limited crowd control capabilities compared to other Warframes. While it can slow down enemies with Necraweb and enhance its own survivability with Guard Mode, these abilities are not as powerful or versatile as dedicated crowd control options."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Voidrig does not have any stealth-related abilities or mechanics. It is a heavily armored and defensive Warframe with no capabilities to move silently or evade enemies."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Guard Mode requires a stationary stance.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Storm Shroud enhances survivability in close combat.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voidrig has a moderate level of complexity due to its need for positioning and timing abilities like Guard Mode and Storm Shroud. However, it lacks the intricate combos or resource management required by more complex Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Voidrig is best suited as a support Warframe with decent survivability and area-of-effect damage capabilities. It excels in controlling the battlefield and providing assistance to allies, but has limited offensive power and no stealth abilities."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

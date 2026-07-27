@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Rhino/Rhino",
+    "warframeName": "Rhino",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Roar grants all nearby Warframes increased damage for a short duration.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Rhino's abilities focus on direct physical attacks and environmental disruption rather than high-damage output."
+      },
+      {
+        "category": "survivability",
+        "score": 0.55,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Iron Skin insulates Rhino from all damage and grants Overguard.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Roar increases the damage of nearby Warframes.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Rhino has some survivability through its Iron Skin ability, but it lacks direct defensive capabilities compared to other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Roar increases the damage of nearby Warframes.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Iron Skin grants Overguard.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Rhino's abilities are primarily offensive and supportive in nature, but they do not provide significant support to allies beyond increasing their damage output."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.45,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Roar grants all nearby Warframes increased damage for a short duration.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Rhino Stomp disrupts time and stumbles enemies around him in stasis.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Rhino has some crowd control capabilities through its Roar ability, but it lacks more direct or powerful crowd control options compared to other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.15,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Rhino does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.25,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Iron Skin insulates Rhino from all damage and grants Overguard.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Roar increases the damage of nearby Warframes.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Rhino's abilities are relatively straightforward and do not require complex execution or resource management compared to other Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Rhino is a balanced Warframe with moderate survivability, support, and crowd control capabilities. Its primary focus is on direct physical attacks and environmental disruption rather than high-damage output or stealth."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

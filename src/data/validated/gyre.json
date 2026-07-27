@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Gyre/Gyre",
+    "warframeName": "Gyre",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Arcsphere deals high damage on impact and periodically deals electrical shocks to nearby enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Coil Horizon can be manually triggered for a large explosion dealing significant damage.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gyre has several abilities that deal substantial damage, including direct hits from Arcsphere and explosions from Coil Horizon. The ability to chain electrical discharges with Rotorswell adds to the overall damage output."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Gyre has a moderate shield value of 550.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Cathode Grace provides temporary buffs but is on cooldown.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Gyre has decent survivability with a high shield, the lack of defensive abilities and the need for Cathode Grace to be recharged make it less survivable compared to other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Gyre's passive increases critical damage against enemies with Electrical status effects.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Cathode Grace provides temporary buffs but is limited by its cooldown.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gyre has some support capabilities through its passive and Cathode Grace, but these are limited in scope and duration. The lack of direct healing or area-of-effect support makes it a less effective support Warframe."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Rotorswell can chain electrical discharges to nearby enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Coil Horizon creates an Electric Field that shocks nearby enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gyre has some crowd control abilities through its Rotorswell and Coil Horizon, but these are limited in range and effectiveness compared to other Warframes with more dedicated crowd control capabilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.15,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Gyre does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Arcsphere and Coil Horizon require careful aiming for optimal damage.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Rotorswell has a cooldown that limits its usage frequency.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gyre's abilities have some complexity in terms of timing and positioning, but the lack of multiple resources or complex combos reduces its overall complexity compared to other Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Gyre is an effective damage dealer with several abilities that can deal significant damage. However, it lacks survivability, support, and crowd control capabilities, making it less versatile than some other Warframes. The complexity of Gyre's abilities is moderate due to the need for careful aiming and timing."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

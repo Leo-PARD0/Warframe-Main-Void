@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Koumei/Koumei",
+    "warframeName": "Koumei",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Koumei's abilities involve inflicting random elemental status effects on enemies, which can be considered moderate damage output.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Koumei doesn't have a direct damage-dealing ability, her passive and active skills contribute to dealing damage through inflicted status effects. The randomness of the effects makes it difficult to predict exact damage output, but it's not negligible."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Koumei has an Omamori ability that can heal her for a short duration, providing some survivability.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Her Bunraku ability can inflict multiple status effects over time, potentially increasing survivability by keeping enemies occupied.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Koumei's survivability is moderate due to the potential for healing and status effect application. However, it lacks direct defensive abilities like shields or armor."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Koumei's passive ability can inflict random elemental status effects on enemies, which can be supportive by weakening them.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Her Bunraku ability can extend the duration of status effects over time, providing ongoing support.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Koumei's abilities have a supportive aspect through status effect application and potential healing. However, they don't provide direct support like buffs or debuffs to allies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Koumei's Bunraku ability can inflict multiple status effects over time, which can be used for crowd control by keeping enemies occupied.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Her passive ability can inflict random elemental status effects on enemies, potentially weakening them and making them easier to control.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Koumei has some crowd control potential through status effect application. However, it's not as direct or effective as abilities designed specifically for crowd control."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.3,
+        "evidences": [],
+        "reasoning": "Koumei does not have any stealth-related abilities or mechanics. Her focus is on status effect application and support rather than evading enemies."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.4,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Koumei's abilities involve dice rolls to determine their effects, which adds an element of randomness and complexity.",
+            "confidence": 0.4,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Her passive ability can inflict random elemental status effects, requiring players to adapt to different outcomes.",
+            "confidence": 0.4,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Koumei's complexity is moderate due to the use of dice rolls for determining ability effects. However, it doesn't require as much strategic planning or execution as abilities with fixed effects."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Koumei is a support-focused Warframe with moderate damage and survivability potential through status effect application. Her abilities involve randomness and complexity due to dice rolls, but she lacks direct crowd control or stealth mechanics."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

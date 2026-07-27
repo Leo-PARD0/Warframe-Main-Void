@@ -1,0 +1,80 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Cowgirl/Cowgirl",
+    "warframeName": "Mesa",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Peacemaker shoots down her foes in rapid succession",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mesa's Peacemaker ability allows for rapid and continuous damage output with her Regulator pistols."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Shatter Shield envelops Mesa in a barrier of energy",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mesa has access to a shield ability that can reflect incoming bullet damage, providing some survivability."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Shooting Gallery gives an ally Extra Damage while jamming the guns of nearby enemies",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mesa's Shooting Gallery ability provides support to allies by increasing their damage output."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.15,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Mesa does not have any abilities explicitly designed for crowd control."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.3,
+        "evidences": [],
+        "reasoning": "Mesa's abilities do not provide any stealth-related benefits."
+      },
+      {
+        "category": "complexity",
+        "score": 0.15,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Mesa's abilities are straightforward and do not require complex execution or resource management."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Mesa is a support-focused Warframe with moderate damage output and survivability. Her abilities are relatively simple and do not require significant skill to use effectively."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: crowdControl, stealth, complexity"
+  ]
+}

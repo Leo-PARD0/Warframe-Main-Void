@@ -1,17 +1,33 @@
 import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
-import { X, Search, SlidersHorizontal, Swords } from 'lucide-react';
+import { X, Search, SlidersHorizontal, Swords, ChevronUp, ChevronDown } from 'lucide-react';
 import { useWarframeItems } from '@/hooks/useWarframeItems';
 import { ThemeEngine } from '@/lib/themeEngine';
+import { useSemanticProfiles } from '@/hooks/useSemanticProfiles';
 
 const PAGE_SIZE = 40;
 
 // ── Static filter hierarchy ──────────────────────────────────────────────────
-const CATEGORY_OPTIONS = ['Todos', 'Warframe', 'Weapon', 'Mod', 'Relic'];
+const CATEGORY_OPTIONS = ['Todos', 'Warframe', 'Weapon', 'Mod', 'Relic', 'Arcane', 'AmpComponent'];
+
+// Sort options for the asset picker
+const SORT_OPTIONS = [
+  { value: 'name', label: 'Nome' },
+  { value: 'role', label: 'Role' },
+  { value: 'damage', label: 'Damage' },
+  { value: 'survivability', label: 'Survivability' },
+  { value: 'support', label: 'Support' },
+  { value: 'crowdControl', label: 'Crowd Control' },
+  { value: 'stealth', label: 'Stealth' },
+  { value: 'complexity', label: 'Complexity' },
+];
 
 // ── Mini ItemCard for the picker ─────────────────────────────────────────────
-function PickerCard({ item, onSelect }) {
+function PickerCard({ item, onSelect, getItemRole, getRoleIcon, getRoleColors }) {
   const [imgFailed, setImgFailed] = useState(false);
   const theme = ThemeEngine.getTheme(item);
+  const role = getItemRole?.(item);
+  const roleIcon = role ? getRoleIcon(role.name) : '';
+  const roleColors = role ? getRoleColors(role.name) : null;
 
   return (
     <button
@@ -44,6 +60,22 @@ function PickerCard({ item, onSelect }) {
         {item.type && <p className="text-[10px] text-muted-foreground truncate">{item.type}</p>}
         {item.displayCategory === 'Relic' && <p className={`text-[10px] font-medium ${item.vaulted ? 'text-amber-400' : 'text-emerald-400'}`}>{item.vaulted ? 'Vaulted' : 'Disponível'}</p>}
         {item.attributes?.length > 0 && <p className="text-[10px] text-muted-foreground line-clamp-2" title={item.attributes.join(' · ')}>{item.attributes.join(' · ')}</p>}
+        
+        {/* Role Badge for Warframes */}
+        {role && (
+          <span
+            className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[9px] font-semibold uppercase tracking-wide border self-start mt-1"
+            style={{
+              backgroundColor: roleColors.bgLight,
+              color: roleColors.text,
+              borderColor: roleColors.border,
+            }}
+            title={role.description}
+          >
+            <span aria-hidden="true">{roleIcon}</span>
+            {role.name}
+          </span>
+        )}
       </div>
     </button>
   );
@@ -163,15 +195,31 @@ function FilterPopover({ items, activeCategory, filters, setFilters, onClose }) 
 // ── Main Modal ────────────────────────────────────────────────────────────────
 export default function AssetPickerModal({ onSelect, onClose }) {
   const { items: allItems } = useWarframeItems();
+  const { getProfile, getRole, getScore, getRoleIcon, getRoleColors } = useSemanticProfiles();
   const [query, setQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('Todos');
   const [filters, setFilters] = useState({});
   const [showFilters, setShowFilters] = useState(false);
   const [page, setPage] = useState(1);
+  const [sortBy, setSortBy] = useState('name');
+  const [sortOrder, setSortOrder] = useState('asc');
   const loaderRef = useRef(null);
   const inputRef = useRef(null);
 
   useEffect(() => { inputRef.current?.focus(); }, []);
+
+  // Helper to get role for an item
+  const getItemRole = useCallback((item) => {
+    if (item.displayCategory !== 'Warframe') return null;
+    return getRole(item.name);
+  }, [getRole]);
+
+  // Helper to get score for sorting
+  const getItemScore = useCallback((item, category) => {
+    if (item.displayCategory !== 'Warframe') return 0;
+    const profile = getProfile(item.name);
+    return getScore(profile, category);
+  }, [getProfile, getScore]);
 
   const filtered = useMemo(() => {
     let list = allItems;
@@ -216,11 +264,45 @@ export default function AssetPickerModal({ onSelect, onClose }) {
       if (mt.length > 0) list = list.filter(i => mt.includes(i.type));
     }
 
+    // Sort
+    list = [...list].sort((a, b) => {
+      let comparison = 0;
+      
+      switch (sortBy) {
+        case 'name':
+          comparison = a.name.localeCompare(b.name);
+          break;
+        case 'role': {
+          const roleA = getItemRole(a);
+          const roleB = getItemRole(b);
+          const nameA = roleA?.name || 'ZZZ';
+          const nameB = roleB?.name || 'ZZZ';
+          comparison = nameA.localeCompare(nameB);
+          break;
+        }
+        case 'damage':
+        case 'survivability':
+        case 'support':
+        case 'crowdControl':
+        case 'stealth':
+        case 'complexity': {
+          const scoreA = getItemScore(a, sortBy);
+          const scoreB = getItemScore(b, sortBy);
+          comparison = scoreA - scoreB;
+          break;
+        }
+        default:
+          comparison = 0;
+      }
+      
+      return sortOrder === 'asc' ? comparison : -comparison;
+    });
+
     return list;
-  }, [allItems, query, activeCategory, filters]);
+  }, [allItems, query, activeCategory, filters, sortBy, sortOrder, getItemRole, getItemScore]);
 
   // Reset pagination when filters change
-  useEffect(() => { setPage(1); }, [query, activeCategory, filters]);
+  useEffect(() => { setPage(1); }, [query, activeCategory, filters, sortBy, sortOrder]);
 
   const visibleItems = useMemo(() => filtered.slice(0, page * PAGE_SIZE), [filtered, page]);
 
@@ -251,6 +333,8 @@ export default function AssetPickerModal({ onSelect, onClose }) {
     onClose();
   }, [onSelect, onClose]);
 
+  const sortOrderIcon = sortOrder === 'asc' ? <ChevronUp className="h-3 w-3" /> : <ChevronDown className="h-3 w-3" />;
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4">
       <div
@@ -262,15 +346,38 @@ export default function AssetPickerModal({ onSelect, onClose }) {
         <div className="flex-shrink-0 flex flex-col gap-2 px-5 pt-4 pb-3 border-b border-border/50">
           <div className="flex items-center gap-3">
             {/* Search */}
-            <div className="relative flex-1">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
-              <input
-                ref={inputRef}
-                value={query}
-                onChange={e => setQuery(e.target.value)}
-                placeholder="Pesquisar por nome, categoria, tipo ou atributo..."
-                className="w-full h-9 bg-muted/50 border border-input rounded-lg pl-9 pr-4 text-sm focus:outline-none focus:ring-1 focus:ring-ring"
-              />
+              <div className="relative flex-1">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
+                <input
+                  ref={inputRef}
+                  value={query}
+                  onChange={e => setQuery(e.target.value)}
+                  onKeyDown={e => e.stopPropagation()}
+                  placeholder="Pesquisar por nome, categoria, tipo ou atributo..."
+                  className="w-full h-9 bg-muted/50 border border-input rounded-lg pl-9 pr-4 text-sm focus:outline-none focus:ring-1 focus:ring-ring"
+                />
+              </div>
+            {/* Sort By */}
+            <div className="flex items-center gap-2">
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value)}
+                className="h-9 w-40 rounded-lg bg-card border border-border/70 px-2.5 text-sm text-foreground focus:outline-none focus:ring-1 focus:ring-ring"
+              >
+                {SORT_OPTIONS.map((opt) => (
+                  <option key={opt.value} value={opt.value}>
+                    {opt.label}
+                  </option>
+                ))}
+              </select>
+              <button
+                onClick={() => setSortOrder(prev => prev === 'asc' ? 'desc' : 'asc')}
+                className="h-9 w-9 rounded-lg bg-card border border-border/70 flex items-center justify-center hover:bg-accent transition-colors"
+                aria-label={sortOrder === 'asc' ? 'Ordem crescente' : 'Ordem decrescente'}
+                title={sortOrder === 'asc' ? 'Crescente (A-Z / Menor para Maior)' : 'Decrescente (Z-A / Maior para Menor)'}
+              >
+                {sortOrderIcon}
+              </button>
             </div>
             {/* Filters button */}
             <div className="relative">
@@ -357,7 +464,14 @@ export default function AssetPickerModal({ onSelect, onClose }) {
               <div className="text-xs text-muted-foreground mb-3">{filtered.length} itens</div>
               <div className="grid gap-3" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))' }}>
                 {visibleItems.map(item => (
-                  <PickerCard key={item.id} item={item} onSelect={handleSelect} />
+                  <PickerCard 
+                    key={item.id} 
+                    item={item} 
+                    onSelect={handleSelect}
+                    getItemRole={getItemRole}
+                    getRoleIcon={getRoleIcon}
+                    getRoleColors={getRoleColors}
+                  />
                 ))}
               </div>
               {/* Infinite scroll loader */}

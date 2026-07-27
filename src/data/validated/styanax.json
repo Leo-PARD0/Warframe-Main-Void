@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Hoplite/Hoplite",
+    "warframeName": "Styanax",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Final Stand deals damage to nearby enemies wherever they land.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Direct hits to enemies deal greater damage.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Styanax's abilities involve throwing javelins and summoning a shield, which can deal significant damage when used effectively. However, the lack of specific damage values or cooldowns makes it difficult to assign a higher score."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Rally Point regenerates energy and shields for allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Tharros Strike reduces enemies' shields and armor, potentially increasing Styanax's survivability.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Styanax has abilities that can regenerate energy and shields for his allies, which could improve his survivability in team fights. However, the lack of specific health regeneration values or defensive bonuses makes it difficult to assign a higher score."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Rally Point draws enemy attention and regenerates energy for allies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Tharros Strike reduces enemies' shields and armor, potentially increasing the effectiveness of allied attacks.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Styanax's abilities can support his team by drawing enemy fire and reducing their defenses. The Rally Point ability in particular seems to be a strong support role, as it regenerates energy for allies over time."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Axios Javelin pulls enemies into the area and deals damage.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Tharros Strike repels enemies and reduces their shields and armor.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Styanax's abilities can control the battlefield by pulling enemies together or pushing them away. However, the lack of specific crowd control effects or durations makes it difficult to assign a higher score."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Styanax does not have any abilities that involve stealth or mobility in combat."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Final Stand involves throwing javelins and dealing damage.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Rally Point requires strategic positioning to draw enemy fire.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Styanax's abilities involve basic actions like throwing javelins and summoning a shield, which are relatively simple. However, the need for strategic positioning in some abilities makes it slightly more complex than other Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Styanax is primarily a support Warframe with moderate damage capabilities. His abilities focus on drawing enemy fire, regenerating energy and shields for allies, and dealing damage to nearby enemies. While his support role is strong, the lack of specific values or complex mechanics prevents him from being classified as an exemplar in any category."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

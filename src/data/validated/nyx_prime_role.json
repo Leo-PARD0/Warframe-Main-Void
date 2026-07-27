@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Controller",
+      "description": "Especialista em controlar e desorientar inimigos para criar oportunidades de ataque.",
+      "confidence": 0.95,
+      "basedOn": [
+        "crowdControl",
+        "damage"
+      ],
+      "reasoning": "Crowd Control é a característica predominante, com uma pontuação alta (0.80), e Damage também é relevante (0.75). Suport e Survivability são menos importantes neste perfil."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte e coordenação de equipe, utilizando habilidades que aumentam a eficácia do time e reduzem a eficácia dos inimigos.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support",
+        "crowdControl"
+      ],
+      "reasoning": "Support e Crowd Control são as categorias semânticas que mais influenciam a identidade do Warframe. Silence é uma habilidade de suporte poderosa que interrompe estratégias inimigas, enquanto Sonar melhora a coordenação da equipe e a conscientização situacional. A Survivability e Damage são menores em comparação, não sendo suficientes para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

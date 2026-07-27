@@ -1,0 +1,106 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/YinYang/EquinoxPrime",
+    "warframeName": "Equinox Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Mend & Maim",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Equinox Prime possui habilidades que causam dano em área (Mend & Maim) e reduzem a resistência dos inimigos (Rest & Rage), o que pode ser benéfico para a equipe. No entanto, as habilidades específicas de dano não estão detalhadas."
+      },
+      {
+        "category": "survivability",
+        "score": 0.7,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Equinox Prime Passive",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Night-Form",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "A passiva do Equinox Prime converte vida em energia e vice-versa, aumentando a sua capacidade de sobrevivência. A forma noturna também oferece vantagens de escudo e armadura."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Pacify & Provoke",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Mend & Maim",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Equinox Prime pode ajudar a equipe reduzindo o dano dos inimigos (Pacify & Provoke) e reforçando os aliados (Mend & Maim). No entanto, as habilidades de suporte não são tão diretas quanto outras classes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Rest & Rage",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Equinox Prime pode controlar os inimigos ao colocá-los em sono (Rest & Rage), mas isso é mais de um efeito secundário do que uma habilidade principal de controle de multidão."
+      },
+      {
+        "category": "stealth",
+        "score": 0.3,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Não há informações sobre a capacidade de Equinox Prime se esconder ou realizar ataques furtivos no contexto fornecido."
+      },
+      {
+        "category": "complexity",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Metamorphosis",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Equinox Prime possui uma habilidade de metamorfose que oferece diferentes formas com benefícios distintos, aumentando a complexidade do jogo."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Equinox Prime é um Warframe equilibrado entre dano e defesa, com foco em suporte e controle de multidão. Sua habilidade de metamorfose adiciona uma camada extra de complexidade ao jogo, mas não oferece a mesma capacidade de stealth ou crowd control que outras classes."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

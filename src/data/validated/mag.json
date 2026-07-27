@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Mag/Mag",
+    "warframeName": "Mag",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Magnetize (HOLD) reflects damage back in a destructive cone",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Crush causes enemies to collapse upon themselves",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mag's abilities primarily deal damage through reflection and collapsing enemies, which are moderate forms of damage output."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Magnetize (HOLD) absorbs ranged attacks",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Polarize restores ally shields",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mag has some survivability through damage reflection and shield restoration, but it lacks significant defensive capabilities."
+      },
+      {
+        "category": "support",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Nearby items gravitate toward Mag",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Polarize restores ally shields",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mag provides support through item collection and shield restoration for allies, but it lacks direct offensive support."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Pull stuns enemies",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Magnetize ensnares nearby enemies",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mag's abilities primarily focus on crowd control through stunning and ensnaring enemies, but they are not as strong as some other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.15,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Mag does not have any stealth abilities or mechanisms to avoid detection."
+      },
+      {
+        "category": "complexity",
+        "score": 0.25,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Magnetize (HOLD) requires precise timing",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Crush involves targeting specific enemy bones",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mag's abilities require some level of precision and timing, but they are not as complex as some other Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Mag is a balanced Warframe with moderate damage output, decent survivability, and support capabilities. Its crowd control is effective but not overwhelming. The lack of stealth and complexity makes it a versatile choice for various playstyles."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

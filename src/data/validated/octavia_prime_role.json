@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte e reforço de equipe, fornecendo buffs e recarga de energia.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "A Role de Support é determinada pela alta pontuação em Support (0.60) e a ausência de categorias semânticas significativas que indicassem um foco em Damage, Survivability ou Crowd Control. A habilidade passiva de recarga de energia para si mesma e os aliados, combinada com buffs de dano e velocidade, são características distintivas do suporte."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

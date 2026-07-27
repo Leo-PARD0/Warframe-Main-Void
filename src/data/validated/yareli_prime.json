@@ -1,0 +1,111 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Yareli/YareliPrime",
+    "warframeName": "Yareli Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Tear through foes with a trio of orbiting aquatic blades.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Drag enemies into a crushing maelstrom and then blow them away in a watery burst.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Yareli Prime has two abilities that deal direct damage to enemies: Aquablades and Riptide. However, these abilities have limited range and require positioning for optimal use. The Sea Snares ability deals area of effect damage but is not as powerful as the other two."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Merulina protects Yareli by absorbing a large portion of incoming damage.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Yareli gains +|CHANCE|% Critical Chance for Secondary weapons when she has been moving for at least |TIME|s.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Yareli Prime has survivability through Merulina, which absorbs damage. However, her critical chance ability is limited to secondary weapons and requires movement to activate. Overall, Yareli Prime's survivability is moderate."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Yareli Prime does not have any abilities that provide direct support to allies or the environment. Her abilities are primarily focused on dealing damage and protecting herself."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.5,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Drag enemies into a crushing maelstrom and then blow them away in a watery burst.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Sea Snares seek out enemies and expand on contact, simultaneously damaging and immobilizing their victims.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Yareli Prime has two abilities that can control the flow of combat: Riptide and Sea Snares. These abilities can trap and damage multiple enemies, making her a decent crowd controller."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Yareli Prime does not have any stealth-related abilities or mechanics. Her abilities are all focused on direct combat and protection."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.4,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Form five water globules that seek out enemies and expand on contact, simultaneously damaging and immobilizing their victims.",
+            "confidence": 0.4,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Summon Merulina, a rideable creature of the waves, and the inspiration for K-Driving.",
+            "confidence": 0.4,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Yareli Prime has two abilities with unique mechanics: Sea Snares and Merulina. However, these abilities are not particularly complex to execute or manage."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Yareli Prime is a combat-focused Warframe with moderate damage output, decent crowd control, and limited survivability. Her abilities are straightforward but effective in their respective roles. She lacks support and stealth capabilities, making her role more focused on direct engagement."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: support, stealth"
+  ]
+}

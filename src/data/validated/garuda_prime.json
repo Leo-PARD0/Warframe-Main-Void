@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Garuda/GarudaPrime",
+    "warframeName": "Garuda Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Garuda Prime's Dread Mirror can deal significant damage by capturing and exploding enemy life force.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Garuda Prime has a powerful ability to capture and explode enemy life force, dealing substantial damage in a single attack."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Garuda Prime's Bloodletting sacrifices her health for energy, which can be risky but provides a temporary boost to survivability.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Her Blood Altar ability allows her to siphon health from enemies, potentially increasing her durability.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Garuda Prime has some survivability options, her reliance on sacrificing health makes her vulnerable during prolonged engagements."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Garuda Prime's Blood Altar can heal herself and allies, providing basic support.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Her Seeking Talons ability can debuff enemies, potentially aiding in team fights.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Garuda Prime has limited support capabilities compared to other Warframes, primarily focusing on self-healing and debuffing enemies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Seeking Talons can debuff enemies with Slash Status.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Her Blood Altar ability can potentially crowd control by immobilizing enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Garuda Prime has some crowd control options, but they are limited and depend on the effectiveness of her abilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Garuda Prime does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Her abilities are relatively straightforward and do not require complex execution.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "The cooldowns and energy requirements for her abilities are not specified, which could add some complexity in managing resources.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Garuda Prime's abilities are generally simple to execute, but there may be some resource management required to effectively use them."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Garuda Prime is a damage-focused Warframe with moderate survivability and limited support. Her abilities are straightforward but require careful resource management. She lacks stealth capabilities and has basic crowd control options."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

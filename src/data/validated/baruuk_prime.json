@@ -1,0 +1,94 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Pacifist/BaruukPrime",
+    "warframeName": "Baruuk Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Serene Storm delivers powerful radial strikes with his fists and feet",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Baruuk Prime has a strong damage output through Serene Storm, which can deal significant damage in a short time frame."
+      },
+      {
+        "category": "survivability",
+        "score": 0.65,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Restraint erodes with each dodge and enemy interaction",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Baruuk Prime's survivability is moderate due to the erosion of Restraint from dodging and interacting with enemies."
+      },
+      {
+        "category": "support",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Lull slows enemies and Desolate Hands destroys enemy guns",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Baruuk Prime has limited support capabilities compared to other Warframes, primarily through slowing enemies and destroying their weapons."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.45,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Lull confuses and disorients enemies",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Baruuk Prime has decent crowd control abilities with Lull, which can disrupt enemy formations."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Baruuk Prime does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.45,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Elude and Serene Storm require precise timing",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Baruuk Prime has a moderate level of complexity due to the need for precise timing with Elude and Serene Storm."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Baruuk Prime is a balanced Warframe with strong damage output, decent survivability, limited support, and moderate crowd control. It requires some skill to execute its abilities effectively but is not overly complex."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

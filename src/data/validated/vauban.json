@@ -1,0 +1,123 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Trapper/Trapper",
+    "warframeName": "Vauban",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Vauban's Photon Strike deals doubled damage to enemies with Overguard.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Vauban has a strong offensive capability with his Photon Strike, which can deal significant damage when combined with the Overguard buff."
+      },
+      {
+        "category": "survivability",
+        "score": 0.65,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Vauban's Bastille field provides temporary armor and grants it to allies.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Vauban has a decent shield value of 180.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Vauban can provide some survivability through his Bastille field, his overall health is average and he lacks direct defensive abilities like shields or energy regeneration."
+      },
+      {
+        "category": "support",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Vauban's Minelayer allows him to control the battlefield with mines.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Vauban can deploy a Vector-Overdrive pad that accelerates allies and draws in enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Vauban excels as a support Warframe due to his ability to control the battlefield through mines and enhance allies' performance."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.85,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Vauban's Minelayer can immobilize enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Vauban's Bastille field can capture and stasis enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Vauban has strong crowd control capabilities with his Minelayer and Bastille abilities, making him effective in controlling enemy movements and compositions."
+      },
+      {
+        "category": "stealth",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "No stealth-related abilities or traits are mentioned for Vauban.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Vauban does not have any stealth capabilities, making him less effective in stealth-based roles."
+      },
+      {
+        "category": "complexity",
+        "score": 0.55,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Vauban has multiple abilities that require coordination and timing.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "The Minelayer ability involves holding to launch a pad, which adds complexity.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Vauban is versatile with his support and crowd control roles, the execution of his abilities requires some level of complexity due to their multi-step processes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Vauban is a highly versatile Warframe that excels in both offensive and supportive roles. His strong damage output from Photon Strike and crowd control from Minelayer and Bastille make him a valuable asset in various combat scenarios. However, his lack of stealth capabilities limits his effectiveness in stealth-based roles."
+  },
+  "errors": [],
+  "warnings": []
+}

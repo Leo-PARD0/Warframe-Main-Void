@@ -2,14 +2,28 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 
 import { load, save, DEFAULT_TAGS } from '@/lib/storage';
 import { useWarframeItems } from '@/hooks/useWarframeItems';
+import { useSemanticProfiles } from '@/hooks/useSemanticProfiles';
 
 const PAGE_SIZE = 48;
 
 export const STATUS_ORDER = ['dont', 'farming', 'have'];
 export const STATUS_LABEL = { dont: 'Não possui', farming: 'Farmando', have: 'Possui' };
 
+// Opções de ordenação disponíveis
+export const SORT_OPTIONS = [
+  { value: 'name', label: 'Nome' },
+  { value: 'role', label: 'Role' },
+  { value: 'damage', label: 'Damage' },
+  { value: 'survivability', label: 'Survivability' },
+  { value: 'support', label: 'Support' },
+  { value: 'crowdControl', label: 'Crowd Control' },
+  { value: 'stealth', label: 'Stealth' },
+  { value: 'complexity', label: 'Complexity' },
+];
+
 export function useCatalog() {
   const { items, loading, error: catalogError, language, refresh } = useWarframeItems();
+  const { getProfile, getRole, getScore, getAllRoles, loading: semanticLoading } = useSemanticProfiles();
   const [apiStatus, setApiStatus] = useState({ checking: false, ok: true, status: 200, latency: null, checkedAt: null });
 
   const [tags, setTags] = useState(() => load('tags', DEFAULT_TAGS));
@@ -23,6 +37,12 @@ export function useCatalog() {
   const [relicStateFilter, setRelicStateFilter] = useState('all');
   const [selectedTagIds, setSelectedTagIds] = useState([]);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  
+  // Novos estados para ordenação e filtro por role
+  const [sortBy, setSortBy] = useState('name');
+  // Nome: A-Z (asc), Numéricos: Maior primeiro (desc)
+  const [sortOrder, setSortOrder] = useState('asc'); 
+  const [roleFilter, setRoleFilter] = useState('all');
 
   useEffect(() => save('tags', tags), [tags]);
   useEffect(() => save('friends', friends), [friends]);
@@ -37,12 +57,25 @@ export function useCatalog() {
   // Reset pagination on filter change
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [search, categoryFilter, typeFilter, relicStateFilter, selectedTagIds]);
+  }, [search, categoryFilter, typeFilter, relicStateFilter, selectedTagIds, roleFilter, sortBy, sortOrder]);
 
   const tagById = useMemo(
     () => Object.fromEntries(tags.map((t) => [t.id, t])),
     [tags]
   );
+
+  // Função para obter role do item (apenas para Warframes)
+  const getItemRole = useCallback((item) => {
+    if (item.displayCategory !== 'Warframe') return null;
+    return getRole(item.name);
+  }, [getRole]);
+
+  // Função para obter score de uma categoria semântica
+  const getItemScore = useCallback((item, category) => {
+    if (item.displayCategory !== 'Warframe') return 0;
+    const profile = getProfile(item.name);
+    return getScore(profile, category);
+  }, [getProfile, getScore]);
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
@@ -53,6 +86,11 @@ export function useCatalog() {
       if (selectedTagIds.length) {
         const itTags = itemTags[it.id] || [];
         if (!selectedTagIds.every((t) => itTags.includes(t))) return false;
+      }
+      // Filtro por Role
+      if (roleFilter !== 'all') {
+        const itemRole = getItemRole(it);
+        if (!itemRole || itemRole.name !== roleFilter) return false;
       }
       if (q) {
         const hay = [
@@ -71,9 +109,46 @@ export function useCatalog() {
       }
       return true;
     });
-  }, [items, search, categoryFilter, typeFilter, relicStateFilter, selectedTagIds, itemTags, tagById]);
+  }, [items, search, categoryFilter, typeFilter, relicStateFilter, selectedTagIds, itemTags, tagById, roleFilter, getItemRole]);
 
-  const visible = filtered.slice(0, visibleCount);
+  // Ordenação
+  const sorted = useMemo(() => {
+    const sortedItems = [...filtered].sort((a, b) => {
+      let comparison = 0;
+      
+      switch (sortBy) {
+        case 'name':
+          comparison = a.name.localeCompare(b.name);
+          break;
+        case 'role': {
+          const roleA = getItemRole(a);
+          const roleB = getItemRole(b);
+          const nameA = roleA?.name || 'ZZZ';
+          const nameB = roleB?.name || 'ZZZ';
+          comparison = nameA.localeCompare(nameB);
+          break;
+        }
+        case 'damage':
+        case 'survivability':
+        case 'support':
+        case 'crowdControl':
+        case 'stealth':
+        case 'complexity': {
+          const scoreA = getItemScore(a, sortBy);
+          const scoreB = getItemScore(b, sortBy);
+          comparison = scoreA - scoreB;
+          break;
+        }
+        default:
+          comparison = 0;
+      }
+      
+      return sortOrder === 'asc' ? comparison : -comparison;
+    });
+    return sortedItems;
+  }, [filtered, sortBy, sortOrder, getItemRole, getItemScore]);
+
+  const visible = sorted.slice(0, visibleCount);
 
   const types = useMemo(() => {
     const set = new Set();
@@ -82,6 +157,18 @@ export function useCatalog() {
     });
     return Array.from(set).sort();
   }, [items]);
+
+  // Roles disponíveis para filtro (apenas das Warframes carregadas)
+  const availableRoles = useMemo(() => {
+    const roleSet = new Set();
+    items.forEach((item) => {
+      if (item.displayCategory === 'Warframe') {
+        const role = getItemRole(item);
+        if (role?.name) roleSet.add(role.name);
+      }
+    });
+    return Array.from(roleSet).sort();
+  }, [items, getItemRole]);
 
   // Tag actions
   const createTag = useCallback((name, color, description) => {
@@ -159,14 +246,27 @@ export function useCatalog() {
     }));
   }, []);
 
+  // Toggle sort order
+  const toggleSortOrder = useCallback(() => {
+    setSortOrder((prev) => (prev === 'asc' ? 'desc' : 'asc'));
+  }, []);
+
+  // Set sort by (reset order based on field type)
+  const setSortByField = useCallback((field) => {
+    setSortBy(field);
+    // Nome e Role: A-Z (asc), Numéricos: Maior primeiro (desc)
+    const isNumeric = ['damage', 'survivability', 'support', 'crowdControl', 'stealth', 'complexity'].includes(field);
+    setSortOrder(isNumeric ? 'desc' : 'asc');
+  }, []);
+
   return {
     items,
-    loading,
+    loading: loading || semanticLoading,
     error: catalogError,
     language,
     apiStatus,
     refreshApiStatus,
-    filtered,
+    filtered: sorted, // Retornar já ordenado
     visible,
     visibleCount,
     setVisibleCount,
@@ -177,6 +277,8 @@ export function useCatalog() {
     setCategoryFilter,
     typeFilter,
     setTypeFilter,
+    relicStateFilter,
+    setRelicStateFilter,
     selectedTagIds,
     setSelectedTagIds,
     types,
@@ -194,5 +296,16 @@ export function useCatalog() {
     deleteFriend,
     cycleFriendStatus,
     setFriendStatus,
+    // Novos retornos para ordenação e filtro por role
+    sortBy,
+    setSortBy: setSortByField,
+    sortOrder,
+    toggleSortOrder,
+    roleFilter,
+    setRoleFilter,
+    availableRoles,
+    SORT_OPTIONS,
+    getItemRole,
+    getItemScore,
   };
 }

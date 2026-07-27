@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/YinYang/YinYang",
+    "warframeName": "Equinox",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Equinox's Day-Form ability 'Mend & Maim' inflicts a slashing status effect on enemies, which can be used to deal damage over time.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Equinox has a moderate damage output through its Day-Form ability, but it relies more on support and control rather than direct offensive capabilities."
+      },
+      {
+        "category": "survivability",
+        "score": 0.7,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Equinox's Night-Form ability 'Rest & Rage' puts enemies to sleep, reducing their damage output.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Equinox can regenerate health and shields through its Day-Form ability 'Mend & Maim' when killing nearby enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Equinox has decent survivability due to its Night-Form abilities that reduce enemy damage and its Day-Form ability that regenerates health and shields."
+      },
+      {
+        "category": "support",
+        "score": 0.8,
+        "confidence": 0.95,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Equinox's Night-Form ability 'Rest & Rage' reduces damage inflicted by nearby enemies.",
+            "confidence": 0.95,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Equinox's Day-Form ability 'Pacify & Provoke' increases the Ability Strength of nearby allies.",
+            "confidence": 0.95,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Equinox's Day-Form ability 'Mend & Maim' replenishes allies' shields when killing nearby enemies.",
+            "confidence": 0.95,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Equinox excels as a support Warframe, providing damage reduction, increased ally abilities, and shield regeneration to its team."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Equinox's Night-Form ability 'Rest & Rage' puts enemies to sleep.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Equinox's Day-Form ability 'Pacify & Provoke' increases the Ability Strength of nearby allies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Equinox has some crowd control capabilities through its Night-Form ability that reduces enemy damage and its Day-Form ability that increases ally abilities, but it is not as strong in this area compared to other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Equinox does not have any stealth-related abilities or attributes.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Equinox lacks any stealth capabilities, making it less effective in covert operations compared to Warframes like Volt or Revenant."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Equinox has two forms (Day and Night), each with distinct abilities.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Switching between forms requires careful consideration of the situation.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Equinox is moderately complex due to its dual form system and the need to switch between them based on the current situation, but it does not require as much fine-tuned execution or resource management as some other Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Equinox is a versatile support Warframe with moderate damage output and strong survivability. Its Day-Form abilities provide significant support to allies while its Night-Form abilities control the battlefield. However, it lacks stealth capabilities and does not require as much complexity in execution compared to some other Warframes."
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Archwing/SupportJetPack/SupportJetPack",
+    "warframeName": "Amesha",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.2,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Vengeful Rush transforms damage into Energy, enhancing abilities.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Amesha has a passive ability that converts damage to energy, which can be used to enhance her abilities' range, duration, and power. This suggests some potential for dealing damage but is limited compared to more direct damage-dealing Warframes."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Warding Grace renders the Warframe and nearby allies immune to Status Effects, while slowing nearby enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Benevolent Decoy draws enemy fire, converting it into healing pulses.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Amesha has survivability through her Warding Grace ability, which provides immunity to status effects and slows enemies. However, her survivability is somewhat limited compared to more tanky Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.8,
+        "confidence": 1,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Watchful Swarm intercepts enemy fire.",
+            "confidence": 1,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Benevolent Decoy draws enemy fire and converts it into healing pulses.",
+            "confidence": 1,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Warding Grace renders the Warframe and nearby allies immune to Status Effects.",
+            "confidence": 1,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Amesha excels as a support Warframe with her ability to intercept enemy fire, draw fire for healing, and provide immunity to status effects. These abilities make her highly effective in supporting her team."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Warding Grace slows nearby enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Benevolent Decoy draws enemy fire.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Amesha has some crowd control abilities through her Warding Grace and Benevolent Decoy, but these are limited compared to more dedicated crowd control Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Amesha does not have any stealth abilities or mechanisms in her description."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Vengeful Rush requires careful management of energy and ability usage.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Warding Grace involves managing the duration of its effect.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Amesha has some complexity in her abilities, particularly with Vengeful Rush requiring careful energy management and Warding Grace having a limited duration. However, this is relatively low compared to more complex Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Amesha is primarily classified as a Support Warframe due to her strong support abilities that enhance her team's survivability and effectiveness. While she has some damage potential through Vengeful Rush and limited crowd control, her role is centered around supporting her allies rather than dealing direct damage or engaging in close combat."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

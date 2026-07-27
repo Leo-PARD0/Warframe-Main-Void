@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte ao time, fornecendo buffs defensivos e ofensivos.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "O Chroma Prime é principalmente um Warframe de suporte com habilidades que melhoram a eficácia do time através de buffs defensivos e ofensivos. Suas habilidades focam em fortalecer o escudo da equipe, aumentar o dano das armas e criar áreas ofensivas. A falta de habilidades de dano direto ou controle de grupo reduz a importância dessas categorias comparado ao suporte."
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "Reasoning may be just listing scores without explaining the archetype choice"
+  ]
+}

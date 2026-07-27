@@ -77,6 +77,23 @@ const THEMES = {
   antivirus: createTheme({ label: 'Antivirus', material: 'Circuit Board', background: 'linear-gradient(135deg, #062016, #008565, #08261e)', surface: '#091d18', border: '#09cf9e', accent: '#5bffd0', glow: 'rgba(9,207,158,.25)' }),
   potency: createTheme({ label: 'Potency', material: 'Photocard', background: 'linear-gradient(135deg, #f6d8d6, #c55d63, #fff0de)', surface: '#2c1b20', border: '#f0b4a8', accent: '#ffe2d4' }),
   tektolyst: createTheme({ label: 'Tektolyst', material: 'Sentient', background: 'linear-gradient(135deg, #272629, #b5b0a2, #373437)', surface: '#202023', border: '#ddd6bf', accent: '#fff3c6' }),
+  // Weapon variant themes - maintain visual identity while being classified as Weapon category
+  prisma: createTheme({ label: 'Prisma', material: 'Prisma', background: 'linear-gradient(135deg, #1a0a2e, #6a1b9a, #1a0a2e)', surface: '#150a1e', border: '#ba68c8', accent: '#e1bee7', glow: 'rgba(186,104,200,.3)' }),
+  kuva: createTheme({ label: 'Kuva', material: 'Kuva', background: 'linear-gradient(135deg, #2d0a0a, #8b1a1a, #2d0a0a)', surface: '#1a0808', border: '#d32f2f', accent: '#ffcdd2', glow: 'rgba(211,47,47,.3)' }),
+  tenet: createTheme({ label: 'Tenet', material: 'Tenet', background: 'linear-gradient(135deg, #0d1b2a, #1b263b, #0d1b2a)', surface: '#0a1420', border: '#415a77', accent: '#778da9', glow: 'rgba(65,90,119,.3)' }),
+  coda: createTheme({ label: 'Coda', material: 'Coda', background: 'linear-gradient(135deg, #1a1a2e, #16213e, #0f3460)', surface: '#121224', border: '#e94560', accent: '#ff6b6b', glow: 'rgba(233,69,96,.3)' }),
+  // AmpComponent theme - Void Energy (organic, fluid, unstable energy)
+  ampcomponent: createTheme({ 
+    label: 'Amp Component', 
+    material: 'Void Energy', 
+    pips: 3,
+    background: 'linear-gradient(135deg, #05090C 0%, #0A2B33 35%, #114E56 65%, #05090C 100%)',
+    surface: 'linear-gradient(135deg, #05090C 0%, #0A2B33 50%, #05090C 100%)', 
+    border: '#3FA9B5', 
+    accent: '#A7F7FF', 
+    glow: 'rgba(167,247,255,.35)',
+    textColor: '#F8FFFF'
+  }),
   warframe: createTheme({ label: 'Warframe', material: 'Tenno', background: 'linear-gradient(135deg, #071c28, #0a6679, #101d29)', surface: '#0d1920', border: '#399cb5', accent: '#7fe7f7', glow: 'rgba(57,156,181,.2)' }),
   weapon: createTheme({ label: 'Weapon', material: 'Arsenal', background: 'linear-gradient(135deg, #24140c, #934d20, #24130b)', surface: '#1c1410', border: '#d07a38', accent: '#f2ac68', glow: 'rgba(208,122,56,.2)' }),
   mod: createTheme({ label: 'Mod', material: 'Standard', background: 'linear-gradient(135deg, #17151d, #493d68, #191522)', surface: '#17131d', border: '#8970b8', accent: '#c6a7ff' }),
@@ -85,9 +102,14 @@ const THEMES = {
 
 const RARITY = { common: 'common', uncommon: 'uncommon', rare: 'rare', legendary: 'legendary' };
 const SPECIAL_TYPES = new Set(['Primed', 'Umbra', 'Archon', 'Galvanized', 'Amalgam', 'Riven', 'Peculiar', 'Requiem', 'Tome', 'Antivirus', 'Potency', 'Tektolyst']);
+
+// Weapon variant themes - these maintain visual identity but are classified as Weapon category
+const WEAPON_VARIANT_THEMES = new Set(['Prisma', 'Kuva', 'Tenet', 'Coda', 'Wraith', 'Vandal', 'Dex', 'Prime', 'Incarnon', 'Syndicate']);
+
 const NAME_RULES = [
   ['Primed', 'primed'], ['Umbra', 'umbra'], ['Archon', 'archon'], ['Galvanized', 'galvanized'], ['Amalgam', 'amalgam'], ['Riven', 'riven'], ['Peculiar', 'peculiar'], ['Requiem', 'requiem'], ['Tome', 'tome'], ['Antivirus', 'antivirus'], ['Potency', 'potency'], ['Tektolyst', 'tektolyst'],
-  ['Prime', 'prime'], ['Kuva', 'archon'], ['Tenet', 'tome'], ['Prisma', 'riven'], ['Wraith', 'archon'], ['Vandal', 'galvanized'], ['Dex', 'rare'], ['Coda', 'requiem'], ['Incarnon', 'riven'],
+  ['Prime', 'prime'], ['Prisma', 'prisma'], ['Kuva', 'kuva'], ['Tenet', 'tenet'], ['Coda', 'coda'], ['Wraith', 'wraith'], ['Vandal', 'vandal'], ['Dex', 'dex'], ['Incarnon', 'incarnon'], ['Syndicate', 'syndicate'],
+  ['Amp', 'ampcomponent'],
 ];
 
 function matchingRule(name) {
@@ -101,17 +123,49 @@ export const ThemeEngine = {
     if (!item) return THEMES.default;
 
     const apiType = item.type || item.productCategory;
-    if (item.displayCategory === 'Mod' && SPECIAL_TYPES.has(apiType)) return THEMES[apiType.toLowerCase()];
+    if (item.displayCategory === 'Mod' && SPECIAL_TYPES.has(apiType)) {
+      const specialTheme = THEMES[apiType.toLowerCase()];
+      if (specialTheme) return specialTheme;
+    }
 
     const namedTheme = matchingRule(item.name);
-    if (namedTheme) return THEMES[namedTheme];
+    if (namedTheme) {
+      const theme = THEMES[namedTheme];
+      if (theme) {
+        console.log(`[AUDIT] ThemeEngine.getTheme - Named theme matched:`, { 
+          itemName: item.name, 
+          displayCategory: item.displayCategory, 
+          variant: item.variant, 
+          theme: item.theme,
+          matchedRule: namedTheme,
+          selectedTheme: namedTheme
+        });
+        return theme;
+      }
+    }
 
     if (item.displayCategory === 'Mod') {
       const rarity = RARITY[String(item.rarity || '').toLowerCase()];
       if (rarity) return THEMES[rarity];
     }
 
-    return THEMES[String(item.displayCategory || '').toLowerCase()] || THEMES.default;
+    const categoryTheme = String(item.displayCategory || '').toLowerCase();
+    const selectedTheme = THEMES[categoryTheme] || THEMES.default;
+    
+    console.log(`[AUDIT] ThemeEngine.getTheme - Category fallback:`, { 
+      itemName: item.name, 
+      displayCategory: item.displayCategory, 
+      variant: item.variant, 
+      theme: item.theme,
+      categoryTheme,
+      selectedTheme: selectedTheme?.label || 'default'
+    });
+    
+    // Safety fallback - should never happen but prevents crashes
+    return selectedTheme || THEMES.default;
   },
-  getBadge(item) { return this.getTheme(item).badge; },
+  getBadge(item) { 
+    const theme = this.getTheme(item);
+    return theme?.badge || THEMES.default.badge; 
+  },
 };

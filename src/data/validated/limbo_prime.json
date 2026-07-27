@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Magician/LimboPrime",
+    "warframeName": "Limbo Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Cataclysm is a violent blast of Void energy that tears open a pocket of rift plane which can sustain itself for a short period before collapsing in another lethal blast.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Cataclysm deals significant damage, it has a limited range and cooldown, making it less impactful compared to other Warframes with more frequent or powerful attacks."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Limbo Prime can enter and exit the Rift, leaving behind a small portal that slowly recharges Energy.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Enemies killed in the Rift also give Energy to Limbo Prime.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The ability to recharge Energy while inside the Rift provides some survivability, but it's limited by the duration of the Rift portal and the cooldowns of other abilities."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Banish pushes enemies and allies out of Limbo's current plane of existence.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Stasis freezes Rift-bound enemies, arresting their projectiles in mid-air.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Banish can push enemies away, it doesn't provide direct support to allies. Stasis is useful for controlling enemy movements but lacks offensive capabilities."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Stasis freezes Rift-bound enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Rift Surge transfers energy to nearby enemies outside the rift, potentially causing them to perform a radial Banish.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Stasis provides some crowd control by freezing enemies in place, but its effectiveness is limited by the duration and cooldowns of other abilities. Rift Surge can be useful for disrupting enemy formations but requires precise timing."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Limbo Prime does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Entering and exiting the Rift requires dodging.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Rift-bound enemies can be killed to transfer energy to nearby enemies outside the rift.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The ability to enter and exit the Rift adds a layer of complexity, but it's relatively simple compared to other Warframes with more intricate mechanics. The transfer of energy from killed enemies also adds some strategic depth but is limited in its impact."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Limbo Prime has moderate damage potential through Cataclysm, decent survivability due to the Rift portal recharge, and basic crowd control capabilities with Stasis. However, it lacks significant support abilities and stealth mechanics, making it a somewhat niche choice among Warframes."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

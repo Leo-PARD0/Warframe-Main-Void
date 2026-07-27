@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "data": {
+    "primaryRole": "Support",
+    "secondaryRoles": [
+      "Tank",
+      "Controller"
+    ],
+    "confidence": 0.9,
+    "description": "Equinox Prime é um suporte versátil que oferece defesa e controle de multidão, com habilidades únicas para ajudar os aliados e enfraquecer os inimigos.",
+    "reasoning": "O perfil semântico indica altos níveis de Survivability (0.7) e Support (0.6), além de uma certa Complexidade (0.6). A habilidade de Metamorphosis adiciona camadas de suporte e controle, tornando-o ideal para um suporte multifuncional."
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,94 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Necro/Necro",
+    "warframeName": "Nekros",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Soul Punch is a powerful attack that deals damage to all enemies in its path and marks them for harvest.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nekros has a strong offensive capability with Soul Punch, which can deal significant damage to multiple targets at once."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Nekros' health and shield are average, but he has the ability to restore health with enemy deaths.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Nekros can regenerate health through kills, his base stats are not particularly robust, making him somewhat vulnerable in combat."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Desecrate forces fallen enemies to drop additional loot, but it doesn't provide direct support like healing or buffs.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nekros has limited support capabilities compared to other Warframes, primarily focusing on increasing loot drops through enemy deaths."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Terrify causes enemies to run away in terror, which can be useful for creating space or disorienting foes.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nekros has a basic crowd control ability, but it's limited and doesn't provide the same level of control as more specialized Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Nekros does not have any stealth-related abilities or mechanisms, making him less effective in covert operations."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "All of Nekros' abilities are straightforward and do not require complex execution or resource management.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nekros has simple abilities that can be executed quickly without requiring significant skill or strategy."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Nekros is a Warframe with strong offensive capabilities, moderate survivability, limited support, basic crowd control, and no stealth. His abilities are straightforward and do not require complex execution, making him relatively simple to play but effective in certain combat scenarios."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

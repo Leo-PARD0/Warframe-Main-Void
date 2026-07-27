@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Temple/Temple",
+    "warframeName": "Temple",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Temple's abilities deal <DT_FIRE_COLOR>Heat Damage.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Ripper's Wail increases the Duration and Heat Damage of Overdrive and Pyrotechnics when used on the Backbeat.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Temple primarily deals fire damage through its abilities. The Backbeat timing can enhance these effects, but it doesn't significantly increase overall damage output compared to other Warframes with more direct damage capabilities."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Temple becomes invulnerable for a short duration during Ripper's Wail.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Exalted Solo allows Temple to deal elemental damage without consuming Energy.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Temple has some survivability through invulnerability and the ability to deal damage without Energy, its overall survivability is moderate compared to Warframes with more robust shields or energy regeneration abilities."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Temple's Affinity Range increases the Heat Damage of ally weapons.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Exalted Solo can be used to support allies by dealing elemental damage.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Temple has limited support capabilities compared to Warframes designed specifically for supporting allies. Its ability to enhance allies' damage output is useful but not as comprehensive as some other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Overdrive and Pyrotechnics create damaging waves of Heat Damage.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Ripper's Wail can make Temple briefly invulnerable.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Temple has some crowd control capabilities through its damage abilities and invulnerability effect. However, these effects are not as strong or versatile as those provided by Warframes designed for crowd control."
+      },
+      {
+        "category": "stealth",
+        "score": 0.15,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Temple has no stealth-related abilities or mechanics. Its focus is on direct damage and support, making it unsuitable for stealth-based playstyles."
+      },
+      {
+        "category": "complexity",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Backbeat Timing is required for some abilities.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Exalted Solo requires building up a charge on the Backbeat metronome.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Temple has a moderate level of complexity due to the need for Backbeat timing and energy management. However, this complexity is not as high as that of Warframes with more intricate mechanics or multiple resources to manage."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Temple is a mid-range damage dealer with some survivability and support capabilities. Its primary focus on fire damage and the need for Backbeat timing add a moderate level of complexity, but its overall role is not as specialized as Warframes designed for specific playstyles like crowd control or stealth."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

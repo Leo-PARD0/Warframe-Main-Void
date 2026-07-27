@@ -1,0 +1,117 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Trinity/TrinityPrime",
+    "warframeName": "Trinity Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Allies gain additional Health when they attack the target.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Trinity Prime's Well Of Life ability provides healing to allies by absorbing damage from enemies, which indirectly increases their damage output."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Link channels damage taken to nearby enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Blessing reduces the damage allies take from enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Trinity Prime's Link ability can be used to mitigate damage by channeling it to enemies, while Blessing provides some protection for allies. However, these abilities do not significantly enhance Trinity Prime's survivability directly."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Allies gain additional Health when they attack the target.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Energy Vampire allows allies to gain energy over time.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Blessing restores health and shields of nearby allies while reducing their damage taken.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Trinity Prime's abilities provide substantial support to allies by healing them, providing energy regeneration, and reducing incoming damage. This makes Trinity Prime a strong support Warframe."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Trinity Prime does not have any abilities specifically designed for crowd control. Its main focus is on healing and supporting allies."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.3,
+        "evidences": [],
+        "reasoning": "Trinity Prime's abilities do not provide any stealth-related benefits or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.4,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Allies gain additional Health when they attack the target.",
+            "confidence": 0.4,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Energy Vampire allows allies to gain energy over time.",
+            "confidence": 0.4,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Blessing restores health and shields of nearby allies while reducing their damage taken.",
+            "confidence": 0.4,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Trinity Prime's abilities are relatively straightforward and do not require complex execution or resource management. The main challenge lies in coordinating with allies effectively."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Trinity Prime is primarily a support Warframe, providing healing, energy regeneration, and damage reduction to allies. Its abilities are designed to enhance the effectiveness of its teammates rather than focusing on direct combat or stealth."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: crowdControl, stealth"
+  ]
+}

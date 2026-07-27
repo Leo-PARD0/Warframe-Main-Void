@@ -1,0 +1,105 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Excalibur/Excalibur",
+    "warframeName": "Excalibur",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Excalibur deals |DAMAGE|% increased damage and attacks",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Excalibur's passive increases its damage output by a percentage, which is a significant boost to its offensive capabilities."
+      },
+      {
+        "category": "survivability",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [],
+        "reasoning": "Excalibur does not have any inherent survivability features like shields or energy regeneration."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Radial Blind and Radial Javelin",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Excalibur can provide support through blinding enemies and impaling them with javelins, these abilities are limited in their impact compared to other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Radial Blind",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Excalibur's Radial Blind ability can be useful for crowd control by blinding enemies, making them easier to target or escape from."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Excalibur does not have any stealth-related abilities or features."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Slash Dash",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Radial Blind",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Radial Javelin",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Exalted Blade",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Excalibur has a relatively simple set of abilities, with no complex combos or resource management required."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Excalibur is an offensive-focused Warframe with decent damage output and some support capabilities through crowd control. It lacks survivability features and stealth, making it more straightforward to play compared to other Warframes."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: survivability, stealth"
+  ]
+}

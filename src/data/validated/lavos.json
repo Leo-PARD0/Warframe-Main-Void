@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Alchemist/Alchemist",
+    "warframeName": "Lavos",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Damage is doubled for each element afflicting an enemy.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Lavos' Catalyze ability can deal significant damage by doubling its output based on the number of elements affecting enemies, making it a potent offensive tool."
+      },
+      {
+        "category": "survivability",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Energy and Universal Orbs give Lavos status immunity for |DURATION|s.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Lavos can imbue abilities with different elements to enhance their effects.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Lavos has some survivability through status immunity, its reliance on energy and universal orbs makes it vulnerable if these resources are depleted. The ability to imbue abilities with different elements could potentially mitigate this weakness but requires careful management."
+      },
+      {
+        "category": "support",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Launch a probe that converts Health and Energy Orbs into Universal Orbs that provide both, and ammo pickups into Universal Ammo Pickups.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Each electrocuted foe reduces other ability cooldowns by 1.5s.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Lavos' Transmutation Probe can support allies by providing resources and reducing cooldowns, making it a useful support tool in team fights."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Ophidian Bite consumes the target to heal Lavos.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Vial Rush crashes through enemies and leaves an icy trail of broken vials.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Lavos has limited crowd control options with Ophidian Bite and Vial Rush, which primarily deal damage or slow down enemies rather than effectively controlling them."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Lavos does not have any stealth-related abilities or mechanics, making it unsuitable for stealth-based roles."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Hold any ability to imbue the next cast with additional Elemental Damage and Status.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Each electrocuted foe reduces other ability cooldowns by 1.5s.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Lavos' abilities require careful management of elements and resources, making it moderately complex to execute effectively in combat."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Lavos is a versatile Warframe with strong offensive capabilities through its Catalyze ability, but limited survivability and crowd control. Its support role is moderate due to resource conversion and cooldown reduction. Complexity arises from managing elements and resources efficiently."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

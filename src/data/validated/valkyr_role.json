@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Berserker",
+      "description": "Especialista em combate corpo a corpo com alta dano e resistência à morte.",
+      "confidence": 0.95,
+      "basedOn": [
+        "damage"
+      ],
+      "reasoning": "Damage é a característica dominante do Warframe, especialmente com a habilidade Hysteria que causa alto dano e cura Valkyr. A Survivability é relevante devido ao Rage meter, mas não é suficientemente forte para alterar seu arquétipo principal como Berserker."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Choir/Choir",
+    "warframeName": "Jade",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Glory On High detonates Judgments causing an explosion of Jade Light",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Enemies inside the Light's Judgment radius empower the explosion",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Jade has a basic damage ability (Glory On High) that can deal significant damage in an area, but it lacks any direct offensive capabilities. The damage is moderate and depends on the presence of Judgments."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Jade has a shield (Escudo: 450) which provides some protection",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "She can use Light's Judgment to heal allies and hurt enemies",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Jade has decent survivability with a shield but relies on healing abilities for self-preservation. Her survivability is moderate."
+      },
+      {
+        "category": "support",
+        "score": 0.65,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Symphony Of Mercy cycles through three songs that strengthen allies",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Ophanim Eyes slows nearby enemies and dissolves their Shields and Armor",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Jade excels in support roles with her ability to heal allies, slow enemies, and enhance the effectiveness of weapons. Her support capabilities are strong."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Ophanim Eyes slows nearby enemies",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Glory On High can cause an explosion that affects multiple enemies",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Jade has limited crowd control abilities with Ophanim Eyes slowing enemies and Glory On High causing explosions. Her crowd control is moderate."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Jade does not have any stealth-related abilities or mechanics. She relies on direct combat and support roles."
+      },
+      {
+        "category": "complexity",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Symphony Of Mercy has multiple stages that require timing",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Glory On High detonates Judgments which requires precise aiming",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Jade's abilities have a moderate level of complexity with Symphony Of Mercy requiring timing and Glory On High needing precise aiming. Her complexity is moderate."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Jade is primarily a support Warframe with strong survivability and offensive capabilities through her Judgments. She has limited crowd control but excels in direct combat and healing allies. Her abilities have a moderate level of complexity, requiring timing and precise aiming."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

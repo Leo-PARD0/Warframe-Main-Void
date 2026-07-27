@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Battlemage",
+      "description": "Especialista em combate corpo a corpo com alta dano, controle de grupo e suporte defensivo.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage",
+        "crowdControl",
+        "survivability"
+      ],
+      "reasoning": "Damage é dominante com Divine Spears. Crowd Control existe através de Warding Halo e Blazing Chakram, embora seja limitado. Survivability é moderada com Warding Halo. As outras categorias não são suficientemente relevantes para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

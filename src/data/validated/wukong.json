@@ -1,0 +1,112 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/MonkeyKing/MonkeyKing",
+    "warframeName": "Wukong",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Wukong's Primal Fury ability allows him to deal significant damage by summoning his iron staff and unleashing fury.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Primal Fury is a powerful offensive ability that deals substantial damage, making Wukong highly effective in terms of damage output."
+      },
+      {
+        "category": "survivability",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Wukong's Defy ability grants him and his twin invulnerability for a short duration, allowing them to absorb damage and deal it back later.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Defy provides Wukong with a significant survivability boost by enabling him to take hits and turn the tide of battle through strategic use of captured damage."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Wukong's Cloud Walker ability allows him to float through the battlefield, healing himself and his twin while dazing enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Celestial Twin can be used to create a melee companion that covers fire.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Wukong has some support capabilities, they are limited compared to other Warframes. His main focus is on offense and survivability rather than direct support roles."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.5,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Cloud Walker dazes enemies, providing a form of crowd control.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Defy can be used to create a temporary barrier by capturing damage and dealing it back.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wukong has some crowd control abilities, but they are not as robust or versatile as those found in other Warframes. His primary focus is on offensive and defensive capabilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.3,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Wukong does not have any stealth abilities. He relies on his physical prowess and survivability to engage in combat."
+      },
+      {
+        "category": "complexity",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Wukong requires careful management of his energy and resources, especially during the Defy ability.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "His Celestial Twin ability adds an additional layer of complexity by requiring coordination between Wukong and his twin.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While not as complex as some other Warframes, Wukong's abilities do require a certain level of strategic thinking and resource management to be effective in combat."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Wukong is an offensive-focused Warframe with strong survivability capabilities. He has limited support and crowd control options but excels at dealing significant damage through his Primal Fury ability. His complexity lies in managing resources and coordinating with his Celestial Twin, making him a versatile yet not overly complex choice for players looking to maximize their damage output."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

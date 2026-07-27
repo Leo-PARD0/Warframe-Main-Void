@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Brawler/AtlasPrime",
+    "warframeName": "Atlas Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Landslide can deal up to three hits with increasing radius",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Tectonics summons a rock-wall that can be attacked for additional damage",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Atlas Prime has moderate damage capabilities through its Landslide and Tectonics abilities."
+      },
+      {
+        "category": "survivability",
+        "score": 0.7,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Becomes immune to Knockdown effects while on the ground",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Petrify can heal enemies and create healing Rubble",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Atlas Prime has decent survivability with its ability to become immune to knockdowns and heal allies."
+      },
+      {
+        "category": "support",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Petrify can heal enemies",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Rumblers collapse into healing Rubble",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Atlas Prime has limited support capabilities compared to other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Landslide and Tectonics can control enemies through damage and area-of-effect attacks",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Atlas Prime has basic crowd control abilities but not as strong as some other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Atlas Prime does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Landslide and Tectonics require precise timing and positioning",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Petrify and Rumblers involve managing multiple units",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Atlas Prime has moderate complexity due to its ability requirements and the need for strategic use of its units."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Atlas Prime is a balanced Warframe with decent damage, survivability, and crowd control capabilities. It lacks significant support or stealth abilities but requires careful execution of its abilities to be effective."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

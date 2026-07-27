@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Battlemage",
+      "description": "Especialista em combate corpo a corpo com alta dano e habilidades de suporte, capaz de controlar o campo de batalha.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage",
+        "support",
+        "crowdControl"
+      ],
+      "reasoning": "Damage, Support e Crowd Control representam claramente a identidade predominante do Warframe. Nidus pode aplicar pressão de dano em múltiplos inimigos simultaneamente com suas habilidades de fungos e maggos vorazes, enquanto também oferece suporte aos aliados e controla o campo de batalha através da larva."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

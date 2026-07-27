@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Controller",
+      "description": "Especialista em controlar o battlefield através de habilidades que distraem, confundem e desarmam inimigos.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support",
+        "crowdControl"
+      ],
+      "reasoning": "Support e Crowd Control representam claramente a identidade predominante do Warframe. Loki Prime utiliza habilidades que distraem, confundem e desarmam inimigos, tornando-o um forte controlador de campo."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,130 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Saryn/SarynPrime",
+    "warframeName": "Saryn Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Toxic Lash deals additional Toxin Damage; this effect is doubled for Melee Strikes.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Miasma deals Viral Damage to enemies in range.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Saryn Prime has two abilities that deal damage: Toxic Lash and Miasma. However, these abilities do not have specific damage values or energy costs, making it difficult to assign a precise score. The complexity of the Warframe is moderate due to the need to manage resources like Energy and possibly timing attacks for maximum effect."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Saryn Prime has a decent shield value (270) compared to other Warframes.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The ability to shed her skin and leave a decoy (Molt) can be useful for drawing fire away from herself.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Saryn Prime does not have the highest survivability stats, she has some abilities that can help her avoid damage. The complexity of managing these abilities adds to the overall difficulty."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Spores spread spores to nearby enemies by destroying them or killing their host.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Miasma deals additional damage to enemies affected by spores.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Saryn Prime's abilities are primarily focused on dealing damage and creating environmental hazards rather than providing direct support. The complexity of managing these abilities is moderate, but the lack of direct support capabilities limits her role in a team."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Molt leaves a decoy behind to draw fire from enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Toxic Lash can burst spores when attacking afflicted enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Saryn Prime has abilities that can control the battlefield by drawing enemy fire and creating environmental hazards. However, these abilities do not have specific crowd control effects like knockbacks or stuns, making it difficult to assign a precise score. The complexity of managing these abilities adds to the overall difficulty."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Saryn Prime does not have any stealth-related abilities or mechanics. Her primary focus is on dealing damage and creating environmental hazards. The complexity of managing these abilities is moderate, but the lack of stealth capabilities limits her role in a team."
+      },
+      {
+        "category": "complexity",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Spores spread spores to nearby enemies by destroying them or killing their host.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Miasma deals additional damage to enemies affected by spores.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Toxic Lash can burst spores when attacking afflicted enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Saryn Prime has a moderate level of complexity due to the need to manage resources like Energy and possibly timing attacks for maximum effect. The lack of direct support capabilities and stealth mechanics further contributes to this complexity."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Saryn Prime is a moderately complex Warframe with a focus on dealing damage and creating environmental hazards. Her survivability and crowd control abilities are decent, but her lack of direct support and stealth capabilities limits her role in a team. The overall difficulty of managing these abilities adds to the complexity of playing Saryn Prime."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

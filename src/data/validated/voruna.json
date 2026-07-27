@@ -1,0 +1,153 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Werewolf/Werewolf",
+    "warframeName": "Voruna",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Lycath's Hunt drops health and energy orbs on enemy kills, increasing damage output.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Ulfrun's Descent deals increased damage to enemies with Status Effects.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voruna has abilities that enhance her damage output through the use of Status Effects. Lycath's Hunt increases damage by dropping orbs, while Ulfrun's Descent doubles damage against affected enemies."
+      },
+      {
+        "category": "survivability",
+        "score": 0.65,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Shroud Of Dynar provides invisibility and increased speed.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Fangs Of Raksh grants Status Effect resistance.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Lycath's Hunt increases Heavy Attack efficiency.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voruna has survivability through invisibility, status effect resistance, and enhanced melee attacks. However, her primary defense is limited to melee attacks."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Shroud Of Dynar accelerates Voruna's speed.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Fangs Of Raksh grants Status Effect resistance.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Lycath's Hunt increases Heavy Attack efficiency.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voruna's abilities provide support through increased movement speed and status effect resistance, but her primary role is offensive rather than supportive."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.45,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Fangs Of Raksh applies multiple Status Effects.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Lycath's Hunt increases damage on enemies with multiple effects.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voruna has abilities that can control the battlefield through status effects, but her crowd control capabilities are limited compared to other roles."
+      },
+      {
+        "category": "stealth",
+        "score": 0.85,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Shroud Of Dynar provides invisibility.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Fangs Of Raksh grants Status Effect resistance.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voruna's primary role is stealth-based with invisibility and status effect resistance, making her a strong candidate for the Stealth Role."
+      },
+      {
+        "category": "complexity",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Shroud Of Dynar has multiple effects.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Fangs Of Raksh has multiple effects.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Lycath's Hunt and Ulfrun's Descent have complex mechanics.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voruna's abilities are moderately complex with multiple effects and mechanics, but her primary role is straightforward in terms of execution."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Voruna excels in the Stealth Role due to her invisibility and status effect resistance. Her damage output is enhanced through these effects, making her a strong candidate for high-damage stealth combat. While her survivability and support are limited compared to other roles, her complexity is moderate, making her an effective choice for players who prioritize stealth and damage."
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Berserker/ValkyrPrime",
+    "warframeName": "Valkyr Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Valkyr's Hysteria ability deals devastating attacks that also heal her.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Her melee attacks are bolstered by Rage accumulated from hitting or killing enemies with melee weapons.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Valkyr Prime has a strong focus on dealing damage through her abilities and passive effects. Her Hysteria ability is particularly damaging, making her a formidable combatant."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Valkyr's Rage meter increases Melee Damage up to |PERCENT|%, providing some survivability through increased damage output.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Taking fatal damage when the Rage meter is above |CONSUME|% consumes the meter and grants invulnerability for |DURATION|s.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Valkyr Prime has some survivability through her Rage meter, it's not as robust as other roles. Her passive effect provides a temporary boost to survivability but doesn't offer significant long-term protection."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Valkyr's Warcry ability bolsters Armor and Attack Speed for allies while in <AFFINITY_SHARE>Affinity Range.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "However, this effect is limited to allies within her Affinity Range.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Valkyr Prime has some support capabilities through her Warcry ability, but it's limited to a specific range. This makes her less effective as a pure support role compared to other classes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Valkyr's Paralysis ability slows its victims while increasing their Melee Damage Vulnerability.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "However, this effect is limited to a single target and doesn't provide significant crowd control.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Valkyr Prime has some crowd control capabilities through her Paralysis ability, it's not as effective or versatile as other roles. Her effects are limited to a single target and don't offer broad area control."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Valkyr Prime has no abilities or passive effects related to stealth. She is not designed for covert operations or infiltration."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Valkyr's Hysteria ability requires precise timing and execution.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Her Rage meter adds an additional layer of complexity to her combat strategy.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Valkyr Prime has some complex abilities that require precise timing and execution, the overall complexity is not as high as other roles. Her passive effects add a bit more depth but don't significantly increase complexity compared to other classes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Valkyr Prime is primarily designed for damage output with strong survivability through her Rage meter. She has some support capabilities and limited crowd control, but lacks stealth abilities. The role requires precise timing and execution of her abilities, adding a moderate level of complexity to the gameplay."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

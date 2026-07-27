@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/IronFrame/IronFramePrime",
+    "warframeName": "Hildryn Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Hildryn's Aegis Storm ability allows her to rain down Balefire rockets on enemies, dealing significant damage and creating Energy Orbs that can be exploited.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Hildryn does not have a direct high-damage attack, her Aegis Storm provides a powerful area-of-effect damage potential through the use of Balefire rockets and Energy Orbs."
+      },
+      {
+        "category": "survivability",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Hildryn's full Shield Gate is high, providing substantial survivability when her shields are depleted.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "She can remove Status Effects from herself and allies with Pillage.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Hildryn has excellent survivability through her high shield capacity and the ability to cleanse debuffs, making her a resilient combatant."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Haven creates a shield aura around allies, providing them with protection.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Pillage can replenish Hildryn's shields and armor by taking it from nearby enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While not as overtly supportive as some Warframes, Hildryn provides useful support through her shield aura and the ability to heal herself and allies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Aegis Storm can create Energy Orbs that enemies must avoid, potentially disrupting their movement.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Pillage can remove Status Effects from Hildryn and her allies, which can be useful for crowd control.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Hildryn's abilities do not have strong crowd control capabilities, but they can indirectly affect enemy movements and debuffs."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Hildryn does not have any stealth-related abilities or mechanics, making her less effective in stealthy combat scenarios."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Balefire and Aegis Storm require aiming and timing.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Pillage involves targeting enemies to replenish shields and armor.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Hildryn's abilities are relatively straightforward in execution but do require some skill to use effectively."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Hildryn Prime is a balanced Warframe with strong survivability, moderate damage potential, and limited support. Her crowd control capabilities are minimal, and she lacks stealth mechanics. The complexity of her abilities is not particularly high, making her an accessible but versatile combatant."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

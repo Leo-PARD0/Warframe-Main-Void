@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte ao time, fornecendo defesa, cura e controle de status.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "Amesha é claramente classificada como um Support Warframe com suas habilidades de suporte, incluindo a interceptação de tiro inimigo, criação de becos para cura e imunidade a efeitos status. Suas habilidades de controle de grupo e transformação de dano em energia adicionam mais funcionalidades ao seu papel como suporte."
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "Reasoning may be just listing scores without explaining the archetype choice"
+  ]
+}

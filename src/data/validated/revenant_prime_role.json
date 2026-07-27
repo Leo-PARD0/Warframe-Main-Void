@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Controller",
+      "description": "Especialista em controlar a batalha através de efeitos de status, crowd control e habilidades de apoio.",
+      "confidence": 0.95,
+      "basedOn": [
+        "crowdControl",
+        "support"
+      ],
+      "reasoning": "Crowd Control e Support representam claramente a identidade predominante do Warframe. Damage existe, mas não é suficientemente relevante para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

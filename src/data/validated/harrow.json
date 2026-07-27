@@ -1,0 +1,99 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Priest/Priest",
+    "warframeName": "Harrow",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Harrow's abilities focus on support and energy management rather than direct damage output.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Harrow's primary role is to support allies through shields, energy regeneration, and buffs. While it can deal some damage indirectly through the Covenant ability, its main purpose is not to be a high-damage dealer."
+      },
+      {
+        "category": "survivability",
+        "score": 0.7,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Harrow has an Overshield capacity doubled and starts missions at maximum energy, providing good survivability through shields and initial energy reserves.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The increased shield capacity and starting energy provide Harrow with better survivability compared to many other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.9,
+        "confidence": 1,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Harrow's abilities are all focused on supporting allies through shields, energy regeneration, buffs, and damage amplification.",
+            "confidence": 1,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "All of Harrow's abilities contribute to the support role by enhancing the survivability, health regeneration, and offensive capabilities of nearby allies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.2,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Harrow does not have any direct crowd control abilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Harrow can chain enemies with Condemn, this is more of a defensive measure rather than an offensive crowd control ability."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Harrow does not have any stealth-related abilities or mechanics.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Harrow's abilities are all focused on direct combat and support, with no elements related to stealth or infiltration."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Harrow has a relatively simple set of abilities that do not require complex execution or resource management.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Harrow's support role is important and requires strategic thinking, the mechanics themselves are not as intricate as some other Warframes with multiple resources or complex combos."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Harrow is primarily a support Warframe designed to enhance the survivability and offensive capabilities of nearby allies through shields, energy regeneration, and buffs. Its abilities are straightforward and do not require complex execution or resource management, making it relatively simple to play compared to some other Warframes."
+  },
+  "errors": [],
+  "warnings": []
+}

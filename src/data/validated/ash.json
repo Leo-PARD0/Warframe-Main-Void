@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Ninja/Ninja",
+    "warframeName": "Ash",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Ash's Shuriken deals high damage and impales enemies to walls.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Blade Storm projects Shadow Clones that can deal significant damage.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ash has both a direct damage ability (Shuriken) and an area-of-effect damage ability (Blade Storm). The combination of these abilities allows for effective damage output in various situations."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Ash has a Smoke Screen ability that stuns enemies and makes Ash invisible.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Ash's Teleport ability allows for quick movement and recovery.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Ash has some survivability tools (Smoke Screen and Teleport), they are not as robust as those of other Warframes. The lack of a dedicated shield or armor boost limits his overall survivability."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Ash's abilities primarily focus on damage and mobility.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "There are no direct support abilities like healing or buffs.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ash does not have any significant support capabilities. His abilities are more focused on dealing damage and escaping than providing assistance to allies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.7,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Smoke Screen stuns enemies and obscures their vision.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Blade Storm can control groups of distant enemies with Shadow Clones.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ash has effective crowd control abilities through his Smoke Screen and Blade Storm. These tools allow him to manage enemy positioning and create openings for himself and his allies."
+      },
+      {
+        "category": "stealth",
+        "score": 0.9,
+        "confidence": 1,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Ash's Smoke Screen ability makes him invisible for a short time.",
+            "confidence": 1,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "The combination of stealth and damage allows Ash to take out enemies from a distance.",
+            "confidence": 1,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ash has an excellent stealth capability with his Smoke Screen ability, which provides significant mobility and surprise in combat. This makes him highly effective at taking out enemies without being detected."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Ash's abilities are relatively straightforward with no complex combos or resource management.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "The lack of a dedicated support role means Ash relies more on his own damage and mobility.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Ash has some complexity in managing resources like energy, the overall gameplay is not as intricate as that of Warframes with more advanced mechanics. The focus remains primarily on dealing damage and maintaining stealth."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Ash is a highly effective damage dealer with excellent crowd control and stealth capabilities. His survivability is moderate, but he excels in taking out enemies from a distance. Complexity is relatively low compared to other Warframes, making him accessible for players of various skill levels."
+  },
+  "errors": [],
+  "warnings": []
+}

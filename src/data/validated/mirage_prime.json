@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Harlequin/MiragePrime",
+    "warframeName": "Mirage Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Eclipse increases weapon damage",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Prism detonates blinding nearby foes",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mirage Prime has two abilities that directly increase damage output: Eclipse and Prism."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Eclipse reduces damage taken",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Sliding lasts longer",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mirage Prime has one ability that improves survivability: Eclipse. Additionally, the passive skill increases acrobatic maneuvers speed."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Hall Of Mirrors creates doppelgangers",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Sleight Of Hand booby traps objects",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mirage Prime has two abilities that provide support: Hall Of Mirrors and Sleight Of Hand."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Sleight Of Hand creates radial blind",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Prism detonates blinding nearby foes",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mirage Prime has two abilities that provide crowd control: Sleight Of Hand and Prism."
+      },
+      {
+        "category": "stealth",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Sliding lasts longer",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Sleight Of Hand creates radial blind",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mirage Prime has two abilities that enhance stealth: Sliding and Sleight Of Hand."
+      },
+      {
+        "category": "complexity",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "No specific complexity details provided",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The context does not provide any information about the complexity of Mirage Prime's abilities or playstyle."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Mirage Prime is a versatile Warframe with moderate damage and crowd control capabilities. It has some support and stealth features, but its survivability is decent. The lack of specific complexity details makes it difficult to assess how complex the Warframe is to play."
+  },
+  "errors": [],
+  "warnings": []
+}

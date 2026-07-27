@@ -1,0 +1,99 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/AntiMatter/Anti",
+    "warframeName": "Nova",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Nova's abilities include a particle attack (Null Star) and an explosive drop (Antimatter Drop), which can deal significant damage to enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nova has two primary damaging abilities that can cause substantial harm to enemies. However, these abilities lack the precision and control of more specialized weapons like Nova's Molecular Prime, which allows for area-of-effect damage over time."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Nova has moderate survivability with decent health and shield values. The ability to slow down enemies (Molecular Prime) can provide some defensive benefits.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Nova's survivability is not exceptional, it offers a balance between health and the ability to control enemy movement, which can be useful in combat scenarios."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Nova has limited support abilities. The ability to drop energy orbs (Nova Passive) is a minor support function.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nova's primary role is not focused on supporting allies, but rather dealing damage and controlling enemy movement. Its support capabilities are minimal compared to other Warframes like Valkyr or Protea."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Nova's ability to slow down (Molecular Prime) and speed up enemies can be useful for crowd control in certain situations.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Nova does not have a dedicated crowd control ability like Valkyr or Protea, its movement control abilities can still be effective in managing enemy positioning during battles."
+      },
+      {
+        "category": "stealth",
+        "score": 0.15,
+        "confidence": 0.4,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Nova has no stealth-related abilities or mechanics.",
+            "confidence": 0.4,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nova lacks any stealth capabilities, making it unsuitable for roles that require covert operations or infiltration."
+      },
+      {
+        "category": "complexity",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Nova's abilities are relatively straightforward and do not require complex execution or resource management.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nova has a simple set of abilities that can be executed with minimal skill or strategy, making it less complex compared to Warframes like Gauss or Xaku."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Nova is a balanced Warframe designed for dealing damage and controlling enemy movement. It offers moderate survivability and limited support capabilities, but lacks stealth and complexity. Its role is primarily focused on direct combat rather than specialized support or infiltration."
+  },
+  "errors": [],
+  "warnings": []
+}

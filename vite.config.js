@@ -10,6 +10,15 @@ export default defineConfig({
     },
   },
   base: '/Warframe-Main-Void/',
+  server: {
+    proxy: {
+      '/api/warframe': {
+        target: 'https://api.warframestat.us',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/warframe/, ''),
+      },
+    },
+  },
   build: {
     outDir: 'docs',
     assetsDir: '',

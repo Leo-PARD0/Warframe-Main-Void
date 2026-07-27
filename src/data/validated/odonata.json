@@ -1,0 +1,94 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack",
+    "warframeName": "Odonata",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Firing a large volley of homing missiles (Seeking Fire)",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Odonata possui habilidades que causam dano direto em alvos individuais e em área (Seeking Fire). No entanto, as informações sobre o dano base e a escalabilidade não estão disponíveis."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Forms a protective energy shell around the Warframe (Energy Shell)",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Odonata tem uma habilidade defensiva que cria um escudo energético, o que pode ajudar na sobrevivência. No entanto, as informações sobre a redução de dano e a regeneração de vida/escudo não estão disponíveis."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Não há habilidades que beneficiem diretamente os aliados ou ofereçam suporte em equipe."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.7,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Drops flare beacons confusing incoming guided missiles (Disarray)",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "The Warframe emits a massive pulse of energy, stunning nearby enemies and sending them flying (Repel)",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Odonata possui habilidades que podem controlar múltiplos inimigos simultaneamente (Disarray e Repel), confundindo os alvos e atordoando-os. No entanto, as informações sobre a duração do controle e o número de alvos afetados não estão disponíveis."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.3,
+        "evidences": [],
+        "reasoning": "Não há habilidades que permitam ao Warframe evitar detecção inimiga ou realizar ataques furtivos."
+      },
+      {
+        "category": "complexity",
+        "score": 0.5,
+        "confidence": 0.4,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Four distinct abilities",
+            "confidence": 0.4,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Odonata possui quatro habilidades distintas, o que pode aumentar a complexidade de uso. No entanto, as informações sobre combos ou sequências necessárias não estão disponíveis."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Odonata é um Warframe com uma combinação equilibrada de dano e controle de multidão, mas com baixa capacidade de suporte e stealth. A habilidade de criar um escudo energético pode aumentar sua sobrevivência, embora as informações detalhadas sobre o dano e a regeneração de recursos sejam limitadas."
+  },
+  "errors": [],
+  "warnings": [
+    "Low average confidence across categories",
+    "Categories with no evidences: support, stealth"
+  ]
+}

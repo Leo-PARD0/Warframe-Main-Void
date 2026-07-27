@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Nokko/Nokko",
+    "warframeName": "Nokko",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.25,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Sporespring unleashes a chaotic ballistic mushroom that seeks enemies and bounces explosively off whatever it touches.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nokko's primary damage source is the Sporespring ability, which deals damage through explosive mushrooms. However, this ability does not have a specific damage value or cooldown, making it difficult to quantify its effectiveness in terms of raw damage output."
+      },
+      {
+        "category": "survivability",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Nokko can revert to Sprodling form and heal over time while untargetable.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The Nokko Passive allows for self-revival upon receiving fatal damage.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nokko has several survivability features, including the ability to revert to a healing Sprodling form and the passive self-revival mechanism. These features provide significant protection against enemy attacks."
+      },
+      {
+        "category": "support",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Brightbonnet releases a rejuvenating mushroom that gives Nokko and allies Energy and Ability Strength buffs.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Stinkbrain lulls nearby enemies to sleep, potentially disrupting their abilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nokko has limited support capabilities, primarily through the Brightbonnet ability which provides temporary buffs. The Stinkbrain ability can disrupt enemy abilities but does not provide direct support like healing or damage amplification."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.45,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Stinkbrain lulls nearby enemies to sleep.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Sporespring bounces explosively off enemies and invigorates mushrooms, potentially creating a chain reaction.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nokko has some crowd control capabilities through the Stinkbrain ability, which can incapacitate enemies. However, these effects are limited in duration and effectiveness compared to more dedicated crowd control abilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.15,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Nokko does not have any stealth-related abilities or features. Its primary interactions with enemies are through direct attacks and support effects."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "The Nokko Passive involves a self-revival mechanism.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Sporespring has an unpredictable bouncing behavior that can create complex interactions with the environment.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nokko's abilities have some complexity due to the passive self-revival and the unpredictable nature of the Sporespring ability. However, these complexities are relatively minor compared to more advanced Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Nokko is a support-focused Warframe with limited offensive capabilities but strong survivability features. Its primary role involves providing healing and buffs while disrupting enemy abilities through crowd control. The complexity of Nokko's abilities is moderate, primarily due to the passive self-revival mechanism and the unpredictable bouncing behavior of Sporespring."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

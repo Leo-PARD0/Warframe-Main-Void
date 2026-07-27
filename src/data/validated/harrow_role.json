@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte, fornecendo buffs, regeneração de energia e defesa para aliados.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "O arquétipo Support é dominado pela categoria Support (0.90), que reflete a função principal de Harrow em suportar e melhorar os aliados através de buffs, regeneração de energia e defesa. As outras categorias têm scores muito baixos e não influenciam significativamente na identidade do Warframe."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

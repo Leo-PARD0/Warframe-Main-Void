@@ -1,0 +1,148 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Brawler/Brawler",
+    "warframeName": "Atlas",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Landslide can deal up to three hits in a combo attack.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Tectonics summons a rock-wall that can be used for area-of-effect attacks.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Petrify increases the damage taken by enemies and creates healing Rubble.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Rumblers summon stone brawlers that can petrify nearby enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Atlas has multiple abilities that deal damage, including combo attacks with Landslide and area-of-effect attacks with Tectonics. Petrify also increases enemy damage, while Rumblers provide additional melee support. However, these abilities do not have specific damage values or energy costs, making it difficult to assign a precise score."
+      },
+      {
+        "category": "survivability",
+        "score": 0.7,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Atlas is immune to Knockdown effects while on the ground.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Petrify can heal enemies and create healing Rubble.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Rumblers collapse into a pile of healing Rubble.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Atlas has survivability benefits such as immunity to Knockdown effects. Petrify and Rumblers provide healing, which helps Atlas survive longer in combat. However, these abilities do not have specific health or shield values, making it difficult to assign a precise score."
+      },
+      {
+        "category": "support",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Petrify can heal enemies and create healing Rubble.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Rumblers summon stone brawlers that can petrify nearby enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Atlas has some support abilities, such as Petrify and Rumblers, which provide healing and additional melee support. However, these abilities do not have specific damage or energy values, making it difficult to assign a precise score."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Tectonics can be used for area-of-effect attacks.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Petrify increases the damage taken by enemies and creates Petrified Bulwarks.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Atlas has some crowd control abilities, such as Tectonics and Petrify. However, these abilities do not have specific damage or energy values, making it difficult to assign a precise score."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Atlas does not have any stealth-related abilities or attributes."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Landslide has a combo attack mechanic.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Tectonics and Petrify have area-of-effect mechanics.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Rumblers summon additional units.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Atlas has some complex abilities with multiple stages or mechanics, such as Landslide's combo attack and Tectonics' area-of-effect attacks. However, these abilities do not have specific damage or energy values, making it difficult to assign a precise score."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Atlas is a versatile Warframe with multiple abilities that can deal damage, provide healing, and offer support. It has some crowd control capabilities but lacks stealth. The complexity of Atlas's abilities is moderate due to the presence of combo attacks and area-of-effect mechanics."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

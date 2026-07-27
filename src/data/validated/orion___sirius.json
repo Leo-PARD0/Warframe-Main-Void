@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/SiriusOrion/OrionSuit",
+    "warframeName": "Orion & Sirius",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Gravitic Slash deals <DT_SLASH_COLOR>Slash Damage and Status Effect",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Celestial Clash inflicts colossal collateral <DT_EXPLOSION_COLOR>Blast damage",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Orion & Sirius has both melee and ranged attack options that deal significant damage. The Celestial Clash ability, in particular, offers high potential for area-of-effect damage."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Astral Shell draws fire until it's destroyed",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Event Horizon traps enemies within its gravity",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Orion & Sirius has some defensive abilities like Astral Shell and Event Horizon, they do not offer strong survivability compared to other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Swapping between them grants |EFFICIENCY|% Ability Efficiency for the next |COUNT| casts",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Event Horizon can be used to control enemy movement",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Orion & Sirius has limited support capabilities. The ability efficiency swap is useful but does not provide significant support compared to other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Event Horizon traps enemies within its gravity",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Gravitic Slash and Coronal Ejection can be used to control enemy movement",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Orion & Sirius has decent crowd control options with Event Horizon and Gravitic Slash/Coronal Ejection."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Astral Shell draws fire until it's destroyed",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Orion & Sirius does not have any stealth abilities or mechanisms to avoid detection."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Swapping between Orion and Sirius requires strategic decision-making",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Celestial Clash involves matching star colors",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Orion & Sirius has a moderate level of complexity due to the need for strategic swapping and color-matching in Celestial Clash."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Orion & Sirius is a versatile Warframe with strong damage capabilities, decent crowd control, and limited support. However, it lacks survivability and stealth abilities, making it less effective in certain situations compared to other Warframes."
+  },
+  "errors": [],
+  "warnings": []
+}

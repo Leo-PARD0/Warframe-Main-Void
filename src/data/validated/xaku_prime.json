@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/BrokenFrame/XakuPrime",
+    "warframeName": "Xaku Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "The Lost: Deny's Void beam deals damage based on the number of weapons grabbed.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Grasp Of Lohk steals weapons and uses them as auto-targeting armament.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Xaku Prime has abilities that deal significant damage through various means, including stealing enemy weapons and using them to attack. The Lost: Deny's Void beam also scales with the number of weapons grabbed, indicating substantial potential for high damage output."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Xaku Prime has a relatively low health and shield compared to other Warframes.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The Vast Untime temporarily sheds outer pieces of Xaku, which could be seen as a form of self-sacrifice for increased mobility.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Xaku Prime can deal high damage, its survivability is moderate due to its low health and shield. The Vast Untime does provide some temporary mobility but at the cost of significant damage."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Xaku Prime's abilities do not directly support other players.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "The Lost: Accuse can corrupt enemies into allies, which could be seen as a form of support.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Xaku Prime does not have direct support abilities like healing or buffs for teammates. The ability to turn enemies into allies is more of an offensive strategy rather than support."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "The Lost: Deny can be used to control enemies by annihilating them with a beam.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Grasp Of Lohk can steal weapons and use them as auto-targeting armament, potentially controlling enemy movements.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Xaku Prime has abilities that can control or incapacitate enemies, such as stealing their weapons and using them against them. However, these are more offensive than purely crowd control."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "There is no evidence of stealth abilities in Xaku Prime's description.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Xaku Prime does not have any abilities that allow it to move silently or avoid detection, making its stealth capabilities minimal."
+      },
+      {
+        "category": "complexity",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "The Lost requires cycling through three different powers, each with its own mechanics.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Grasp Of Lohk involves managing multiple weapons and their usage.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Xaku Prime has a moderate level of complexity due to the need to manage multiple abilities and resources effectively. The ability to cycle through different powers adds an additional layer of strategy and decision-making."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Xaku Prime is a high-damage Warframe with moderate survivability, limited support capabilities, and some crowd control options. Its complexity comes from managing multiple abilities and their interactions."
+  },
+  "errors": [],
+  "warnings": []
+}

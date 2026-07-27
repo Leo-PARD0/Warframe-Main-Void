@@ -1,0 +1,87 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Frost/Frost",
+    "warframeName": "Frost",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Ice Wave deals heavy damage",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Frost has a single ability that deals heavy damage (Ice Wave), but it lacks any form of area-of-effect or follow-up attacks to maximize its impact."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Snow Globe provides brief invulnerability",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Frost has a passive that increases the duration of cold status effects and an ability (Snow Globe) that grants temporary invulnerability, but these are not strong survivability features."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Frost does not have any abilities or passives designed to support allies or provide utility in a team setting."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Freeze and Avalanche can immobilize enemies",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Frost has abilities that can freeze enemies in place (Freeze) or create a treacherous environment that immobilizes them (Avalanche), but these are not strong crowd control features."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Frost does not have any abilities or passives designed to provide stealth or evade enemy detection."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "No complex combos or resource management required",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Frost has a simple set of abilities with minimal setup or execution requirements, making it relatively easy to play."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Frost is a straightforward damage dealer with limited survivability and support options. Its abilities are focused on dealing heavy damage and creating immobilizing effects, but do not offer strong crowd control or stealth capabilities. The lack of complex mechanics or resource management makes Frost relatively easy to play."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: support, stealth"
+  ]
+}

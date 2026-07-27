@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte, fornecendo buffs e energia aos aliados para aumentar sua eficácia em combate.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "A Role de Support é determinada pela pontuação alta de Support (0.60) e pela ausência de categorias semânticas significativas que possam alterar esse arquétipo principal. A Amp ability amplifica o dano dos aliados, enquanto a passive Replenish recupera energia para Octavia e seus companheiros, tornando-o um suporte valioso."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

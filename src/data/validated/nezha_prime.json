@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Nezha/NezhaPrime",
+    "warframeName": "Nezha Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Blazing Chakram sets enemies ablaze and drops Restorative Orbs on death.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Divine Spears impales nearby enemies on spears that erupt from the below.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nezha Prime has two abilities that deal direct damage to enemies (Blazing Chakram and Divine Spears). The Blazing Chakram also provides a supportive effect by dropping Restorative Orbs, which can be useful for healing allies or self-healing. However, there is no evidence of high area-of-effect damage or burst damage."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Warding Halo creates a protective ring of fire that stuns and damages enemies who get too close.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Fire Walker scorching enemies and cleansing allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nezha Prime has survivability through the Warding Halo ability, which provides both damage reduction and crowd control. However, there is no evidence of high health or shield regeneration abilities."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Blazing Chakram drops Restorative Orbs on death.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Warding Halo stuns and damages enemies who get too close.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nezha Prime has some support abilities through the Blazing Chakram's healing effect and Warding Halo's crowd control. However, there is no evidence of direct healing or area-of-effect support abilities."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Warding Halo stuns and damages enemies who get too close.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Fire Walker scorching enemies and cleansing allies.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nezha Prime has some crowd control abilities through the Warding Halo's stun effect and Fire Walker's cleansing ability. However, there is no evidence of high mobility or knockback abilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.3,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Nezha Prime has no stealth-related abilities or mechanics. There is no evidence of invisibility, cloaking, or any other stealth-based capabilities."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.3,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Fire Walker and Blazing Chakram have simple cooldowns.",
+            "confidence": 0.3,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Divine Spears has a straightforward activation mechanic.",
+            "confidence": 0.3,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nezha Prime's abilities are relatively simple in terms of execution and do not require complex timing or positioning. There is no evidence of multiple resource management, combos, or high APM requirements."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Nezha Prime is a balanced Warframe with moderate damage output, decent survivability, and some support capabilities. However, it lacks stealth and complexity, making it more straightforward to play than some other Warframes."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

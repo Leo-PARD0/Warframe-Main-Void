@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Ninja/AshPrime",
+    "warframeName": "Ash Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Ash Prime has a high damage output through her Shuriken and Blade Storm abilities.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "The Smoke Screen ability provides cover for Ash to deal more damage by making enemies vulnerable.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ash Prime's primary focus is on dealing damage with her Shuriken and Blade Storm. The Smoke Screen ability enhances this by providing temporary invincibility, allowing Ash to land more hits."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Ash Prime has moderate survivability with her Smoke Screen ability, which provides a short period of invincibility.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The Blade Storm ability can be used to create distractions and allow Ash to escape or regroup.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Ash Prime has some survivability through her Smoke Screen, it is not as robust as other Warframes. The Blade Storm ability helps in creating opportunities for escape but does not provide substantial defensive capabilities."
+      },
+      {
+        "category": "support",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Ash Prime has limited support abilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "The Blade Storm ability can be used to create distractions and allow allies to engage enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ash Prime does not have strong support capabilities. Her Blade Storm ability can help in creating opportunities for allies but is not a significant support role."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Ash Prime has moderate crowd control through her Smoke Screen ability.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "The Blade Storm ability can be used to create distractions and allow Ash to escape or regroup.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ash Prime's primary focus is on dealing damage rather than crowd control. The Smoke Screen ability provides some crowd control but is not as effective as other Warframes in this category."
+      },
+      {
+        "category": "stealth",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Ash Prime has a strong stealth component with her Smoke Screen ability.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "The Blade Storm ability can be used to create distractions and allow Ash to escape or regroup.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ash Prime's Smoke Screen ability provides significant stealth capabilities by making enemies vulnerable and invisible. The Blade Storm ability helps in creating opportunities for escape but does not provide substantial defensive capabilities."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Ash Prime has a relatively simple skill set.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "The Smoke Screen ability provides some complexity through its invincibility period.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ash Prime's skill set is straightforward with limited combos and resource management. The Smoke Screen ability adds some complexity but does not significantly increase the overall complexity of the Warframe."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Ash Prime is a damage-focused Warframe with moderate survivability, limited support, and strong stealth capabilities. Her primary role is to deal high damage while providing temporary invincibility through her Smoke Screen ability. The Blade Storm ability adds some complexity but does not significantly increase the overall complexity of the Warframe."
+  },
+  "errors": [],
+  "warnings": []
+}

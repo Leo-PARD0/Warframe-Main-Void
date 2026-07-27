@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Nuker",
+      "description": "Especialista em causar alto dano em grandes áreas, com habilidades que podem eliminar vários alvos simultaneamente.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage"
+      ],
+      "reasoning": "Damage é a categoria semântica mais dominante para Frost Prime. Suas habilidades (Ice Wave e Avalanche) são projetadas para causar alto dano em grandes áreas, caracterizando-o como um Nuker. A habilidade Snow Globe também contribui para o dano total do personagem, mas não é suficiente para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

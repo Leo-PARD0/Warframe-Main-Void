@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Battlemage",
+      "description": "Especialista em combate corpo a corpo com alta dano e suporte, utilizando habilidades de composição para criar efeitos poderosos.",
+      "confidence": 0.95,
+      "basedOn": [
+        "damage",
+        "support"
+      ],
+      "reasoning": "Damage e Support representam claramente a identidade predominante do Warframe. Dante possui uma combinação equilibrada de habilidades ofensivas e suporte, sendo capaz de causar dano significativo e melhorar o desempenho dos aliados."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

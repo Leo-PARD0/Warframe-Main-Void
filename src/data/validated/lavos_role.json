@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Battlemage",
+      "description": "Especialista em combate corpo a corpo com alta dano, suporte e controle de campo.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage",
+        "support",
+        "crowdControl"
+      ],
+      "reasoning": "Damage é dominante com Catalyze que aumenta significativamente o dano com base nos elementos aplicados. Support é relevante com Transmutation Probe que fornece recursos e reduz cooldowns. Crowd Control existe, mas não é suficientemente relevante para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

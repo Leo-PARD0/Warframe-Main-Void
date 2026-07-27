@@ -1,0 +1,105 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/IronFrame/IronFrame",
+    "warframeName": "Hildryn",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Hildryn's Aegis Storm ability allows her to rain down Balefire rockets on enemies, causing significant damage and creating Energy Orbs that further damage nearby enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Hildryn has a powerful area-of-effect attack with Aegis Storm, it is not as direct or focused as some other Warframes. The damage output is decent but not exceptional."
+      },
+      {
+        "category": "survivability",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Hildryn's full Shield Gate provides high survivability, allowing her to take significant damage before becoming vulnerable again.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Her Haven ability creates a shield aura around allies, providing additional protection.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Hildryn has excellent survivability due to her high Shield Gate and supportive abilities. She can absorb substantial damage without being overwhelmed."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Pillage allows Hildryn to replenish her own Shields and Overshields by stealing from nearby enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Haven provides a shield aura around allies, making her a valuable support Warframe.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Hildryn can provide some support through Pillage and Haven, it is not as robust or versatile as some other support roles. Her abilities are more focused on self-preservation and basic assistance."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Aegis Storm can knock enemies into the air, creating Energy Orbs that further damage them.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Haven can cause Radiation Damage to enemies approaching Hildryn.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Hildryn has some crowd control capabilities with Aegis Storm and Haven, but they are not as strong or versatile as those of other Warframes. Her abilities primarily focus on dealing damage and providing support rather than controlling the battlefield."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Hildryn does not have any stealth-related abilities or mechanics. She is a tank-type Warframe designed for front-line combat rather than sneaking around."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Hildryn's abilities are straightforward and do not require complex execution or timing. She has a few basic skills that can be used effectively with minimal strategy."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Hildryn is a tank-type Warframe known for her high survivability and supportive abilities. While she can deal significant damage through Aegis Storm, her overall complexity and support capabilities are limited compared to other Warframes."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth, complexity"
+  ]
+}

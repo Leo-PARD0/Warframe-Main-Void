@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "data": {
+    "primaryRole": "Controller",
+    "secondaryRoles": [
+      "DPS",
+      "Tank"
+    ],
+    "confidence": 0.8,
+    "description": "Odonata Prime é um Warframe versátil que combina controle de inimigos com dano e defesa.",
+    "reasoning": "Suas habilidades de Crowd Control (Disarray, Repel) são notáveis, enquanto seu Energy Shell oferece defesa. O uso de Seeking Fire como uma fonte de dano em área adiciona flexibilidade ao estilo de jogo."
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Khora/Khora",
+    "warframeName": "Khora",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Ensnare binds and entangles enemies, potentially causing damage over time.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Strangledome creates a trap that can ensnare multiple enemies, dealing damage to them.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Khora's abilities focus on controlling and damaging enemies through traps and entanglements. While not as direct in terms of one-hit damage, her traps can cause sustained damage over time."
+      },
+      {
+        "category": "survivability",
+        "score": 0.7,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Khora has a speed boost from Venari, which can help her evade attacks.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Venari's healing and protection postures provide survivability during fights.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Khora's survivability is bolstered by her ability to control the battlefield through traps and her support from Venari. The speed boost also helps her avoid direct combat."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Venari can provide healing and protection postures.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Khora's abilities can be used to control the battlefield and set up traps for enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Khora's support role is primarily through Venari, who provides healing and protection while Khora sets up traps. However, Khora's direct damage capabilities are limited compared to some other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Ensnare binds enemies, limiting their movement.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Strangledome creates a trap that ensnares multiple enemies and can be used to control the battlefield.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Khora's abilities are highly effective at controlling the battlefield through entanglements and traps. Her traps can immobilize enemies and create choke points."
+      },
+      {
+        "category": "stealth",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "No stealth-related abilities or mods mentioned.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Khora's speed boost from Venari does not provide significant stealth capabilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Khora has no inherent stealth abilities. Her survivability and crowd control come from her traps and support rather than stealth."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "No complex combos or resource management required.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Habilities are straightforward with minimal setup needed.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Khora's abilities are relatively simple and do not require complex execution or resource management. The main challenge lies in setting up traps and controlling the battlefield effectively."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Khora is a support-focused Warframe with strong crowd control capabilities through her entangling traps. Her survivability is bolstered by Venari's healing and protection postures, making her effective at controlling the battlefield from a distance. While not as complex or damaging as some other Warframes, Khora excels in her role of setting up traps and supporting her team."
+  },
+  "errors": [],
+  "warnings": []
+}

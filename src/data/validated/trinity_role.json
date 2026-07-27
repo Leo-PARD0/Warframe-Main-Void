@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte ao time, fornecendo buffs de saúde e energia aos aliados.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "A Trinity é predominantemente focada no suporte aos aliados, oferecendo buffs de saúde e energia. Suas habilidades não têm foco em dano, controle de grupo ou furtividade."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

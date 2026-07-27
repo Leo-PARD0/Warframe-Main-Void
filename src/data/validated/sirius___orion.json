@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+    "warframeName": "Sirius & Orion",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.4,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Sirius' Jade Light infused scythe deals Heat Damage while collecting pickups in its path.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Jade Stars launches motes that deal Heat Damage and Status Effect upon attacking enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The abilities of Sirius & Orion involve dealing damage through their weapons and motes. However, the exact damage values are not provided, making it difficult to assign a higher score."
+      },
+      {
+        "category": "survivability",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Light's Sanctuary heals and revives allies while reducing incoming damage.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The ability to swap between Sirius and Orion grants Efficiency for the next COUNT casts.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Light's Sanctuary provides healing and damage reduction, the survivability is limited by the lack of defensive abilities or health regeneration."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Light's Sanctuary heals and revives allies.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Swapping between Sirius and Orion grants Efficiency for the next COUNT casts.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Sirius & Orion can support their team by healing and providing efficiency to allies, but their support capabilities are not as robust as some other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Jade Stars deals Status Effect upon attacking enemies.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Light's Sanctuary reduces incoming damage.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The abilities of Sirius & Orion do not provide significant crowd control capabilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Sirius & Orion does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Swapping between Sirius and Orion grants Efficiency for the next COUNT casts.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Celestial Clash requires generating Constellation Stars by using abilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The ability to swap between Sirius and Orion adds a layer of complexity, as does the need to manage Constellation Stars in Celestial Clash. However, the exact complexity is difficult to determine without more information."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Sirius & Orion has moderate damage output through its weapons and motes, decent support capabilities with healing and efficiency, but limited crowd control and stealth. The playstyle involves swapping between two Warframes and managing Constellation Stars in Celestial Clash, adding some complexity to the gameplay."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

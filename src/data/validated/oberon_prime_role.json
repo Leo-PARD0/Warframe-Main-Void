@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Battlemage",
+      "description": "Especialista em combate corpo-a-corpo com alta dano e suporte, utilizando habilidades que aumentam a defesa e cura aliados.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage",
+        "survivability"
+      ],
+      "reasoning": "Damage e Survivability representam claramente a identidade predominante do Warframe. O uso de habilidades que aumentam a defesa e cura aliados, como Renewal, é característico deste arquétipo. Crowd Control existe, mas não é suficientemente relevante para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

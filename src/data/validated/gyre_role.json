@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Battlemage",
+      "description": "Especialista em combate corpo-a-corpo com alta dano e controle de campo, utilizando magia elétrica.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage",
+        "crowdControl"
+      ],
+      "reasoning": "Damage e Crowd Control representam claramente a identidade predominante do Warframe. Gyre possui habilidades que causam dano significativo tanto em ataques diretos quanto em áreas de efeito, além de controle de campo através da Rotorswell. A Survivability é moderada, mas não dominante o suficiente para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

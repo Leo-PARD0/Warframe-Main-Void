@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Geode/Geode",
+    "warframeName": "Citrine",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Prismatic Gem shoots prismatic beams that inflict multiple status effects and increase the status chance for nearby allies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Citrine's Prismatic Gem ability deals damage through prismatic beams and provides support to nearby allies by increasing their status chance and duration. This indicates moderate damage output with some supportive elements."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Preserving Shell guards herself and nearby allies with a crystalline shell that decays over time.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Citrine grants nearby allies health regeneration.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Citrine has survivability through the Preserving Shell ability, which provides a protective shield to herself and her allies. However, the shell decays over time, limiting its effectiveness in prolonged engagements."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Citrine grants nearby allies health regeneration.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Prismatic Gem increases the status chance and duration for nearby allies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Preserving Shell gradually decays, providing ongoing support.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Citrine's abilities provide moderate support to her allies through health regeneration, increased status effects, and a protective shield. The survivability is limited by the decay of the Preserving Shell, but the overall support is balanced."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Crystallize summons crystal fractals that paralyze enemies.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Fractals can be hit to deal critical damage.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Citrine's Crystallize ability provides limited crowd control through paralysis of enemies. However, the effectiveness is dependent on hitting the crystalline growths, which may not always be possible in combat."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Citrine does not have any abilities that provide stealth or allow her to move silently."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Prismatic Gem requires targeting enemies taking weapon damage from Citrine and her allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Crystallize involves summoning fractals that need to be hit for critical damage.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Citrine's abilities require some level of strategic thinking and execution, particularly with the Prismatic Gem ability. However, the complexity is relatively low compared to more intricate Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Citrine is a balanced Warframe with moderate damage output, decent survivability, and solid support for her allies. Her abilities provide some crowd control but are limited in effectiveness. The overall role of Citrine is supportive and defensive."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

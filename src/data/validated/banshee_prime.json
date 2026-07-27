@@ -1,0 +1,100 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Banshee/BansheePrime",
+    "warframeName": "Banshee Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Sonar exposes critical weak spots to everyone in your squad",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Banshee Prime's Sonar ability provides information about enemy weaknesses, which can be used for more effective damage output."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Silence stuns enemies and limits their perceptions",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Banshee Prime's Silence ability provides a temporary survival advantage by incapacitating enemies."
+      },
+      {
+        "category": "support",
+        "score": 0.65,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Sonar exposes critical weak spots to everyone in your squad",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Silence stuns enemies and limits their perceptions",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Banshee Prime's Sonar ability enhances the effectiveness of allies by providing them with information about enemy weaknesses, while Silence provides a direct support benefit."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.55,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Silence stuns enemies and limits their perceptions",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Banshee Prime's Silence ability can be used to control the battlefield by incapacitating enemies."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Banshee Prime does not have any stealth abilities or mechanisms."
+      },
+      {
+        "category": "complexity",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Silence stuns enemies and limits their perceptions",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Banshee Prime's Silence ability requires precise timing to be effective, adding a moderate level of complexity."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Banshee Prime is primarily a support Warframe with some survivability capabilities. Its abilities focus on providing information about enemy weaknesses and incapacitating them, making it useful for coordinating attacks and controlling the battlefield. While it has limited damage output, its support role is significant."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

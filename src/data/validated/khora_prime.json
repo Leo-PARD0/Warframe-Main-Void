@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Khora/KhoraPrime",
+    "warframeName": "Khora Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Ensnare can entangle and damage enemies over time.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Strangledome creates a trap that damages enemies inside it.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Khora Prime has abilities that deal both direct and area-of-effect damage over time. However, these abilities lack the burst potential of some other Warframes."
+      },
+      {
+        "category": "survivability",
+        "score": 0.7,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Venari provides a speed boost while active.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Strangledome can be used to create a defensive barrier.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Khora Prime has survivability through her passive and abilities that provide both offensive and defensive options."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Venari can protect allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Strangledome can be used to control enemy movement.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Khora Prime has support capabilities through her passive and abilities that can help allies or disrupt the enemy's formation."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Ensnare entangles enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Strangledome creates a trap that ensnares and strangles enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Khora Prime has strong crowd control abilities through her passive and abilities that can immobilize or damage multiple enemies simultaneously."
+      },
+      {
+        "category": "stealth",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "No stealth-related abilities are mentioned.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "The passive does not provide any stealth benefits.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Khora Prime lacks any stealth capabilities or passive effects that could enhance her stealth performance."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Venari requires timing and positioning to be effective.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Strangledome involves precise placement and timing.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Khora Prime has abilities that require some level of skill and timing, but they are not as complex as those of some other Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Khora Prime is a balanced Warframe with strong survivability and crowd control capabilities. She lacks direct damage output and stealth, making her more suitable for support roles in team fights."
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,111 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Trinity/Trinity",
+    "warframeName": "Trinity",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.2,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Allies in Affinity Range gain |BUFF|% of Trinity's Max Energy as Health.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Trinity's passive ability provides health to allies, but it does not directly deal damage itself."
+      },
+      {
+        "category": "survivability",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Allies gain additional Health when they attack the target.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Any damage taken while Link is active will be channeled to a nearby enemy.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Trinity's abilities provide some survivability through health buffs and damage redirection, but these effects are limited compared to other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Allies gain additional Health when they attack the target.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Energy Vampire allows allies to gain energy over time.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Blessing restores health and shields of allies while reducing their damage taken.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Trinity's abilities are primarily focused on supporting allies, providing health buffs, energy regeneration, and damage reduction. These support functions are strong and versatile."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.1,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Trinity does not have any abilities that directly control or restrain enemies."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Trinity's abilities do not provide stealth capabilities."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Allies in Affinity Range gain |BUFF|% of Trinity's Max Energy as Health.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Any damage taken while Link is active will be channeled to a nearby enemy.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Trinity's abilities are relatively straightforward and do not require complex execution or resource management."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Trinity is primarily a support Warframe, providing health buffs, energy regeneration, and damage reduction to allies. While it has some survivability elements through its passive ability, its overall complexity and role are focused on supporting the team rather than dealing damage or controlling enemies."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: crowdControl, stealth"
+  ]
+}

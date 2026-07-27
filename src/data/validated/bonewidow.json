@@ -1,0 +1,61 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/EntratiMech/ThanoTech",
+    "warframeName": "Bonewidow",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0,
+        "confidence": 0,
+        "evidences": [],
+        "reasoning": "Bonewidow lacks any direct damage output abilities."
+      },
+      {
+        "category": "survivability",
+        "score": 0,
+        "confidence": 0,
+        "evidences": [],
+        "reasoning": "Bonewidow has no survivability mechanisms or defensive capabilities."
+      },
+      {
+        "category": "support",
+        "score": 0,
+        "confidence": 0,
+        "evidences": [],
+        "reasoning": "Bonewidow does not have any support abilities to aid allies or control the battlefield."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0,
+        "confidence": 0,
+        "evidences": [],
+        "reasoning": "Bonewidow lacks crowd control capabilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0,
+        "confidence": 0,
+        "evidences": [],
+        "reasoning": "Bonewidow does not have any stealth abilities or mechanisms to avoid detection."
+      },
+      {
+        "category": "complexity",
+        "score": 0,
+        "confidence": 0,
+        "evidences": [],
+        "reasoning": "Bonewidow has no complex mechanics or systems to manage."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Bonewidow is a passive and non-combatant Warframe with no damage output, survivability, support, crowd control, stealth, or complexity. It appears to be designed for a specific role but lacks the necessary attributes to fulfill any of the five categories."
+  },
+  "errors": [],
+  "warnings": [
+    "All scores are zero - analysis may have failed",
+    "Low average confidence across categories",
+    "Categories with no evidences: damage, survivability, support, crowdControl, stealth, complexity"
+  ]
+}

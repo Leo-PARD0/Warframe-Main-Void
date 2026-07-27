@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em fortalecer e proteger a equipe através de buffs, defesas e suporte.",
+      "confidence": 0.85,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "O Support é o único arquétipo que reflete a identidade predominante do Warframe Chroma. Suas habilidades de Effigy, Elemental Ward e Vex Armor são focadas em fortalecer e proteger os aliados, tornando-o uma peça essencial para equipes de suporte."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

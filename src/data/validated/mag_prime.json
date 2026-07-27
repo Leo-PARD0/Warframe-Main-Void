@@ -1,0 +1,112 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Mag/MagPrime",
+    "warframeName": "Mag Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Magnetize (HOLD) reflects damage back in a destructive cone",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Crush collapses bones of nearby enemies",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mag Prime has moderate damage capabilities through its ability to reflect and redirect enemy attacks, as well as cause physical collapse. However, it lacks direct area-of-effect damage or high single-target damage potential."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Mag Prime has a decent shield value (455) and absorbs ranged attacks with Magnetize (HOLD)",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Mag Prime has average survivability due to its moderate shield and ability to absorb damage, it lacks defensive mechanisms like armor regeneration or energy shields."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Mag Prime can heal allies with Polarize",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mag Prime has limited support capabilities, primarily through healing allies with its Polarize ability. However, this is not a strong point of the Warframe."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Pull stuns enemies",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Magnetize ensnares nearby enemies",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mag Prime has moderate crowd control through its ability to stun and ensnare enemies, but it lacks more direct or area-of-effect crowd control options."
+      },
+      {
+        "category": "stealth",
+        "score": 0.15,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Mag Prime does not have any stealth-related abilities or mechanics, making its stealth score low."
+      },
+      {
+        "category": "complexity",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Magnetize (HOLD) requires precise timing and positioning",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Crush involves aiming at specific targets",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Mag Prime has a moderate level of complexity due to the need for precise timing and positioning in its abilities, particularly Magnetize (HOLD)."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Mag Prime is a balanced Warframe with moderate damage, survivability, and crowd control capabilities. It lacks strong support or stealth features but requires some skill to execute its abilities effectively."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

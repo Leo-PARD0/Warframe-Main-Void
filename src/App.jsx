@@ -12,6 +12,7 @@ import ItemDetail from './pages/ItemDetail';
 import AppLayout from './components/AppLayout';
 import Support from './pages/Support';
 import { ApiLanguageProvider } from '@/lib/ApiLanguageContext';
+import { RoadmapProvider } from '@/lib/RoadmapContext';
 
 const LocalApp = () => (
   <Routes>
@@ -31,10 +32,12 @@ export default function App() {
   return (
     <QueryClientProvider client={queryClientInstance}>
       <ApiLanguageProvider>
-        <Router basename="/Warframe-Main-Void/">
-          <ScrollToTop />
-          <LocalApp />
-        </Router>
+        <RoadmapProvider>
+          <Router basename="/Warframe-Main-Void/">
+            <ScrollToTop />
+            <LocalApp />
+          </Router>
+        </RoadmapProvider>
       </ApiLanguageProvider>
       <Toaster />
     </QueryClientProvider>

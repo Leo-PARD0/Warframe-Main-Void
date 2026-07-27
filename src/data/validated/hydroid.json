@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Pirate/Pirate",
+    "warframeName": "Hydroid",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Plunder increases Corrosive Damage on your Abilities and weapons.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Tentacle Swarm can cause significant damage through its watery tentacles.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Hydroid has abilities that deal damage but they are not as powerful or versatile as some other Warframes. The Corrosive Damage increase is a moderate boost, while the Tentacle Swarm provides area-of-effect damage but lacks precision."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Hydroid has decent shield and armor values.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Plunder increases Corrosive Damage on your Abilities and weapons, which can help in survivability by reducing enemy durability.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Hydroid's survivability is average due to its moderate health and shield. The Corrosive Damage increase from Plunder can provide some support but does not significantly enhance survivability."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Plunder increases Corrosive Damage on your Abilities and weapons.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Tentacle Swarm can create opportunities for allies to engage enemies.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Hydroid's support capabilities are limited. The Corrosive Damage increase is helpful but does not provide substantial support like healing or crowd control."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Tidal Surge crashes through enemies in a ferocious wall of water.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Tentacle Swarm can cause significant damage and disrupt enemy formations.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Hydroid has crowd control abilities but they are not as powerful or versatile as some other Warframes. The Tidal Surge provides area-of-effect damage, while the Tentacle Swarm can create opportunities for allies to engage enemies."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Hydroid does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Tempest Barrage and Tidal Surge are straightforward area-of-effect attacks.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Plunder and Tentacle Swarm require some setup but are relatively simple to execute.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Hydroid's complexity is low due to its straightforward abilities that do not require complex execution or resource management. The Corrosive Damage increase from Plunder adds a bit of strategy, but it does not significantly enhance the overall complexity of the Warframe."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Hydroid is an average Warframe with moderate damage and survivability capabilities. Its crowd control abilities are decent but limited. It lacks stealth and has relatively low complexity. The Corrosive Damage increase from Plunder provides some support but does not significantly enhance the overall performance of the Warframe."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte ao time, regenerando energia e escudos para aliados e absorvendo dano.",
+      "confidence": 0.85,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "O Styanax tem habilidades focadas em apoiar seu time, como Rally Point que regenera energia e escudos para aliados. Suas outras habilidades também contribuem para o suporte ao time, embora não sejam tão dominantes quanto a capacidade de regeneração."
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "Reasoning may be just listing scores without explaining the archetype choice"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+    "warframeName": "Dante",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Dark Verse inflicts Slash Damage upon enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Final Verse can cause significant damage with two Dark Verses in succession.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Dante's abilities have both offensive and defensive components, but the primary focus is on composing Verses to create powerful effects. The Dark Verse and Final Verse are particularly damaging, making Dante a versatile combatant."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Noctua Passive increases Status Chance on fully scanned targets.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Light Verse grants Overguard to allies and restores Health.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Dante's survivability is moderate due to the passive effect that increases status chance and the ability to heal allies with Light Verse. However, there are no direct defensive abilities like shields or energy regeneration."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Light Verse grants Overguard to allies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Final Verse briefly regenerates Overguard for kills and assists.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "PAGEFLIGHT summons Paragrimms that draw enemy attacks away from allies.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Dante's support capabilities are strong, providing healing, buffs, and drawing enemy fire. The ability to summon Paragrimms is particularly useful in team fights."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Noctua Passive increases Status Chance on fully scanned targets.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Final Verse can cause significant damage with two Dark Verses in succession.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Dante's crowd control is limited to increasing status chance and causing damage. While these effects can be useful for controlling the battlefield, they are not as direct or powerful as some other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Dante does not have any stealth-related abilities or mechanics in his kit. His primary focus is on composing Verses and engaging in combat."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Final Verse requires the composition of two other Verses before it can be used.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "PAGEFLIGHT involves a specific sequence of Verses to summon Paragrimms.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Dante's complexity is moderate due to the need for strategic planning and the execution of specific sequences. However, his abilities are not as intricate or demanding as some other Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Dante is a versatile combatant with strong support capabilities but limited crowd control. His primary focus is on composing Verses to create powerful effects, making him a valuable asset in team fights. While he has moderate survivability and complexity, his role as a healer and damage dealer makes him an essential member of any squad."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

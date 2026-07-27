@@ -1,0 +1,123 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Wisp/WispPrime",
+    "warframeName": "Wisp Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Sol Gate causes enemies to be increasingly more vulnerable to it over time.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wisp Prime's damage output is moderate due to its reliance on the Sol Gate ability, which requires energy and can become less effective over time if not used carefully."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Flowing between dimensions makes Wisp invisible while in the air.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Wisp Prime has moderate health and shield values.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wisp Prime's survivability is decent due to its ability to become invisible and its relatively high health and shield values, but it may struggle with prolonged engagements."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Reservoirs provide support by granting movement and attack speed to allies.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Wil-O-Wisp can confuse and distract enemies.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wisp Prime's support capabilities are moderate as it provides some utility through Reservoirs and Wil-O-Wisp, but lacks more direct healing or crowd control options."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Wil-O-Wisp can confuse and distract enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Sol Gate causes enemies to release aggressive Surge sparks when damaged.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wisp Prime's crowd control is limited to Wil-O-Wisp and the indirect effects of Sol Gate, which may not be sufficient for complex engagements."
+      },
+      {
+        "category": "stealth",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Flowing between dimensions makes Wisp invisible while in the air.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Wisp Prime can teleport to a Reservoir and double the range of the surge.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wisp Prime's stealth capabilities are strong due to its ability to become invisible and teleport to a Reservoir, providing significant mobility and evasiveness."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "No specific complexity details provided in the context.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Wisp Prime's complexity is low as it has a straightforward set of abilities with minimal interactivity or resource management requirements."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Wisp Prime is a versatile Warframe with strong stealth capabilities and moderate support. Its damage output and survivability are decent, but its crowd control options are limited. The lack of specific complexity details makes it difficult to assess the full extent of its complexity."
+  },
+  "errors": [],
+  "warnings": []
+}

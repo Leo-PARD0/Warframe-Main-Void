@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Sandman/InarosPrime",
+    "warframeName": "Inaros Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Scarab Swarm guarantees Corrosive Status damage.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Damage scales with Inaros' Health.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Inaros Prime has a strong damage output through Scarab Swarm and can scale it further by increasing his health."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Scarab Shell forms Armor reducing incoming Damage.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Heals himself when enemies are pulled into Sandstorm.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Inaros Prime has some survivability through Scarab Shell and healing in Sandstorm, but it's not as robust as other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Scarab Swarm summons a Swarm Kavat that fights alongside Inaros.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Desiccation blinds enemies and steals their health.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Inaros Prime has limited support capabilities through Scarab Swarm and Desiccation, but it's not as strong as some other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Desiccation blinds enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Sandstorm pulls enemies into a whirlwind.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Inaros Prime has decent crowd control through Desiccation and Sandstorm, but it's not as strong as some other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Inaros Prime does not have any stealth abilities or mechanisms."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Scarab Swarm requires precise timing and positioning.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Desiccation and Sandstorm involve energy management.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Inaros Prime has a moderate level of complexity due to the need for precise timing and resource management in Scarab Swarm and Desiccation/Sandstorm."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Inaros Prime is a versatile Warframe with strong damage output through Scarab Swarm, decent survivability with Scarab Shell and healing in Sandstorm, limited support capabilities, and moderate crowd control. However, it lacks stealth abilities and has a reasonable level of complexity due to the need for precise timing and resource management."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/PowersuitAbilities/Helminth",
+    "warframeName": "Helminth",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "As habilidades de dano estão incompletas e não têm detalhes sobre o dano base ou a escalabilidade."
+      },
+      {
+        "category": "survivability",
+        "score": 0.3,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "A habilidade 'Rebuild Shields' pode ser considerada como uma forma de cura de escudo, mas não há informações sobre a vida ou armadura."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Heal your companion and call it to your side.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Consume Energy to heal yourself and grant matching Energy to each ally.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "As habilidades de cura e suporte são bastante claras e direcionadas para beneficiar aliados diretamente."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.1,
+        "confidence": 0.2,
+        "evidences": [],
+        "reasoning": "Não há habilidades que pareçam ter um impacto significativo na contagem de múltiplos inimigos simultaneamente."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.2,
+        "evidences": [],
+        "reasoning": "Não há habilidades relacionadas à invisibilidade ou redução de ruído que possam ser consideradas como stealth."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Increase the efficiency of your ammo consumption.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Heal your companion and call it to your side.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Consume Energy to heal yourself and grant matching Energy to each ally.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "O Warframe tem várias habilidades únicas e potencialmente complexas, mas as informações disponíveis não são suficientes para avaliar completamente a complexidade."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "O Helminth é um Warframe focado em suporte com habilidades de cura, regeneração de escudo e invocação de aliados. Ele tem uma capacidade limitada de dano direto e não possui habilidades de controle de multidão ou stealth. A complexidade do jogo é moderada, mas as informações disponíveis são insuficientes para avaliar completamente a eficácia dessas habilidades."
+  },
+  "errors": [],
+  "warnings": [
+    "Low average confidence across categories",
+    "Categories with no evidences: damage, survivability, crowdControl, stealth"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Frumentarius/Frumentarius",
+    "warframeName": "Cyte-09",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Neutralize ability allows for ricochet damage to multiple enemies through Weak Points.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Cyte-09's Neutralize ability provides a form of area-of-effect damage by allowing bullets to ricochet off Weak Points and hit other nearby targets. This makes it somewhat effective in dealing with groups of enemies, but the overall damage output is limited compared to more specialized weapons."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Evade ability provides temporary invisibility and healing upon killing Weak Points.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Cyte-09 has decent health and shield values.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Cyte-09's Evade ability offers a useful form of survivability by providing temporary invulnerability and healing. However, the overall survivability is moderate due to limited health and shield regeneration compared to other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Resupply ability can provide additional ammunition for the active weapon.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Seek ability can reveal enemy positions and increase damage output on Weak Points.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Cyte-09's Resupply and Seek abilities offer some support by providing additional ammunition and revealing enemy positions. However, these abilities are limited in their impact compared to more specialized support Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Neutralize ability has a Cold grenade that can freeze enemies.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Evade ability provides temporary invulnerability.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Cyte-09's abilities have limited crowd control options. The Cold grenade is effective against single targets but does not provide significant area-of-effect control. Evade offers some form of crowd control through temporary invulnerability, but it is limited in duration and effectiveness."
+      },
+      {
+        "category": "stealth",
+        "score": 0.5,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Evade ability provides temporary invisibility.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Seek ability reveals enemy positions through walls.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Cyte-09's Evade ability offers strong stealth capabilities by providing temporary invulnerability and the ability to move unseen. The Seek ability also enhances stealth by revealing enemy positions, making Cyte-09 a versatile stealth Warframe."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "No specific complexity details provided in the context.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Cyte-09's abilities are relatively straightforward and do not require complex execution or resource management. The lack of detailed complexity information makes it difficult to provide a precise score for this category."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Cyte-09 is a versatile Warframe with strong stealth capabilities, moderate survivability, and some support options. Its damage output is limited compared to more specialized weapons, but its ability to reveal enemy positions through walls makes it useful in reconnaissance and ambush scenarios."
+  },
+  "errors": [],
+  "warnings": []
+}

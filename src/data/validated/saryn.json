@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Saryn/Saryn",
+    "warframeName": "Saryn",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Toxic Lash deals additional Toxin Damage; this effect is doubled for Melee Strikes.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Miasma deals Viral Damage to enemies in range.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Saryn's abilities deal both direct damage and area-of-effect damage, but the specific damage types (Toxin and Virus) are not detailed. The Toxic Lash ability has a unique mechanic of doubling its damage for melee strikes, which adds complexity to combat strategy."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Spores inflict status effects that last longer.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Molt leaves a decoy behind to draw fire from enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Saryn has survivability elements like status effect duration and decoy creation, but these are not as robust or varied as some other Warframes. The lack of explicit shield regeneration or energy management abilities limits her survivability compared to more specialized roles."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Spores spread to nearby enemies by destroying them or killing their host.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Miasma makes affected enemies more susceptible to the mist.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Saryn's abilities support her allies indirectly through status effects and area-of-effect damage, but these are not as direct or impactful as some other Warframes. The lack of explicit healing or utility abilities limits her support capabilities."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Molt leaves a decoy behind to draw fire from enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Toxic Lash bursts spores when attacking afflicted enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Saryn has crowd control elements like decoys and area-of-effect damage that can disrupt enemy formations, but these are not as strong or varied as some other Warframes. The lack of explicit knockback or immobilization abilities limits her crowd control capabilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Saryn does not have any stealth-related abilities or mechanics. Her primary focus is on direct damage and support through status effects and area-of-effect damage."
+      },
+      {
+        "category": "complexity",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Spores spread to nearby enemies by destroying them or killing their host.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Toxic Lash bursts spores when attacking afflicted enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Saryn's abilities have some complexity due to the mechanics of spreading spores and bursting them, but these are not as intricate or demanding as some other Warframes. The lack of explicit timing requirements or resource management adds to her lower complexity score."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Saryn is a versatile Warframe with both offensive and supportive abilities, but her survivability and stealth capabilities are limited compared to more specialized roles. Her complexity is moderate due to the mechanics of spreading spores and bursting them, but this does not significantly impact her role classification."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

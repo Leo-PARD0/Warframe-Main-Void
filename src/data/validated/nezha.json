@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Nezha/Nezha",
+    "warframeName": "Nezha",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Divine Spears impales enemies on spears that erupt from the below and slam surviving enemies back into the ground.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nezha's Divine Spears deal significant damage by impaling and slamming enemies, making it a powerful offensive ability."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Warding Halo creates a protective ring of fire that stuns and damages enemies who get too close.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Fire Walker scorching enemies and cleansing allies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nezha has some survivability through his Warding Halo but lacks dedicated defensive abilities compared to other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Blazing Chakram drops Restorative Orbs on death.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Warding Halo stuns and damages enemies who get too close.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nezha's support is limited to dropping Restorative Orbs and providing some damage reduction through his Warding Halo."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Warding Halo stuns enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Blazing Chakram sets enemies ablaze making them vulnerable to any damage.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nezha has some crowd control through his Warding Halo and Blazing Chakram but lacks dedicated crowd control abilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Nezha does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Fire Walker and Blazing Chakram require aiming and timing.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Divine Spears involves positioning to impale enemies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nezha's abilities require some skill and precision but are generally straightforward in execution compared to more complex Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Nezha is a balanced Warframe with strong offensive capabilities through Divine Spears, moderate survivability with Warding Halo, limited support, and basic crowd control. His complexity is relatively low as his abilities are not overly intricate or demanding."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

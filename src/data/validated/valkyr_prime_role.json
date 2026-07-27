@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Bruiser",
+      "description": "Especialista em combate corpo a corpo com alta resistência e dano, focando em danos brutos e sobrevivência.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage",
+        "survivability"
+      ],
+      "reasoning": "Damage e Survivability representam claramente a identidade predominante do Warframe. A habilidade Hysteria, que causa danos brutos e cura Valkyr Prime, é particularmente relevante para essa categoria. O uso de Rage para aumentar o dano melee também contribui para seu papel como Bruiser."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

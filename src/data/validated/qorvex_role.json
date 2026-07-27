@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte e controle de status, oferecendo defesa e dano ao inimigo.",
+      "confidence": 0.85,
+      "basedOn": [
+        "support",
+        "damage"
+      ],
+      "reasoning": "O Qorvex possui habilidades focadas em suporte, como Disometric Guard e Crucible Blast, que oferecem defesa contra status effects e causam dano ao inimigo. O Damage é relevante devido à presença do Crucible Blast, mas não é suficientemente dominante para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

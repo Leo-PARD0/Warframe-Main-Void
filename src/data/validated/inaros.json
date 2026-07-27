@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Sandman/Sandman",
+    "warframeName": "Inaros",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Scarab Swarm guarantees Corrosive Status damage that scales with Inaros' Health.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Inaros has a decent damage output through his Scarab Swarm ability, which deals guaranteed Corrosive damage that scales with his health. However, the lack of direct offensive abilities and the reliance on healing himself through Sandstorm limits its overall damage potential."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Scarab Shell forms Armor that reduces incoming Damage and absorbs Status Effects.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Inaros can entomb himself in a sarcophagus to revive himself when taking lethal damage.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Inaros has some survivability through his Scarab Shell ability, which provides armor and status effect absorption. However, the reliance on healing himself through Sandstorm limits his overall survivability compared to other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Scarab Swarm summons a Swarm Kavat that fights alongside Inaros and guides the scarabs to other enemies.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Inaros can entomb himself in a sarcophagus to revive himself when taking lethal damage.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Inaros has some support capabilities through his Scarab Swarm ability, which summons a Swarm Kavat. However, this is limited compared to Warframes with more direct support abilities."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Desiccation blinds enemies and steals their health.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Sandstorm devours enemies pulled into his whirlwind, healing himself.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Inaros has some crowd control through his Desiccation ability, which blinding enemies and stealing their health. However, the lack of direct crowd control abilities limits its overall effectiveness in controlling the battlefield."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Inaros does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Scarab Swarm requires careful management of Inaros' health to maximize damage output.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "The entombment mechanic adds an additional layer of complexity in managing Inaros' survival.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Inaros has a moderate level of complexity due to the need for careful management of his health and the entombment mechanic. However, this is relatively low compared to Warframes with more complex abilities or mechanics."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Inaros is a versatile Warframe with decent survivability and support capabilities through his Scarab Swarm ability. However, its damage output is limited compared to other Warframes, and it lacks any stealth-related abilities. The entombment mechanic adds an additional layer of complexity in managing Inaros' survival."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

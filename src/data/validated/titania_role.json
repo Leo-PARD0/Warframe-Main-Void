@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte e regeneração de vida para aliados, além de debuffar inimigos.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "A Role é baseada exclusivamente na categoria Support, pois Titania possui habilidades que fornecem regeneração de vida para ela e seus aliados, além de debuffar inimigos com buffs como Thorns e Dust. A Survivability e Crowd Control são importantes, mas não são suficientemente dominantes para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

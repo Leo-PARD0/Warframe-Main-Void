@@ -1,0 +1,148 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/DemonFrame/DemonFrame",
+    "warframeName": "Uriel",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Uriel and his demons create a growing ring of flaming brimstone. Charge the ability by utilizing demon abilities. Damage inflicted increases with each consecutive hit.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Brimstone is an area-of-effect attack that deals increasing damage with each consecutive hit, making it highly effective in dealing damage to multiple enemies over time."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Uriel commands, empowers, and protects three unique demons.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "CATENACH: Snares and slows enemies chaining them together.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "GULPHAGOR : Latches onto foes dealing damage over time.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Uriel has some passive abilities that provide support to his demons, the survivability of Uriel himself is not very high due to his low health and lack of defensive capabilities."
+      },
+      {
+        "category": "support",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Uriel commands, empowers, and protects three unique demons.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "CATENACH: Snares and slows enemies chaining them together.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "GULPHAGOR : Latches onto foes dealing damage over time.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "VYTHELAS: Inscribes demonic runes upon fallen foes that add Fire Rate and <DT_FIRE_COLOR>Heat Damage when collected.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Uriel's passive abilities provide significant support to his demons, enhancing their effectiveness in combat and providing additional damage output through demonic runes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "CATENACH: Snares and slows enemies chaining them together.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "GULPHAGOR : Latches onto foes dealing damage over time.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Uriel's passive abilities provide some crowd control through snaring and latching on to enemies, but these effects are not as strong or versatile as those provided by other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Uriel does not have any abilities that provide stealth or allow him to move silently in combat."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Uriel commands, empowers, and protects three unique demons.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "CATENACH: Snares and slows enemies chaining them together.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "GULPHAGOR : Latches onto foes dealing damage over time.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "VYTHELAS: Inscribes demonic runes upon fallen foes that add Fire Rate and <DT_FIRE_COLOR>Heat Damage when collected.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Uriel's abilities are relatively straightforward, with a focus on commanding and empowering his demons. While he provides support through passive abilities, the overall complexity of using Uriel is not very high."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Uriel is a Warframe that focuses on supporting his demons in combat through various passive abilities. He has moderate damage output from Brimstone and decent crowd control with snaring and latching effects. However, Uriel's survivability is low due to his lack of defensive capabilities, and he does not have any stealth or complex abilities."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

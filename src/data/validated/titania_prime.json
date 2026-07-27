@@ -1,0 +1,118 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Fairy/TitaniaPrime",
+    "warframeName": "Titania Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Titania Prime has a Razorwing ability that shrinks down and takes flight, while razorflies attack nearby enemies and amplify the damage they take.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Razorwing provides direct damage through razorflies, but it is not as powerful or versatile as abilities with direct attacks or area-of-effect damage."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Titania Prime has a Spellbind ability that makes nearby allies immune to Status Effects.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The ability also generates Health for herself and nearby allies every time she casts an Ability.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Spellbind provides some survivability through immunity, but it does not offer as much direct health regeneration or defensive capabilities as other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.55,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Titania Prime has a Tribute ability that cycles through and extracts one of the four Buffs when cast on an enemy.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "The ability also generates Health for herself and nearby allies every time she casts an Ability.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Tribute provides support through buffs and health regeneration, making Titania Prime useful in team compositions."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Titania Prime has a Spellbind ability that makes nearby allies immune to Status Effects.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "The ability also generates Health for herself and nearby allies every time she casts an Ability.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Spellbind provides some crowd control through immunity, but it does not offer as much direct control or area-of-effect effects as other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Titania Prime does not have any abilities that provide stealth or mobility benefits."
+      },
+      {
+        "category": "complexity",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Titania Prime has a Tribute ability that cycles through and extracts one of the four Buffs when cast on an enemy.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "The ability also generates Health for herself and nearby allies every time she casts an Ability.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Tribute requires some decision-making to choose the right buff, but it is not as complex as abilities with multiple stages or resource management."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Titania Prime is a support-focused Warframe that provides health regeneration and buffs for herself and nearby allies. It has moderate damage potential through Razorwing and crowd control through Spellbind. The ability to choose the right buff in Tribute adds some complexity, but it is not as complex as abilities with multiple stages or resource management."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack",
+    "warframeName": "Elytron",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "The Warhead ability launches a plodding missile capable of unleashing a massive explosion.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Elytron has a single damaging ability that deals significant damage but lacks the variety and complexity found in other warframes with multiple attack options."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "The Elytron Passive is not specified, so we cannot assess survivability based on this information alone.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Without details about the Elytron Passive and other potential survivability features, it's difficult to accurately evaluate Elytron's survivability."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Elytron does not have any abilities that provide direct support or utility to allies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "The Core Vent ability confuses enemy projectiles and causes them to detonate.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "The Thumper ability creates a localized storm of punishing explosions.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Elytron has abilities that can disrupt enemy attacks and cause damage over an area, which could be considered forms of crowd control."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Elytron does not have any stealth-related abilities or features that allow it to move silently or avoid detection."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "The Elytron Passive is not specified, so we cannot assess complexity based on this information alone.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Without details about the Elytron Passive and other potential complexity features, it's difficult to accurately evaluate Elytron's complexity."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Elytron appears to be a specialized damage dealer with limited survivability options. Its abilities focus on causing area-of-effect damage and disrupting enemy attacks, but lack the variety and complexity found in other warframes."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: support, stealth"
+  ]
+}

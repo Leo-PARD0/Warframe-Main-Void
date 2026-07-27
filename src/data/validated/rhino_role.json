@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Bruiser",
+      "description": "Especialista em combate corpo a corpo com alta resistência e dano físico.",
+      "confidence": 0.85,
+      "basedOn": [
+        "damage",
+        "survivability"
+      ],
+      "reasoning": "Damage e Survivability representam claramente a identidade predominante do Warframe. O Rhino possui habilidades focadas em ataques físicos de alta intensidade (Rhino Charge, Rhino Stomp) e resistência ao dano (Iron Skin), caracterizando-o como um Bruiser."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

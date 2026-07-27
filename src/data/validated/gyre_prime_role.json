@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Nuker",
+      "description": "Especialista em causar alto dano em massa, com habilidades que podem eliminar alvos rapidamente e causar efeitos de choque elétrico a múltiplos inimigos.",
+      "confidence": 0.95,
+      "basedOn": [
+        "damage"
+      ],
+      "reasoning": "Damage é a característica predominante do Warframe, com habilidades que causam alto dano em massa e efeitos de choque elétrico. A Survivability e Crowd Control são limitados em comparação, tornando o Nuker o arquétipo mais adequado para Gyre Prime."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

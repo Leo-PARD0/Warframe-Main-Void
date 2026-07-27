@@ -1,0 +1,141 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Gyre/GyrePrime",
+    "warframeName": "Gyre Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Arcsphere deals high damage on impact and periodically deals electrical shocks to nearby enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Coil Horizon can be manually triggered for a large explosion dealing significant damage.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Rotorswell generates an Electric Field that shocks nearby enemies and chains critical hits to nearby enemies.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gyre Prime has multiple abilities that deal high damage, including direct impact damage from Arcsphere, area-of-effect damage from Coil Horizon, and chain damage from Rotorswell. The ability to extend the duration of Cathode Grace with kills also adds to its overall damage output."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Gyre Prime has a moderate shield value (640) and decent armor (105).",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The ability to gain increased Critical Chance and Energy Regen with Cathode Grace can help sustain Gyre Prime during prolonged engagements.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Gyre Prime has some survivability features, its relatively low shield and armor values make it vulnerable to sustained damage. The survivability boost from Cathode Grace is limited compared to other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Gyre Prime does not have any direct support abilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "The ability to deal critical damage can indirectly support allies by increasing their effectiveness in combat.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gyre Prime lacks any direct support capabilities such as healing or buffs. Its primary role is to deal damage, making it a frontline Warframe rather than a support one."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Coil Horizon can be used to manually trigger an explosion, which can control the battlefield.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Rotorswell generates an Electric Field that shocks nearby enemies, potentially stunning them for a short duration.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Gyre Prime has some crowd control capabilities through its abilities, they are limited compared to dedicated Crowd Control Warframes. The shock effect from Rotorswell is more of a damage-over-time effect rather than true crowd control."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Gyre Prime does not have any stealth-related abilities.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "The Warframe's design and abilities are focused on direct combat rather than covert operations.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gyre Prime lacks any stealth capabilities, making it unsuitable for roles that require covert operations or infiltration."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "The abilities are relatively straightforward and do not require complex execution.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "There is no significant resource management or timing required to use the abilities effectively.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Gyre Prime's abilities are designed for ease of use, with minimal complexity in their execution. The lack of resource management or precise timing makes it a simpler Warframe to play compared to more complex ones."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Gyre Prime is primarily a frontline damage dealer with moderate survivability and limited support capabilities. Its abilities are straightforward and do not require complex execution, making it relatively simple to use. However, its lack of stealth and crowd control abilities limits its versatility in certain situations."
+  },
+  "errors": [],
+  "warnings": []
+}

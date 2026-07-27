@@ -1,0 +1,99 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Wraith/SevagothPrime",
+    "warframeName": "Sevagoth Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Sevagoth Prime has a variety of abilities that deal damage over time (Reap), radial damage (Sow and Gloom), and melee-focused attacks (Exalted Shadow).",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Sevagoth Prime has multiple abilities that can deal significant damage to enemies, making it a versatile combatant."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Sevagoth Prime's survivability is limited as it relies on the Death Well for resources and can be killed if the Death Well runs out of souls. It also lacks any direct self-healing abilities.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Sevagoth Prime has some abilities that can slow or ensnare enemies, its overall survivability is not strong due to its reliance on external resources."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Sevagoth Prime's support capabilities are limited as it primarily deals damage and has no direct healing or utility abilities. It can provide some support through the souls collected in the Death Well.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Sevagoth Prime has a minimal support role due to its focus on dealing damage rather than providing assistance to allies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Sevagoth Prime can slow enemies with Gloom and ensnare them with Sow, but these effects are not strong enough for significant crowd control. It also has no direct knockback or immobilization abilities.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Sevagoth Prime can slow and ensnare enemies, its crowd control capabilities are limited compared to other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Sevagoth Prime does not have any stealth abilities or mechanisms that allow it to move silently or avoid detection by enemies.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Sevagoth Prime lacks any stealth capabilities, making it a less effective combatant in situations where stealth is required."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Sevagoth Prime has a relatively simple set of abilities with straightforward mechanics. It does not require complex timing, positioning, or resource management to use effectively.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Sevagoth Prime's abilities are generally easy to execute and do not demand high levels of skill or strategy to use effectively."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Sevagoth Prime is a damage-focused Warframe with moderate survivability, limited support, and basic crowd control. Its complexity is relatively low, making it an accessible combatant for players looking to deal significant damage in various situations."
+  },
+  "errors": [],
+  "warnings": []
+}

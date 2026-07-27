@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Guardian",
+      "description": "Defensor forte que combate inimigos em massa e suporta equipes com sua alta resistência e controle de campo.",
+      "confidence": 0.95,
+      "basedOn": [
+        "survivability",
+        "support",
+        "crowdControl"
+      ],
+      "reasoning": "Survivability, Support e Crowd Control são as categorias que mais influenciam a Role de Vauban. Suas habilidades de Bastille e Minelayer demonstram sua forte presença no campo e capacidade de controlar inimigos, enquanto suas altas vitais e escudos refletem sua alta resistência. A falta de Damage e Stealth limita seu potencial em outras classes."
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "Reasoning may be just listing scores without explaining the archetype choice"
+  ]
+}

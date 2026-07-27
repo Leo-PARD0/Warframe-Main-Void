@@ -1,0 +1,106 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Infestation/Infestation",
+    "warframeName": "Nidus",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.5,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Rupture the ground with a damaging fungal growth that steals energy from each enemy it strikes.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Gluttonous maggots swarm nearby enemies, feasting until they are hit with Virulence and burst with Infestation.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nidus has two abilities that deal damage over time through fungal growth and swarming maggots. These abilities can be used to apply pressure on multiple enemies simultaneously."
+      },
+      {
+        "category": "survivability",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "If Nidus is killed with at least |STACKS| stacks of Mutation, those |STACKS| stacks are consumed; this grants |DURATION|s of invulnerability and restores Health to |HEAL|%.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nidus has a passive ability that provides temporary invulnerability upon death, which can be useful for survival in certain situations. However, the duration and health restoration are not specified, making it difficult to assess its overall survivability."
+      },
+      {
+        "category": "support",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Bind to a target with parasitic link. When cast on an ally, both the host and Nidus have their Ability Strength and Weapon Damage increased. Linked enemies take some of the damage inflicted on Nidus.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nidus can provide support by increasing the ability strength and weapon damage of allies while also taking some damage for them. This makes him a useful team player, but his support capabilities are limited compared to other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Spawn an Infested pod that erupts with tendrils, latches onto nearby enemies and pulls them in.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nidus has a limited crowd control ability through the Larva ability, which can pull enemies towards him. However, this ability is not very effective for controlling multiple enemies simultaneously."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Nidus does not have any stealth abilities or mechanics that allow him to move silently or avoid detection by enemies."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Rupture the ground with a damaging fungal growth that steals energy from each enemy it strikes.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Gluttonous maggots swarm nearby enemies, feasting until they are hit with Virulence and burst with Infestation.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Nidus has two abilities that require careful timing and positioning to be effective. The Rupture ability requires enemies to be in the correct location for the fungal growth to deal damage, while the Ravenous ability benefits from multiple enemy hits to generate Mutation stacks."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Nidus is a versatile Warframe with moderate damage output and support capabilities. His survivability is limited by his passive invulnerability ability, which has uncertain effects. Nidus' crowd control abilities are weak, and he lacks any stealth mechanics. Complexity-wise, Nidus requires careful timing and positioning for his abilities to be effective."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

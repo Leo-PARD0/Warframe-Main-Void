@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
+    "warframeName": "Kullervo",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Kullervo's Heavy Attack Efficiency and Wind Up Speed are increased by his passive.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "His Wrathful Advance ability deals heavy damage upon teleportation.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Kullervo has a strong offensive capability with high damage output through his Heavy Attacks and the Wrathful Advance ability. The passive increases these abilities' effectiveness, making him a potent damage dealer."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Kullervo has moderate survivability with decent health and armor.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "His Recompense ability can restore health but also takes damage if it misses.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Kullervo has good base stats for survivability, his Recompense ability introduces a risk of taking damage. This balance makes his survivability average."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Kullervo's Collective Curse ability can provide support by binding enemies and distributing damage.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "His Storm Of Ukko ability deals area-of-effect damage but lacks direct support capabilities.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Kullervo has limited support abilities that primarily focus on debuffing enemies. While they can be useful, his overall support potential is low."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Kullervo's Collective Curse ability can bind enemies, providing some crowd control.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "His Wrathful Advance ability teleports him to an enemy, potentially disrupting their formation.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Kullervo has basic crowd control capabilities through debuffing and teleportation, but these are limited compared to other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Kullervo does not have any stealth-related abilities or attributes.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "His abilities focus on direct combat rather than evasion or surprise attacks.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Kullervo lacks any stealth capabilities, making him unsuitable for roles that require sneaking around or ambushing enemies."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Kullervo's abilities are straightforward and do not require complex execution.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "His passive does not introduce additional complexity to his playstyle.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Kullervo has a relatively simple set of abilities that can be executed without significant complexity, making him less complex compared to other Warframes."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Kullervo is primarily designed as a damage dealer with moderate survivability and limited support. His abilities are straightforward and do not require complex execution or positioning. While he has some crowd control through debuffing, his overall complexity is low."
+  },
+  "errors": [],
+  "warnings": []
+}

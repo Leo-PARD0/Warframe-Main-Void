@@ -1,0 +1,87 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Pirate/HydroidPrime",
+    "warframeName": "Hydroid Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Plunder increases Corrosive Damage on your Abilities and weapons",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Hydroid Prime's abilities are not directly damaging but increase the effectiveness of other attacks through its passive effect."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Plunder increases Corrosive Damage on your Abilities and weapons",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Hydroid Prime's survivability is not strong due to its low health and shield, the passive effect of Plunder can indirectly increase survivability by making enemies more vulnerable to damage."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Hydroid Prime does not have any direct support abilities or effects that benefit allies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Tidal Surge crashes through enemies in a ferocious wall of water",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Hydroid Prime has a crowd control ability but it is limited to crashing through enemies and does not have more complex control mechanisms."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Hydroid Prime does not have any stealth-related abilities or effects."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Plunder requires managing the effect on your abilities and weapons",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Hydroid Prime's complexity is relatively low due to its limited abilities, the passive effect of Plunder adds a layer of management that slightly increases complexity."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Hydroid Prime is a support-focused Warframe with moderate survivability and damage output. Its primary role revolves around increasing the effectiveness of other attacks through its passive effect, making it less complex than some other Warframes but more supportive."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: support, stealth"
+  ]
+}

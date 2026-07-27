@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Battlemage",
+      "description": "Especialista em combate corpo a corpo com alta dano e suporte, utilizando habilidades de energia e unidades aliadas.",
+      "confidence": 0.95,
+      "basedOn": [
+        "damage",
+        "support"
+      ],
+      "reasoning": "Damage é dominante com Fusion Strike e Lethal Progeny, enquanto Support é relevante com a passiva que aumenta a resistência dos aliados. Crowd Control existe, mas não é suficientemente relevante para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

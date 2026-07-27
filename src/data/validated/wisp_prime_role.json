@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte e controle de campo, oferecendo buffs, cura e distração aos aliados.",
+      "confidence": 0.85,
+      "basedOn": [
+        "support"
+      ],
+      "reasoning": "O Wisp Prime tem uma habilidade principal (Reservoirs) que fornece buffs a si mesmo e seus aliados, além de Wil-O-Wisp que distrai inimigos. Suas outras habilidades têm foco em suporte ou controle de campo, não em dano direto ou evasão."
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "Reasoning may be just listing scores without explaining the archetype choice"
+  ]
+}

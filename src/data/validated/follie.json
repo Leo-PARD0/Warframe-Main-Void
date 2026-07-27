@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Inkblot/Inkblot",
+    "warframeName": "Follie",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Plein Air sends enemies crashing to the ground, splashing damage on nearby enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Follie's abilities primarily deal area-of-effect damage through ink splashes and balloons. The damage is not as direct or powerful as some other Warframes, but it can still be effective in certain situations."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Self Portrait absorbs damage dealt to Follie and allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Enemies inside the ink puddle of Self Portrait grow its effigy and its ink puddle.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Follie has some survivability through its ability to absorb damage and create a protective area. However, this is not as robust as some other Warframes that have more direct or powerful survivability abilities."
+      },
+      {
+        "category": "support",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Shadowgraph brings shadowgraphs from Follie's sketchbook to life as items for tactical advantage.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Enemies hit by Shadowgraph and Plein Air have a chance to drop Health and Energy Orbs.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Follie has some support abilities through its Shadowgraph gear wheel, which can provide items for allies. However, this is not as direct or impactful as some other Warframes that have more powerful support abilities."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Forced Perspective emerges invulnerable at the aimed location.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Plein Air ties nearby enemies to floating balloons that douse them with Inkblot.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Follie has some crowd control abilities through its ability to emerge invulnerable and tie enemies to balloons. However, this is not as direct or impactful as some other Warframes that have more powerful crowd control abilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Forced Perspective emerges invulnerable at the aimed location.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Enemies hit by Shadowgraph and Plein Air have a chance to drop Health and Energy Orbs.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Follie has some stealth abilities through its ability to emerge invulnerable and create ink puddles that can absorb damage. However, this is not as direct or impactful as some other Warframes that have more powerful stealth abilities."
+      },
+      {
+        "category": "complexity",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Forced Perspective emerges invulnerable at the aimed location.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Shadowgraph brings shadowgraphs from Follie's sketchbook to life as items for tactical advantage.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Self Portrait absorbs damage dealt to Follie and allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Follie has a relatively simple set of abilities, with each ability having a clear purpose. However, the combination of these abilities can create some complex strategies, especially when using Shadowgraph gear wheel."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Follie is a versatile Warframe with a mix of damage, survivability, support, crowd control, and stealth abilities. Its complexity comes from the interplay between its abilities rather than any single ability being extremely powerful or difficult to execute."
+  },
+  "errors": [],
+  "warnings": []
+}

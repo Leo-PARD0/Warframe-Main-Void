@@ -1,0 +1,87 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Excalibur/ExcaliburPrime",
+    "warframeName": "Excalibur Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Excalibur Prime deals |DAMAGE|% increased damage and attacks",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The passive increases damage by a percentage, which is a moderate boost to offensive capabilities."
+      },
+      {
+        "category": "survivability",
+        "score": 0.2,
+        "confidence": 0.7,
+        "evidences": [],
+        "reasoning": "Excalibur Prime has no specific survivability abilities or bonuses, making it less effective in combat situations where survival is crucial."
+      },
+      {
+        "category": "support",
+        "score": 0.1,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "The passive increases damage and attack speed",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While the passive does provide some support by increasing damage output, it lacks any direct support abilities like healing or buffs for allies."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.2,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Radial Blind emits a bright flash of light, blinding all nearby enemies",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "The Radial Blind ability can be used to temporarily incapacitate enemies, providing some crowd control capabilities."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Excalibur Prime has no stealth-related abilities or bonuses, making it less effective in covert operations or situations requiring stealth."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "The passive increases damage and attack speed",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Excalibur Prime has a relatively simple passive but no complex abilities, making it less complex to play compared to Warframes with multiple skills and resource management."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Excalibur Prime is an offensive-focused Warframe with moderate damage capabilities and some crowd control through Radial Blind. It lacks survivability, support, and stealth abilities, resulting in a balanced but not particularly powerful or complex playstyle."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: survivability, stealth"
+  ]
+}

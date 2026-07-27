@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Werewolf/VorunaPrime",
+    "warframeName": "Voruna Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.75,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Lycath's Hunt drops health and energy orbs on enemy kills, increasing damage output.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Ulfrun's Descent deals increased damage to enemies with Status Effects.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voruna Prime has abilities that enhance her damage output through the use of Status Effects and increased efficiency in melee attacks."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Shroud Of Dynar provides invisibility and speed boost.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Fangs Of Raksh increases resistance to Status Effects.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voruna Prime has survivability abilities that help her avoid damage, but they are not as robust as some other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Lycath's Hunt increases the duration of the pack's hunt by killing enemies with multiple Status Effects.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Ulfrun's Descent provides a shield to Voruna and her allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voruna Prime has support abilities that help her team, but they are not as strong or versatile as some other Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Fangs Of Raksh applies multiple Status Effects to enemies.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Ulfrun's Descent locks onto enemies and deals increased damage.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voruna Prime has crowd control abilities that can disrupt enemy formations, but they are not as effective or reliable as some other Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.85,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Shroud Of Dynar provides invisibility and speed boost.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Fangs Of Raksh increases resistance to Status Effects.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voruna Prime has strong stealth abilities that allow her to avoid enemy detection and engage in combat from a distance."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "No specific complexity details provided in the context.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Voruna Prime's abilities are relatively straightforward and do not require complex execution or resource management."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Voruna Prime is a versatile Warframe with strong stealth capabilities and damage output, but her survivability and support abilities are less robust compared to some other Warframes. Her complexity score is low due to the simplicity of her abilities."
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -39,3 +39,6 @@ truth_source/
 *.pfx
 secrets/
 private/
+
+role_extractor/
+TASK_PROGRESS.MD

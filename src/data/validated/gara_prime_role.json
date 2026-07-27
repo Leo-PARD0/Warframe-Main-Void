@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em fortalecer a equipe e controlar o conflito, oferecendo defesa e apoio.",
+      "confidence": 0.85,
+      "basedOn": [
+        "support",
+        "crowdControl"
+      ],
+      "reasoning": "Support e Crowd Control representam claramente a identidade predominante do Warframe. Gara Prime excels em fortalecer aliados e controlar o conflito, embora seu dano seja limitado."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

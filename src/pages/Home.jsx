@@ -88,6 +88,14 @@ export default function Home() {
                   tags={catalog.tags}
                   selectedTagIds={catalog.selectedTagIds}
                   setSelectedTagIds={catalog.setSelectedTagIds}
+                  roleFilter={catalog.roleFilter}
+                  setRoleFilter={catalog.setRoleFilter}
+                  availableRoles={catalog.availableRoles}
+                  sortBy={catalog.sortBy}
+                  setSortBy={catalog.setSortBy}
+                  sortOrder={catalog.sortOrder}
+                  toggleSortOrder={catalog.toggleSortOrder}
+                  SORT_OPTIONS={catalog.SORT_OPTIONS}
                 />
               </DialogContent>
             </Dialog>
@@ -124,6 +132,14 @@ export default function Home() {
               tags={catalog.tags}
               selectedTagIds={catalog.selectedTagIds}
               setSelectedTagIds={catalog.setSelectedTagIds}
+              roleFilter={catalog.roleFilter}
+              setRoleFilter={catalog.setRoleFilter}
+              availableRoles={catalog.availableRoles}
+              sortBy={catalog.sortBy}
+              setSortBy={catalog.setSortBy}
+              sortOrder={catalog.sortOrder}
+              toggleSortOrder={catalog.toggleSortOrder}
+              SORT_OPTIONS={catalog.SORT_OPTIONS}
             />
           </div>
         </aside>
@@ -188,6 +204,7 @@ export default function Home() {
                       onToggleTag={catalog.toggleItemTag}
                       onCycleStatus={catalog.cycleFriendStatus}
                       onOpenDetails={(selectedItem) => navigate(`/item/${encodeURIComponent(selectedItem.id)}`, { state: { from: '/catalog' } })}
+                      getItemRole={catalog.getItemRole}
                     />
                   ))}
                 </div>

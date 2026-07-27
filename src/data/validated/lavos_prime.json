@@ -1,0 +1,136 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Alchemist/LavosPrime",
+    "warframeName": "Lavos Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Damage is doubled for each element afflicting an enemy.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Lavos Prime's Catalyze ability can deal significant damage by doubling its output based on the number of elements affecting enemies, making it a potent offensive tool."
+      },
+      {
+        "category": "survivability",
+        "score": 0.5,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Energy and Universal Orbs give Lavos status immunity for |DURATION|s.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Lavos Prime Passive provides status immunity, which is a basic form of survivability.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Lavos Prime has some survivability through status immunity, its lack of direct defensive abilities (like shields or armor) limits its overall survivability compared to other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Transmutation Probe converts Health and Energy Orbs into Universal Orbs.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Catalyze douses combatants in a fiery gel, potentially affecting multiple enemies.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Lavos Prime has some support capabilities through Transmutation Probe and Catalyze, but these are limited compared to more dedicated support Warframes."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Vial Rush crashes through enemies and leaves an icy trail.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Catalyze shocks enemies in close proximity.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Lavos Prime has some crowd control abilities through Vial Rush and Catalyze, but these are not as strong or versatile as those of dedicated Crowd Control Warframes."
+      },
+      {
+        "category": "stealth",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [],
+        "reasoning": "Lavos Prime does not have any stealth-related abilities or mechanics, making it unsuitable for stealth-based roles."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Hold any ability to imbue the next cast with additional Elemental Damage and Status.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Hold to imbue all abilities with <DT_POISON_COLOR>Toxin.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "<DT_FREEZE_COLOR>Cold.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "<DT_ELECTRICITY_COLOR>Electricity.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "<DT_FIRE_COLOR>Heat.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Lavos Prime requires players to hold abilities to imbue them with different elements, adding a layer of complexity to its usage. However, this complexity is relatively low compared to Warframes with more intricate mechanics or combos."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Lavos Prime is an offensive-focused Warframe with decent survivability and some support capabilities. Its complexity comes from the need to manage elemental imbues, but it lacks stealth and crowd control abilities, limiting its versatility in different roles."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth"
+  ]
+}

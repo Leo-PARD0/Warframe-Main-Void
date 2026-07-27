@@ -1,0 +1,111 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Paladin/PaladinPrime",
+    "warframeName": "Oberon Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Smite deals massive damage and removes all of its defenses.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Reckoning lifts enemies into the air and then hurls them down with conviction, removing their Armor.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oberon Prime has two abilities that deal significant damage to enemies, making it a high-damage Warframe. The passive Renewal also contributes to survivability by providing healing over time."
+      },
+      {
+        "category": "survivability",
+        "score": 0.7,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Renewal generates a protective aura that grants bonus Armor and restores allies’ Health.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Oberon Prime's passive Righteous Negation protects players against the next instance of damage when he collects Health Orbs.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Oberon Prime has survivability through Renewal, it lacks specific defensive abilities like shields or energy barriers. The passive protection is limited to a short duration and requires Health Orbs to activate."
+      },
+      {
+        "category": "support",
+        "score": 0.6,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Renewal grants bonus Armor to Oberon and his allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Hallowed Ground inflicts Radiation Damage to all enemies within the radius and protects against Status Effects for Oberon and his allies.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oberon Prime can provide support through its healing and protective effects, but these are limited in scope and duration. The passive Righteous Negation also indirectly supports allies by protecting them from damage."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.5,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Reckoning lifts enemies into the air and then hurls them down with conviction.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Hallowed Ground inflicts Radiation Damage to all enemies within the radius.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oberon Prime has limited crowd control abilities through Reckoning and Hallowed Ground. The former is effective but requires precise timing, while the latter is more area-of-effect but less impactful."
+      },
+      {
+        "category": "stealth",
+        "score": 0.3,
+        "confidence": 0.4,
+        "evidences": [],
+        "reasoning": "Oberon Prime has no stealth abilities or mechanisms to avoid detection. Its abilities are all focused on dealing damage and providing support."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.3,
+        "evidences": [],
+        "reasoning": "Oberon Prime's abilities are straightforward and do not require complex execution or resource management. The passive Righteous Negation is the only ability that adds a layer of complexity through its stacking mechanic."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Oberon Prime is primarily a high-damage Warframe with limited survivability, support, and crowd control capabilities. Its abilities are straightforward and do not require complex execution or resource management. The passive Righteous Negation is the only ability that adds a layer of complexity through its stacking mechanic."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: stealth, complexity"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Support",
+      "description": "Especialista em suporte e controle de campo, utilizando habilidades para immobilizar inimigos e aumentar a eficácia dos aliados.",
+      "confidence": 0.95,
+      "basedOn": [
+        "support",
+        "crowdControl"
+      ],
+      "reasoning": "Support e Crowd Control representam claramente a identidade predominante do Warframe. Damage existe, mas não é suficientemente relevante para alterar seu arquétipo principal."
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

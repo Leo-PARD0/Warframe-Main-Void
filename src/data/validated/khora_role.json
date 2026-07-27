@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "data": {
+    "role": {
+      "name": "Controller",
+      "description": "Especialista em controlar o battlefield através de efeitos de crowd control, suporte e defesa.",
+      "confidence": 0.85,
+      "basedOn": [
+        "crowdControl",
+        "survivability",
+        "support"
+      ],
+      "reasoning": "Crowd Control e Survivability são as categorias mais dominantes, indicando que Khora é uma especialista em controlar o battlefield através de suas armadilhas e suporte. Suporta a equipe com Venari, tornando-a um verdadeiro Controller."
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "Reasoning may be just listing scores without explaining the archetype choice"
+  ]
+}

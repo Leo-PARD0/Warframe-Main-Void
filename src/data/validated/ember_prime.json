@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Ember/EmberPrime",
+    "warframeName": "Ember Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.8,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Fireball ignites enemies on contact.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Immolation burns stronger over time and consumes energy.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Fire Blast knocks back enemies and strips their armor.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "damage",
+            "description": "Inferno crashes down with a fire that can spread through their ranks.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ember Prime has multiple abilities that deal significant damage, each with unique mechanics to maximize its effectiveness in combat."
+      },
+      {
+        "category": "survivability",
+        "score": 0.6,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Flame armor provides protection and burns over time.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Immolation consumes energy but can be extinguished.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Fire Blast strips armor, potentially weakening enemies over time.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Ember Prime has some survivability elements like flame armor, its overall survivability is moderate due to the lack of direct defensive abilities or health regeneration."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.7,
+        "evidences": [],
+        "reasoning": "Ember Prime does not have any support abilities that assist allies or provide utility in combat."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.4,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Fire Blast knocks back enemies.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Inferno can spread fire through enemy ranks.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ember Prime has some crowd control abilities that can disrupt enemy formations and weaken their effectiveness over time."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.6,
+        "evidences": [],
+        "reasoning": "Ember Prime does not have any stealth-related abilities or mechanics."
+      },
+      {
+        "category": "complexity",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Fireball and Immolation are straightforward abilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Fire Blast and Inferno require some timing and positioning but are relatively simple to execute.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Ember Prime's abilities are generally easy to use and do not require complex execution or strategic thinking."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Ember Prime is a damage-focused Warframe with moderate survivability and basic crowd control. Its abilities are straightforward and do not require significant complexity, making it an effective but not particularly challenging choice for players."
+  },
+  "errors": [],
+  "warnings": [
+    "Categories with no evidences: support, stealth"
+  ]
+}

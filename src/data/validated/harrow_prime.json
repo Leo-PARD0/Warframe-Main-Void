@@ -1,0 +1,135 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Priest/HarrowPrime",
+    "warframeName": "Harrow Prime",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Harrow Prime's abilities focus on support and utility rather than direct damage output.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Harrow Prime can provide some damage through Penance and Covenant, its primary role is to support allies and absorb damage, making it less effective in a damage-focused role."
+      },
+      {
+        "category": "survivability",
+        "score": 0.7,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Harrow Prime has high health and shield capacity, which are key survivability attributes.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "The Overshield capacity doubled passive further enhances its defensive capabilities.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Harrow Prime's survivability is strong due to its high health and shield values, making it well-suited for roles that require durability."
+      },
+      {
+        "category": "support",
+        "score": 0.9,
+        "confidence": 1,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Covenant provides a significant boost to allies' critical chance.",
+            "confidence": 1,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Penance converts damage into health for Harrow and nearby allies.",
+            "confidence": 1,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Thurible generates energy bursts for nearby allies upon killing enemies.",
+            "confidence": 1,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Harrow Prime excels in support roles due to its ability to buff allies, absorb damage, and provide healing, making it a versatile support character."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.2,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Condemn chains enemies but does not have significant crowd control capabilities.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "No other abilities are explicitly mentioned as having crowd control effects.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Harrow Prime's primary focus is on support and damage absorption rather than crowd control, limiting its effectiveness in roles that require strong crowd control."
+      },
+      {
+        "category": "stealth",
+        "score": 0.1,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "No abilities are mentioned as providing stealth or evasion.",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Harrow Prime's role does not involve sneaking or evading enemies.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Harrow Prime has no abilities that provide stealth or evasion, making it unsuitable for roles that require covert operations."
+      },
+      {
+        "category": "complexity",
+        "score": 0.4,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "All abilities are relatively straightforward and do not involve complex mechanics.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "No special timing, positioning, or resource management is required.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Harrow Prime's abilities are simple to execute, requiring minimal complexity in gameplay."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Harrow Prime is best suited for a support role due to its high survivability and ability to buff allies. While it can provide some damage through Penance and Covenant, its primary focus is on supporting the team rather than dealing significant damage or engaging in stealthy operations."
+  },
+  "errors": [],
+  "warnings": []
+}

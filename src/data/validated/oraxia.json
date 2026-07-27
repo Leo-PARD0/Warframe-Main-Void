@@ -1,0 +1,129 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Oraxia/Oraxia",
+    "warframeName": "Oraxia",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.3,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Widow's Brood applies Toxin Status Effect to enemies, which can cause them to burst with Toxin damage when killed.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oraxia's abilities primarily deal poison damage and create additional threats through the spawning of Scuttlers. While not as direct in terms of high single-target damage, the overall effect is significant due to the potential for multiple enemies to be affected over time."
+      },
+      {
+        "category": "survivability",
+        "score": 0.4,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Silken Stride grants increased Maximum Health and immunity to Status Effects.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Wall Latching renders Oraxia invisible for a duration, providing some stealth advantage.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oraxia has survivability through increased health and status effect resistance, but the lack of direct defensive abilities limits its overall survivability compared to other Warframes."
+      },
+      {
+        "category": "support",
+        "score": 0.2,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Widow's Brood can spawn Scuttlers when enemies are killed.",
+            "confidence": 0.6,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Silken Stride imbues ranged weapons with Toxin damage, potentially aiding allies in dealing poison damage.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oraxia has limited support capabilities, primarily through the creation of additional threats and potential indirect damage to allies. However, these effects are not as direct or impactful as those provided by Warframes designed for support roles."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.3,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Webbed Embrace ensnares enemies within a widening radius.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Silken Stride allows Oraxia to leap to targeted surfaces, potentially disrupting enemy formations.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oraxia has some crowd control abilities through webbing and mobility, but these effects are not as strong or versatile as those provided by Warframes designed for crowd control roles."
+      },
+      {
+        "category": "stealth",
+        "score": 0.5,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Wall Latching grants Predator's Lurk, rendering Oraxia invisible for a duration.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "stealth",
+            "description": "Silken Stride allows Oraxia to move stealthily and avoid detection.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oraxia has strong stealth capabilities through the use of Wall Latching, providing significant advantage in terms of surprise attacks and evading enemy threats."
+      },
+      {
+        "category": "complexity",
+        "score": 0.2,
+        "confidence": 0.5,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Silken Stride has a complex mechanic with multiple stages (leaping to surfaces, dealing poison damage).",
+            "confidence": 0.5,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Widow's Brood involves launching stinging darts and potentially spawning Scuttlers.",
+            "confidence": 0.5,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Oraxia's abilities have some complexity due to the need for precise timing and execution, but this is not as pronounced as in Warframes designed for high Complexity roles."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Oraxia is a stealth-focused Warframe with moderate damage potential and limited support. Its survivability is decent, but it lacks the direct defensive capabilities of some other Warframes. The complexity of its abilities is relatively low compared to more advanced Warframes."
+  },
+  "errors": [],
+  "warnings": []
+}

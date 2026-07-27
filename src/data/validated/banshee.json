@@ -1,0 +1,123 @@
+{
+  "valid": true,
+  "data": {
+    "warframeId": "/Lotus/Powersuits/Banshee/Banshee",
+    "warframeName": "Banshee",
+    "scores": [
+      {
+        "category": "damage",
+        "score": 0.35,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "damage",
+            "description": "Banshee's Silence ability stuns enemies and limits their perceptions and tactical response to gunfire and Warframe attacks.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Silence doesn't directly deal damage, it significantly reduces the effectiveness of enemy attacks, making Banshee a formidable support role."
+      },
+      {
+        "category": "survivability",
+        "score": 0.45,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "survivability",
+            "description": "Banshee's Silence ability stuns enemies and limits their perceptions and tactical response to gunfire and Warframe attacks.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "survivability",
+            "description": "Sonar ability helps track and expose critical weak spots to everyone in your squad.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Silence provides a significant survivability boost by reducing enemy effectiveness, while Sonar improves situational awareness and coordination with the team."
+      },
+      {
+        "category": "support",
+        "score": 0.85,
+        "confidence": 0.9,
+        "evidences": [
+          {
+            "category": "support",
+            "description": "Banshee's Silence ability stuns enemies and limits their perceptions and tactical response to gunfire and Warframe attacks.",
+            "confidence": 0.9,
+            "source": "ability"
+          },
+          {
+            "category": "support",
+            "description": "Sonar ability helps track and expose critical weak spots to everyone in your squad.",
+            "confidence": 0.9,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Silence is a powerful support ability that disrupts enemy strategies, while Sonar enhances team coordination and situational awareness."
+      },
+      {
+        "category": "crowdControl",
+        "score": 0.75,
+        "confidence": 0.8,
+        "evidences": [
+          {
+            "category": "crowdControl",
+            "description": "Banshee's Silence ability stuns enemies and limits their perceptions and tactical response to gunfire and Warframe attacks.",
+            "confidence": 0.8,
+            "source": "ability"
+          },
+          {
+            "category": "crowdControl",
+            "description": "Sonar ability helps track and expose critical weak spots to everyone in your squad.",
+            "confidence": 0.8,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Silence provides excellent crowd control by stunning enemies, while Sonar improves team coordination and situational awareness."
+      },
+      {
+        "category": "stealth",
+        "score": 0.25,
+        "confidence": 0.6,
+        "evidences": [
+          {
+            "category": "stealth",
+            "description": "Banshee Passive: Weapon noises are hushed so that enemies cannot hear them.",
+            "confidence": 0.6,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "While Banshee has a passive stealth ability, it is not as effective as some other Warframes with dedicated stealth abilities."
+      },
+      {
+        "category": "complexity",
+        "score": 0.35,
+        "confidence": 0.7,
+        "evidences": [
+          {
+            "category": "complexity",
+            "description": "Banshee's Silence ability stuns enemies and limits their perceptions and tactical response to gunfire and Warframe attacks.",
+            "confidence": 0.7,
+            "source": "ability"
+          },
+          {
+            "category": "complexity",
+            "description": "Sonar ability helps track and expose critical weak spots to everyone in your squad.",
+            "confidence": 0.7,
+            "source": "ability"
+          }
+        ],
+        "reasoning": "Silence and Sonar abilities require coordination with the team and understanding of enemy tactics, making Banshee a moderately complex support role."
+      }
+    ],
+    "primaryRole": "",
+    "secondaryRoles": [],
+    "confidence": 0,
+    "summary": "Banshee is primarily a support Warframe with significant survivability and crowd control capabilities. Her Silence ability provides excellent disruption to enemy strategies, while her Sonar ability enhances team coordination and situational awareness. While she has some stealth potential, it is not as pronounced as other Warframes. The role requires moderate complexity in terms of coordinating with the team and understanding enemy tactics."
+  },
+  "errors": [],
+  "warnings": []
+}
